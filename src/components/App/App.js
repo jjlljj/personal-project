@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
-import './App.css';
+import React from 'react'
+import { Route, withRouter } from 'react-router-dom'
+import './App.css'
+import Main from '../../containers/Main/Main'
+import Nav from '../Nav/Nav'
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">PersonalProject</h1>
-        </header>
-        <div>i am app</div>
-      </div>
-    );
-  }
+export const App = () => {
+
+  return (
+    <div className="App">
+      <Route path="/" component={Nav} />
+      <Route exact path="/" component={Main} />
+    </div>
+  )
 }
 
 export default App;
