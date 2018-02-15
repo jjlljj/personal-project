@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import {apiUsername, apiPassword} from '../../api/apiKey'
+import {apiUsername, apiPassword} from '../../api/api'
 import './Main.css'
 
 export class Main extends Component {
