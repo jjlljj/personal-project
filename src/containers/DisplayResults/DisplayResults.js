@@ -1,3 +1,4 @@
+import React from 'react'
 import { connect } from 'react-redux'
 import './DisplayResults.css'
 
@@ -5,7 +6,9 @@ export const DisplayResults = () => {
 
   return (
     <div>
-      I am div
+      { this.props &&
+        console.log(this.props.results[0])}
+      I am results
     </div>
   )
 }

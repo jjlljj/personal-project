@@ -1,3 +1,4 @@
+import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import './AnalyzerInput.css'
 import { mockFetch } from '../../dataHelper/dataHelper'
@@ -34,7 +35,7 @@ export class AnalyzerInput extends Component {
           name="text"
           onChange={this.handleChange}
           value={this.state.text}
-          placeHolder="Enter text here" />
+          placeholder="Enter text here" />
         <button>Submit</button>
       </form>
     ) 
