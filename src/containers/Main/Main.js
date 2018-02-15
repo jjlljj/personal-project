@@ -1,27 +1,30 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import {apiUsername, apiPassword} from 
+import {apiUsername, apiPassword} from '../../api/apiKey'
 import './Main.css'
 
 export class Main extends Component {
 
   async componentDidMount() {
-   
+    //const fetchy = await this.apiFetch()
 
-    console.log('resolved')
+   //console.log(fetchy)
   }
 
   apiFetch = async () => {
-    const url = "https://gateway.watsonplatform.net/tone-analyzer/api/v3/tone"
+    const text = "Let's see if this works, if not I will try something else"
+    const version =  "2017-09-21"
+    const url = "https://gateway.watsonplatform.net/tone-analyzer/api/v3/tone/"
     const response = await fetch(url, {
       method: "POST",
       headers: {
-        Authorization: `Basic ${apiUsername}:${apiPassword}`
-        "Content-Type": "application/json"
-      }
+        "Content-Type": "application/json",
+        "Authorization": `Basic ${apiUsername}:${apiPassword}`
 
+      },
+      body: JSON.stringify({ text, version })
     })
-    const resolved = await response.json()
+    return await response.json()
   } 
 
   render() {
