@@ -4,13 +4,12 @@ import './Nav.css'
 
 const Nav = () => {
   return (
-    <header>
+    <header className="nav-header">
       <h1>
         <NavLink to="/">
           SITE HEADER
         </NavLink>
       </h1>
-
       <nav>
         <div>
           <NavLink to="/">
@@ -22,9 +21,7 @@ const Nav = () => {
             Linkto
           </NavLink>
         </div>
-
       </nav>
-
     </header>
   )
 }
