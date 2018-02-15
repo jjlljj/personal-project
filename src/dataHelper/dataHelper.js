@@ -16,9 +16,16 @@ export const apiFetch = async (text) => {
   return await response.json()
 }
 
-export const mockFetch = (text) => {
+export const mockFetch = async (text) => {
+  const sentances = "I am one sentance. I am another."
+  const url = '/analyze'
 
-  return mockResults
+  const response = await fetch( url, {
+    method: 'POST',
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({sentances})
+  })
+  
 }
 
 
