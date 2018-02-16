@@ -21,7 +21,7 @@ export class AnalyzerInput extends Component {
     event.preventDefault()
     //here is where i would do a fetch....
     const result = await mockFetch()
-    //here is where i will clean
+    
     this.props.addResult(result)
 
   }
