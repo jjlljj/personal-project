@@ -12,7 +12,7 @@ export class AnalyzerInput extends Component {
     }
   }
 
-  hangleChange = (event) => {
+  handleChange = (event) => {
     const { value } = event.target
     this.setState({ text: value })
   }
