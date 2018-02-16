@@ -20,7 +20,7 @@ export class AnalyzerInput extends Component {
   handleSubmit = async (event) => {
     event.preventDefault()
     //here is where i would do a fetch....
-    const result = await mockFetch()
+    const result = await mockFetch(this.state.text)
     
     this.props.addResult(result)
 
