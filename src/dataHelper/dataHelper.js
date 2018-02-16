@@ -1,5 +1,3 @@
-import { apiUsername, apiPassword } from '../api/api'
-
 export const apiFetch = async (text) => {
   const url = '/analyze'
 
