@@ -12,18 +12,17 @@ export class AnalyzerInput extends Component {
     }
   }
 
-  hangleChange = (event) => {
+  handleChange = (event) => {
     const { value } = event.target
     this.setState({ text: value })
   }
 
   handleSubmit = async (event) => {
     event.preventDefault()
-    //here is where i would do a fetch....
+    
     const result = await mockFetch(this.state.text)
     
     this.props.addResult(result)
-
   }
 
   render() {

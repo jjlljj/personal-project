@@ -2,13 +2,27 @@ import React from 'react'
 import { connect } from 'react-redux'
 import './DisplayResults.css'
 
-export const DisplayResults = () => {
+export const DisplayResults = (props) => {
+  let { results } = props
+
+  const renderText = results[0] && results[0].sentences_tone.map(sentence => {
+
+    const classList = sentence.tones.reduce( (acc, tone) => { 
+
+      return acc + tone.tone_id + " "
+    }, "") || ""
+
+    return(
+      <span className={ classList }> {sentence.text}</span>
+    )
+  })
 
   return (
     <div>
-      { this.props &&
-        console.log(this.props.results[0])}
-      I am results
+      <h3>Analyzed: </h3>
+      <p>
+        { renderText }
+      </p> 
     </div>
   )
 }
