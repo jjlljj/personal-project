@@ -35,20 +35,20 @@ describe('AnalyzerInput', () => {
   })
 
   it('handleSubmit should call the toneFetch with the expected params', () => {
-    const mockEvent = { preventDefault: jest.fn() }
+    const mockSubmitEvent = { preventDefault: jest.fn() }
     renderedComponent.setState({text: mockText})
-    renderedComponent.instance().handleSubmit(mockEvent)
+    renderedComponent.instance().handleSubmit(mockSubmitEvent)
 
     expect(window.fetch).toHaveBeenCalledWith(mockText)
   })
 
   it('handleSubmit should call the action addResults with the expected params', async () => {
-    const mockEvent = { preventDefault: jest.fn() }
+    const mockSubmitEvent = { preventDefault: jest.fn() }
     
     expect(mockAddResult).not.toHaveBeenCalled()
 
     renderedComponent.setState({text: mockText})
-    renderedComponent.instance().handleSubmit(mockEvent)
+    renderedComponent.instance().handleSubmit(mockSubmitEvent)
 
     expect(await mockAddResult).toHaveBeenCalledWith(mockResponse)
     
