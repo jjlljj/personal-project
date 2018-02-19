@@ -1,5 +1,5 @@
-import React from 'react';
-import { shallow } from 'enzyme';
+import React from 'react'
+import { shallow } from 'enzyme'
 import { AnalyzerInput } from './AnalyzerInput'
 import { mockText, mockResponse } from '../../__mocks__/mockData'
 
