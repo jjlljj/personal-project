@@ -21,7 +21,7 @@ export class AnalyzerInput extends Component {
     event.preventDefault()
     
     const result = await mockFetch(this.state.text)
-    
+      
     this.props.addResult(result)
   }
 
