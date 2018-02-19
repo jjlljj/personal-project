@@ -1,4 +1,4 @@
-export const apiFetch = async (text) => {
+export const toneFetch = async (text) => {
   const url = '/analyze'
 
   const response = await fetch( url, {
