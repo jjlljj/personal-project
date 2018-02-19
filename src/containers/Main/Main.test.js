@@ -10,7 +10,6 @@ describe('Main', () => {
   })
 
   it('should match snapshot', () => {
-
     expect(renderedComponent).toMatchSnapshot()
   })
 })
