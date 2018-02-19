@@ -39,3 +39,9 @@ export const mockResponse = {
     }
   ]
 }
+
+export const mockText = "I was asked to sign a third party contract a week out from stay. If it wasn't an 8 person group that took a lot of wrangling I would have cancelled the booking straight away. Bathrooms - there are no stand alone bathrooms. Please consider this - you have to clear out the main bedroom to use that bathroom."
+
+export const mockExpected = {
+  "body": "{\"text\":\"I was asked to sign a third party contract a week out from stay. If it wasn't an 8 person group that took a lot of wrangling I would have cancelled the booking straight away. Bathrooms - there are no stand alone bathrooms. Please consider this - you have to clear out the main bedroom to use that bathroom.\"}", "headers": {"Content-Type": "application/json"}, "method": "POST"
+}
