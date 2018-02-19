@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DisplayResults should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    results={
+        Object {
+            "sentences_tone": Array [
+              Object {
+                "sentence_id": 0,
+                "text": "I was asked to sign a third party contract a week out from stay.",
+                "tones": Array [],
+              },
+              Object {
+                "sentence_id": 1,
+                "text": "If it wasn't an 8 person group that took a lot of wrangling I would have cancelled the booking straight away.",
+                "tones": Array [
+                  Object {
+                    "score": 0.695927,
+                    "tone_id": "sadness",
+                    "tone_name": "Sadness",
+                  },
+                ],
+              },
+              Object {
+                "sentence_id": 2,
+                "text": "Bathrooms - there are no stand alone bathrooms.",
+                "tones": Array [],
+              },
+              Object {
+                "sentence_id": 3,
+                "text": "Please consider this - you have to clear out the main bedroom to use that bathroom.",
+                "tones": Array [
+                  Object {
+                    "score": 0.711887,
+                    "tone_id": "analytical",
+                    "tone_name": "Analytical",
+                  },
+                  Object {
+                    "score": 0.898327,
+                    "tone_id": "confident",
+                    "tone_name": "Confident",
+                  },
+                ],
+              },
+            ],
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h3>
+          Analyzed: 
+</h3>,
+        <p />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Analyzed: ",
+        },
+        "ref": null,
+        "rendered": "Analyzed: ",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "p",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h3>
+            Analyzed: 
+</h3>,
+          <p />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Analyzed: ",
+          },
+          "ref": null,
+          "rendered": "Analyzed: ",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`DisplayResults shuold match snapshot when passed different results 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    results={
+        Object {
+            "sentences_tone": Array [
+              Object {
+                "sentence_id": 0,
+                "text": "In the muddy peaceful center of this town.",
+                "tones": Array [],
+              },
+              Object {
+                "sentence_id": 1,
+                "text": "Tell me off in the hotel lobby right in front of all the bellboys, and the over friendly concierge",
+                "tones": Array [
+                  Object {
+                    "score": 0.638987,
+                    "tone_id": "confident",
+                    "tone_name": "Confident",
+                  },
+                ],
+              },
+              Object {
+                "sentence_id": 2,
+                "text": "A shady lane, Everybody wants one.",
+                "tones": Array [],
+              },
+            ],
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h3>
+          Analyzed: 
+</h3>,
+        <p />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Analyzed: ",
+        },
+        "ref": null,
+        "rendered": "Analyzed: ",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "p",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h3>
+            Analyzed: 
+</h3>,
+          <p />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Analyzed: ",
+          },
+          "ref": null,
+          "rendered": "Analyzed: ",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

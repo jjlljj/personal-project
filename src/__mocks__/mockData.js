@@ -1,3 +1,9 @@
+export const mockText = "I was asked to sign a third party contract a week out from stay. If it wasn't an 8 person group that took a lot of wrangling I would have cancelled the booking straight away. Bathrooms - there are no stand alone bathrooms. Please consider this - you have to clear out the main bedroom to use that bathroom."
+
+export const mockExpected = {
+  "body": "{\"text\":\"I was asked to sign a third party contract a week out from stay. If it wasn't an 8 person group that took a lot of wrangling I would have cancelled the booking straight away. Bathrooms - there are no stand alone bathrooms. Please consider this - you have to clear out the main bedroom to use that bathroom.\"}", "headers": {"Content-Type": "application/json"}, "method": "POST"
+}
+
 export const mockResponse = {
   "sentences_tone": [
     {
@@ -40,8 +46,28 @@ export const mockResponse = {
   ]
 }
 
-export const mockText = "I was asked to sign a third party contract a week out from stay. If it wasn't an 8 person group that took a lot of wrangling I would have cancelled the booking straight away. Bathrooms - there are no stand alone bathrooms. Please consider this - you have to clear out the main bedroom to use that bathroom."
-
-export const mockExpected = {
-  "body": "{\"text\":\"I was asked to sign a third party contract a week out from stay. If it wasn't an 8 person group that took a lot of wrangling I would have cancelled the booking straight away. Bathrooms - there are no stand alone bathrooms. Please consider this - you have to clear out the main bedroom to use that bathroom.\"}", "headers": {"Content-Type": "application/json"}, "method": "POST"
+export const mockResponse2 = {
+  "sentences_tone": [
+    {
+      "sentence_id": 0,
+      "text": "In the muddy peaceful center of this town.",
+      "tones": []
+    },
+    {
+      "sentence_id": 1,
+      "text": "Tell me off in the hotel lobby right in front of all the bellboys, and the over friendly concierge",
+      "tones": [
+        {
+          "score": 0.638987,
+          "tone_id": "confident",
+          "tone_name": "Confident"
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "text": "A shady lane, Everybody wants one.",
+      "tones": []
+    }
+  ]
 }

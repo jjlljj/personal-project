@@ -1,10 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import React from 'react'
+import { shallow } from 'enzyme'
+import App from './App'
 
 describe('App', () => {
-  it('should not pass', () => {
+  let renderedComponent
 
-    expect(false).toEqual(true)
+  beforeEach(() => {
+    renderedComponent = shallow(<App />)
+  })
+
+  it('should match snapshot', () => {
+
+    expect(renderedComponent).toMatchSnapshot()
   })
 })
