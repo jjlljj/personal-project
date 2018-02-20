@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import './AnalyzerInput.css'
-import { mockFetch } from '../../dataHelper/dataHelper'
+import { toneFetch, mockFetch, cleanTones } from '../../dataHelper/dataHelper'
 import { addResult } from '../../actions/index'
 
 export class AnalyzerInput extends Component {
@@ -21,8 +21,8 @@ export class AnalyzerInput extends Component {
     event.preventDefault()
     
     const result = await mockFetch(this.state.text)
-      
-    this.props.addResult(result)
+
+    this.props.addResult(cleanTones(result))
   }
 
   render() {

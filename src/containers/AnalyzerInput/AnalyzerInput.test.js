@@ -1,7 +1,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 import { AnalyzerInput } from './AnalyzerInput'
-import { mockText, mockResponse } from '../../__mocks__/mockData'
+import { mockText, mockResponse, mockCleaned } from '../../__mocks__/mockData'
 
 jest.mock('../../dataHelper/dataHelper')
 
@@ -50,7 +50,7 @@ describe('AnalyzerInput', () => {
     renderedComponent.setState({text: mockText})
     renderedComponent.instance().handleSubmit(mockSubmitEvent)
 
-    expect(await mockAddResult).toHaveBeenCalledWith(mockResponse)
+    expect(await mockAddResult).toHaveBeenCalledWith(mockCleaned)
     
   })
 })
