@@ -30,7 +30,6 @@ export const mockFetch = async (text) => {
       body: JSON.stringify({text: text})
     })
     
-
     if (response.status <= 200){  
       return await response.json()
       } else {
@@ -40,4 +39,25 @@ export const mockFetch = async (text) => {
   catch(err) {
     throw(err)
   }  
+}
+
+export const cleanTones = response => {
+  const documentTones = cleanDocumentTone(response)
+  const sentences = cleanSentenceTones(response)
+}
+
+export const cleanDocumentTone = ({ document_tone }) => {
+  const toneThreshold = 0.2
+  const tones = [ 
+    ...document_tone.tone_categories[0].tones, 
+    ...document_tone.tone_categories[1].tones 
+  ]
+
+  return tones
+    .filter(tone => tone.score >= toneThreshold)
+    .sort((a, b) => b.score - a.score)
+}
+
+export const cleanSentenceTones = sentences => {
+
 }
