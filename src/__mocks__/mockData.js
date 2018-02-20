@@ -72,6 +72,66 @@ export const mockResponse2 = {
   ]
 }
 
+export const mockCleaned = {
+  documentTone: [
+    {
+      score: 0.883842,
+      tone_id: 'analytical',
+      tone_name: 'Analytical'
+    },
+    {
+      score: 0.60858,
+      tone_id: 'tentative',
+      tone_name: 'Tentative'
+    },
+    {
+      score: 0.519797,
+      tone_id: 'joy',
+      tone_name: 'Joy'
+    }
+  ],
+  sentences: [
+    {
+      sentence_id: 0,
+      text: 'I hope that we can reach an amicable understanding and a solution to this problem.',
+      tones: [
+        {
+          score: 0.897416,
+          tone_id: 'analytical',
+          tone_name: 'Analytical'
+        },
+        {
+          score: 0.647986,
+          tone_id: 'tentative',
+          tone_name: 'Tentative'
+        },
+        {
+          score: 0.44646,
+          tone_id: 'sadness',
+          tone_name: 'Sadness'
+        }
+      ]
+    },
+    {
+      sentence_id: 1,
+      text: 'Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.',
+      tones: [
+        {
+          score: 0.580387,
+          tone_id: 'joy',
+          tone_name: 'Joy'
+        },
+        {
+          score: 0.550576,
+          tone_id: 'analytical',
+          tone_name: 'Analytical'
+        }
+      ]
+    }
+  ]
+}
+
+
 export const mockState = {
   results: [
     {
