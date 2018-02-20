@@ -5,12 +5,8 @@ import './DisplayResults.css'
 export const DisplayResults = (props) => {
   let { results } = props
 
-  const renderText = results[0] && results[0].sentences_tone.map(sentence => {
-
-    const classList = sentence.tone_categories.reduce( (acc, tone) => { 
-
-      return acc + tone.tone_id + " "
-    }, "") || ""
+  const renderText = results[0] && results[0].sentences.map(sentence => {
+    const classList = sentence.tones[0].tone_id || ""
 
     return(
       <span className={ classList }> {sentence.text}</span>

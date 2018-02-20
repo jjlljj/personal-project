@@ -21,9 +21,8 @@ export class AnalyzerInput extends Component {
     event.preventDefault()
     
     const result = await mockFetch(this.state.text)
-    cleanTones(result)
 
-    this.props.addResult(result)
+    this.props.addResult(cleanTones(result))
   }
 
   render() {
