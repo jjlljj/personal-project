@@ -7,7 +7,7 @@ export const DisplayResults = (props) => {
 
   const renderText = results[0] && results[0].sentences_tone.map(sentence => {
 
-    const classList = sentence.tones.reduce( (acc, tone) => { 
+    const classList = sentence.tone_categories.reduce( (acc, tone) => { 
 
       return acc + tone.tone_id + " "
     }, "") || ""
