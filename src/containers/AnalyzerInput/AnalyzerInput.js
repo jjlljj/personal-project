@@ -21,6 +21,20 @@ export class AnalyzerInput extends Component {
   handleSubmit = async event => {
     event.preventDefault()
     
+    if( this.state.text.length > 50 ) {
+      const results = await toneFetch(this.state.text)
+      const { sentences, documentTone } = cleanTones(results)
+
+      this.props.addResult({ sentences, documentTone })
+      this.props.addSentences(sentences)
+      this.props.addDocumentTone(documentTone)
+
+      this.props.history.push('/analyzed')   
+    }
+  }
+
+  handleRandom = async event => {
+
     const results = await mockFetch(this.state.text)
     const { sentences, documentTone } = cleanTones(results)
 
@@ -28,22 +42,26 @@ export class AnalyzerInput extends Component {
     this.props.addSentences(sentences)
     this.props.addDocumentTone(documentTone)
 
-    this.props.history.push('/analyzed')
+    this.props.history.push('/analyzed')    
   }
 
   render() {
     return (
-      <form
-        className="analyzer-form"
-        onSubmit={this.handleSubmit} >
-        <input 
-          type="text"
-          name="text"
-          onChange={this.handleChange}
-          value={this.state.text}
-          placeholder="Enter text here" />
-        <button>Submit</button>
-      </form>
+      <div>
+        <form
+          className="analyzer-form"
+          onSubmit={this.handleSubmit} >
+          <textarea 
+            name="text"
+            onChange={this.handleChange}
+            value={this.state.text}
+            placeholder="Enter text here" />
+          <button>Submit</button>
+        </form>
+        <button 
+          onClick={this.handleRandom}
+        >Example</button>
+      </div>
     ) 
   }
 }

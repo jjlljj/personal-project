@@ -51,6 +51,6 @@ table {
 
 /* reset button styling outlines */
 
-button, input {
+button, input, textarea {
   outline: none;
 }
