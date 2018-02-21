@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { resultsReducer } from './resultsReducer'
 import * as actions from '../actions/index.js'
 import { mockResponse, mockResponse2 } from '../__mocks__/mockData'

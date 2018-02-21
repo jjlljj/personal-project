@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { toneFetch, mockFetch, cleanTones, cleanDocumentTone, cleanSentences, cleanTone, cleanToneCategories, filterAndSort } from './dataHelper'
 import { mockText, mockExpected, mockResponse, mockCleaned, mockUncleaned, mockMergedTonesArray } from '../__mocks__/mockData'
 
