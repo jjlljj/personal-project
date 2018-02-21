@@ -7,12 +7,21 @@ jest.mock('../../dataHelper/dataHelper')
 
 describe('AnalyzerInput', () => {
   let mockAddResult 
+  let mockAddSentences
+  let mockAddDocumentTone
   let renderedComponent
 
   beforeEach(() => {
     window.fetch = jest.fn()
     mockAddResult = jest.fn()
-    renderedComponent = shallow(<AnalyzerInput addResult={ mockAddResult }/>)
+    mockAddSentences = jest.fn()
+    mockAddDocumentTone = jest.fn()
+    renderedComponent = shallow(
+      <AnalyzerInput 
+        addResult={ mockAddResult }
+        addDocumentTone= { mockAddDocumentTone }
+        addSentences={ mockAddSentences }/>
+    )
   })
 
   it('should match snapshot', () => {
@@ -51,6 +60,27 @@ describe('AnalyzerInput', () => {
     renderedComponent.instance().handleSubmit(mockSubmitEvent)
 
     expect(await mockAddResult).toHaveBeenCalledWith(mockCleaned)
+  })
+
+  it('handleSubmit should call the action addDocumentTone with the expected params', async () => {
+    const mockSubmitEvent = { preventDefault: jest.fn() }
     
+    expect(mockAddDocumentTone).not.toHaveBeenCalled()
+
+    renderedComponent.setState({text: mockText})
+    renderedComponent.instance().handleSubmit(mockSubmitEvent)
+
+    expect(await mockAddDocumentTone).toHaveBeenCalledWith(mockCleaned.documentTone)
+  })
+
+  it('handleSubmit should call the action addSentences with the expected params', async () => {
+    const mockSubmitEvent = { preventDefault: jest.fn() }
+    
+    expect(mockAddSentences).not.toHaveBeenCalled()
+
+    renderedComponent.setState({text: mockText})
+    renderedComponent.instance().handleSubmit(mockSubmitEvent)
+
+    expect(await mockAddSentences).toHaveBeenCalledWith(mockCleaned.sentences)
   })
 })

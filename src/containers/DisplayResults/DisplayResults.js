@@ -3,9 +3,9 @@ import { connect } from 'react-redux'
 import './DisplayResults.css'
 
 export const DisplayResults = (props) => {
-  let { results } = props
-
-  const renderText = results[0] && results[0].sentences.map(sentence => {
+  const { sentences } = props
+  
+  const renderText = sentences.map(sentence => {
     const classList = sentence.tones[0].tone_id || ""
 
     return(
@@ -24,7 +24,7 @@ export const DisplayResults = (props) => {
 }
 
 const mapStateToProps = state => ({
-  results: state.results
+  sentences: state.sentences
 })
 
 export default connect(mapStateToProps)(DisplayResults)
