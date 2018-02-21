@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import './AnalyzerInput.css'
 import { toneFetch, mockFetch, cleanTones } from '../../dataHelper/dataHelper'
-import { addResult } from '../../actions/index'
+import { addResult, addDocumentTone, addSentences } from '../../actions/index'
 
 export class AnalyzerInput extends Component {
   constructor(props) {
@@ -20,9 +20,12 @@ export class AnalyzerInput extends Component {
   handleSubmit = async (event) => {
     event.preventDefault()
     
-    const result = await mockFetch(this.state.text)
+    const results = await mockFetch(this.state.text)
+    const { sentences, documentTone } = cleanTones(results)
 
-    this.props.addResult(cleanTones(result))
+    this.props.addResult({ sentences, documentTone })
+    this.props.addSentences(sentences)
+    this.props.addDocumentTone(documentTone)
   }
 
   render() {
@@ -42,7 +45,9 @@ export class AnalyzerInput extends Component {
 }
 
 const mapDispatchToProps = (dispatch) => ({
-  addResult: result => dispatch(addResult(result))
+  addResult: result => dispatch(addResult(result)),
+  addDocumentTone: documentTone => dispatch(addDocumentTone(documentTone)),
+  addSentences: sentences => dispatch(addSentences(sentences))
 })
 
 
