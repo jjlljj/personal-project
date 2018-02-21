@@ -12,7 +12,6 @@ export class Main extends Component {
     return (
       <div>
         <AnalyzerInput />
-        <DisplayResults />
       </div>
     )
   }

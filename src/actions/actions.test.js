@@ -1,3 +1,4 @@
+/* eslint-disable */
 import *  as actions from './index'
 import { mockCleaned } from '../__mocks__/mockData'
 

@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { sentencesReducer } from './sentencesReducer'
 import { mockCleaned } from '../__mocks__/mockData'
 import * as actions from '../actions/index'

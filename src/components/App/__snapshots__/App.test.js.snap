@@ -27,6 +27,11 @@ ShallowWrapper {
           exact={true}
           path="/"
 />,
+        <Route
+          component={[Function]}
+          expact={true}
+          path="/analyzed"
+/>,
       ],
       "className": "App",
     },
@@ -57,6 +62,19 @@ ShallowWrapper {
         "rendered": null,
         "type": [Function],
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "component": [Function],
+          "expact": true,
+          "path": "/analyzed",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
     ],
     "type": "div",
   },
@@ -75,6 +93,11 @@ ShallowWrapper {
             component={[Function]}
             exact={true}
             path="/"
+/>,
+          <Route
+            component={[Function]}
+            expact={true}
+            path="/analyzed"
 />,
         ],
         "className": "App",
@@ -101,6 +124,19 @@ ShallowWrapper {
             "component": [Function],
             "exact": true,
             "path": "/",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+            "expact": true,
+            "path": "/analyzed",
           },
           "ref": null,
           "rendered": null,

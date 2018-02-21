@@ -32,9 +32,9 @@ ShallowWrapper {
                     <NavLink
                               activeClassName="active"
                               ariaCurrent="true"
-                              to="/"
+                              to="/analyzed"
                     >
-                              Linkto
+                              Analyzed
                     </NavLink>
           </div>
           <div>
@@ -43,7 +43,7 @@ ShallowWrapper {
                               ariaCurrent="true"
                               to="/"
                     >
-                              Linkto
+                              About
                     </NavLink>
           </div>
 </nav>,
@@ -92,9 +92,9 @@ ShallowWrapper {
               <NavLink
                             activeClassName="active"
                             ariaCurrent="true"
-                            to="/"
+                            to="/analyzed"
               >
-                            Linkto
+                            Analyzed
               </NavLink>
 </div>,
             <div>
@@ -103,7 +103,7 @@ ShallowWrapper {
                             ariaCurrent="true"
                             to="/"
               >
-                            Linkto
+                            About
               </NavLink>
 </div>,
           ],
@@ -118,9 +118,9 @@ ShallowWrapper {
               "children": <NavLink
                 activeClassName="active"
                 ariaCurrent="true"
-                to="/"
+                to="/analyzed"
 >
-                Linkto
+                Analyzed
 </NavLink>,
             },
             "ref": null,
@@ -131,11 +131,11 @@ ShallowWrapper {
               "props": Object {
                 "activeClassName": "active",
                 "ariaCurrent": "true",
-                "children": "Linkto",
-                "to": "/",
+                "children": "Analyzed",
+                "to": "/analyzed",
               },
               "ref": null,
-              "rendered": "Linkto",
+              "rendered": "Analyzed",
               "type": [Function],
             },
             "type": "div",
@@ -150,7 +150,7 @@ ShallowWrapper {
                 ariaCurrent="true"
                 to="/"
 >
-                Linkto
+                About
 </NavLink>,
             },
             "ref": null,
@@ -161,11 +161,11 @@ ShallowWrapper {
               "props": Object {
                 "activeClassName": "active",
                 "ariaCurrent": "true",
-                "children": "Linkto",
+                "children": "About",
                 "to": "/",
               },
               "ref": null,
-              "rendered": "Linkto",
+              "rendered": "About",
               "type": [Function],
             },
             "type": "div",
@@ -197,9 +197,9 @@ ShallowWrapper {
                         <NavLink
                                     activeClassName="active"
                                     ariaCurrent="true"
-                                    to="/"
+                                    to="/analyzed"
                         >
-                                    Linkto
+                                    Analyzed
                         </NavLink>
             </div>
             <div>
@@ -208,7 +208,7 @@ ShallowWrapper {
                                     ariaCurrent="true"
                                     to="/"
                         >
-                                    Linkto
+                                    About
                         </NavLink>
             </div>
 </nav>,
@@ -257,9 +257,9 @@ ShallowWrapper {
                 <NavLink
                                 activeClassName="active"
                                 ariaCurrent="true"
-                                to="/"
+                                to="/analyzed"
                 >
-                                Linkto
+                                Analyzed
                 </NavLink>
 </div>,
               <div>
@@ -268,7 +268,7 @@ ShallowWrapper {
                                 ariaCurrent="true"
                                 to="/"
                 >
-                                Linkto
+                                About
                 </NavLink>
 </div>,
             ],
@@ -283,9 +283,9 @@ ShallowWrapper {
                 "children": <NavLink
                   activeClassName="active"
                   ariaCurrent="true"
-                  to="/"
+                  to="/analyzed"
 >
-                  Linkto
+                  Analyzed
 </NavLink>,
               },
               "ref": null,
@@ -296,11 +296,11 @@ ShallowWrapper {
                 "props": Object {
                   "activeClassName": "active",
                   "ariaCurrent": "true",
-                  "children": "Linkto",
-                  "to": "/",
+                  "children": "Analyzed",
+                  "to": "/analyzed",
                 },
                 "ref": null,
-                "rendered": "Linkto",
+                "rendered": "Analyzed",
                 "type": [Function],
               },
               "type": "div",
@@ -315,7 +315,7 @@ ShallowWrapper {
                   ariaCurrent="true"
                   to="/"
 >
-                  Linkto
+                  About
 </NavLink>,
               },
               "ref": null,
@@ -326,11 +326,11 @@ ShallowWrapper {
                 "props": Object {
                   "activeClassName": "active",
                   "ariaCurrent": "true",
-                  "children": "Linkto",
+                  "children": "About",
                   "to": "/",
                 },
                 "ref": null,
-                "rendered": "Linkto",
+                "rendered": "About",
                 "type": [Function],
               },
               "type": "div",

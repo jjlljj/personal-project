@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { documentToneReducer } from './documentToneReducer'
 import * as actions from '../actions/index'
 import { mockCleaned } from '../__mocks__/mockData'

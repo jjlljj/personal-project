@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
+import { withRouter } from 'react-router-dom'
 import './AnalyzerInput.css'
 import { toneFetch, mockFetch, cleanTones } from '../../dataHelper/dataHelper'
 import { addResult, addDocumentTone, addSentences } from '../../actions/index'
@@ -12,34 +13,55 @@ export class AnalyzerInput extends Component {
     }
   }
 
-  handleChange = (event) => {
+  handleChange = event => {
     const { value } = event.target
     this.setState({ text: value })
   }
 
-  handleSubmit = async (event) => {
+  handleSubmit = async event => {
     event.preventDefault()
     
+    if( this.state.text.length > 50 ) {
+      const results = await toneFetch(this.state.text)
+      const { sentences, documentTone } = cleanTones(results)
+
+      this.props.addResult({ sentences, documentTone })
+      this.props.addSentences(sentences)
+      this.props.addDocumentTone(documentTone)
+
+      this.props.history.push('/analyzed')   
+    }
+  }
+
+  handleRandom = async event => {
+
     const results = await mockFetch(this.state.text)
     const { sentences, documentTone } = cleanTones(results)
 
     this.props.addResult({ sentences, documentTone })
     this.props.addSentences(sentences)
     this.props.addDocumentTone(documentTone)
+
+    this.props.history.push('/analyzed')    
   }
 
   render() {
     return (
-      <form
-        onSubmit={this.handleSubmit} >
-        <input 
-          type="text"
-          name="text"
-          onChange={this.handleChange}
-          value={this.state.text}
-          placeholder="Enter text here" />
-        <button>Submit</button>
-      </form>
+      <div>
+        <form
+          className="analyzer-form"
+          onSubmit={this.handleSubmit} >
+          <textarea 
+            name="text"
+            onChange={this.handleChange}
+            value={this.state.text}
+            placeholder="Enter text here" />
+          <button>Submit</button>
+        </form>
+        <button 
+          onClick={this.handleRandom}
+        >Example</button>
+      </div>
     ) 
   }
 }
@@ -51,4 +73,4 @@ const mapDispatchToProps = (dispatch) => ({
 })
 
 
-export default connect(null, mapDispatchToProps)(AnalyzerInput)
+export default withRouter(connect(null, mapDispatchToProps)(AnalyzerInput))
