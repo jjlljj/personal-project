@@ -10,17 +10,20 @@ describe('AnalyzerInput', () => {
   let mockAddSentences
   let mockAddDocumentTone
   let renderedComponent
+  let mockHistory
 
   beforeEach(() => {
     window.fetch = jest.fn()
     mockAddResult = jest.fn()
     mockAddSentences = jest.fn()
     mockAddDocumentTone = jest.fn()
+    mockHistory = { push: jest.fn() }
     renderedComponent = shallow(
       <AnalyzerInput 
         addResult={ mockAddResult }
-        addDocumentTone= { mockAddDocumentTone }
-        addSentences={ mockAddSentences }/>
+        addDocumentTone={ mockAddDocumentTone }
+        addSentences={ mockAddSentences }
+        history={ mockHistory }/>
     )
   })
 

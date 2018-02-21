@@ -12,13 +12,13 @@ const Nav = () => {
       </h1>
       <nav>
         <div>
-          <NavLink to="/">
-            Linkto
+          <NavLink to="/analyzed">
+            Analyzed
           </NavLink>
         </div>
         <div>
           <NavLink to="/">
-            Linkto
+            About
           </NavLink>
         </div>
       </nav>

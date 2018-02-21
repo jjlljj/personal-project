@@ -5,48 +5,46 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Unknown
-    results={
-        Object {
-            "sentences_tone": Array [
-              Object {
-                "sentence_id": 0,
-                "text": "I was asked to sign a third party contract a week out from stay.",
-                "tones": Array [],
-              },
-              Object {
-                "sentence_id": 1,
-                "text": "If it wasn't an 8 person group that took a lot of wrangling I would have cancelled the booking straight away.",
-                "tones": Array [
-                  Object {
-                    "score": 0.695927,
-                    "tone_id": "sadness",
-                    "tone_name": "Sadness",
-                  },
-                ],
-              },
-              Object {
-                "sentence_id": 2,
-                "text": "Bathrooms - there are no stand alone bathrooms.",
-                "tones": Array [],
-              },
-              Object {
-                "sentence_id": 3,
-                "text": "Please consider this - you have to clear out the main bedroom to use that bathroom.",
-                "tones": Array [
-                  Object {
-                    "score": 0.711887,
-                    "tone_id": "analytical",
-                    "tone_name": "Analytical",
-                  },
-                  Object {
-                    "score": 0.898327,
-                    "tone_id": "confident",
-                    "tone_name": "Confident",
-                  },
-                ],
-              },
-            ],
-          }
+    sentences={
+        Array [
+            Object {
+              "sentence_id": 0,
+              "text": "I hope that we can reach an amicable understanding and a solution to this problem.",
+              "tones": Array [
+                Object {
+                  "score": 0.897416,
+                  "tone_id": "analytical",
+                  "tone_name": "Analytical",
+                },
+                Object {
+                  "score": 0.647986,
+                  "tone_id": "tentative",
+                  "tone_name": "Tentative",
+                },
+                Object {
+                  "score": 0.44646,
+                  "tone_id": "sadness",
+                  "tone_name": "Sadness",
+                },
+              ],
+            },
+            Object {
+              "sentence_id": 1,
+              "text": "Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.",
+              "tones": Array [
+                Object {
+                  "score": 0.580387,
+                  "tone_id": "joy",
+                  "tone_name": "Joy",
+                },
+                Object {
+                  "score": 0.550576,
+                  "tone_id": "analytical",
+                  "tone_name": "Analytical",
+                },
+              ],
+            },
+          ]
     }
 />,
   Symbol(enzyme.__renderer__): Object {
@@ -65,7 +63,20 @@ ShallowWrapper {
         <h3>
           Analyzed: 
 </h3>,
-        <p />,
+        <p>
+          <span
+                    className="analytical"
+          >
+                     
+                    I hope that we can reach an amicable understanding and a solution to this problem.
+          </span>
+          <span
+                    className="joy"
+          >
+                     
+                    Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
+          </span>
+</p>,
       ],
     },
     "ref": null,
@@ -86,10 +97,60 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": undefined,
+          "children": Array [
+            <span
+              className="analytical"
+>
+               
+              I hope that we can reach an amicable understanding and a solution to this problem.
+</span>,
+            <span
+              className="joy"
+>
+               
+              Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
+</span>,
+          ],
         },
         "ref": null,
-        "rendered": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                " ",
+                "I hope that we can reach an amicable understanding and a solution to this problem.",
+              ],
+              "className": "analytical",
+            },
+            "ref": null,
+            "rendered": Array [
+              " ",
+              "I hope that we can reach an amicable understanding and a solution to this problem.",
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                " ",
+                "Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.",
+              ],
+              "className": "joy",
+            },
+            "ref": null,
+            "rendered": Array [
+              " ",
+              "Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.",
+            ],
+            "type": "span",
+          },
+        ],
         "type": "p",
       },
     ],
@@ -105,7 +166,20 @@ ShallowWrapper {
           <h3>
             Analyzed: 
 </h3>,
-          <p />,
+          <p>
+            <span
+                        className="analytical"
+            >
+                         
+                        I hope that we can reach an amicable understanding and a solution to this problem.
+            </span>
+            <span
+                        className="joy"
+            >
+                         
+                        Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
+            </span>
+</p>,
         ],
       },
       "ref": null,
@@ -126,10 +200,60 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": undefined,
+            "children": Array [
+              <span
+                className="analytical"
+>
+                 
+                I hope that we can reach an amicable understanding and a solution to this problem.
+</span>,
+              <span
+                className="joy"
+>
+                 
+                Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
+</span>,
+            ],
           },
           "ref": null,
-          "rendered": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  " ",
+                  "I hope that we can reach an amicable understanding and a solution to this problem.",
+                ],
+                "className": "analytical",
+              },
+              "ref": null,
+              "rendered": Array [
+                " ",
+                "I hope that we can reach an amicable understanding and a solution to this problem.",
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  " ",
+                  "Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.",
+                ],
+                "className": "joy",
+              },
+              "ref": null,
+              "rendered": Array [
+                " ",
+                "Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.",
+              ],
+              "type": "span",
+            },
+          ],
           "type": "p",
         },
       ],

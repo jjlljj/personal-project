@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
+import { withRouter } from 'react-router-dom'
 import './AnalyzerInput.css'
 import { toneFetch, mockFetch, cleanTones } from '../../dataHelper/dataHelper'
 import { addResult, addDocumentTone, addSentences } from '../../actions/index'
@@ -12,12 +13,12 @@ export class AnalyzerInput extends Component {
     }
   }
 
-  handleChange = (event) => {
+  handleChange = event => {
     const { value } = event.target
     this.setState({ text: value })
   }
 
-  handleSubmit = async (event) => {
+  handleSubmit = async event => {
     event.preventDefault()
     
     const results = await mockFetch(this.state.text)
@@ -26,11 +27,14 @@ export class AnalyzerInput extends Component {
     this.props.addResult({ sentences, documentTone })
     this.props.addSentences(sentences)
     this.props.addDocumentTone(documentTone)
+
+    this.props.history.push('/analyzed')
   }
 
   render() {
     return (
       <form
+        className="analyzer-form"
         onSubmit={this.handleSubmit} >
         <input 
           type="text"
@@ -51,4 +55,4 @@ const mapDispatchToProps = (dispatch) => ({
 })
 
 
-export default connect(null, mapDispatchToProps)(AnalyzerInput)
+export default withRouter(connect(null, mapDispatchToProps)(AnalyzerInput))
