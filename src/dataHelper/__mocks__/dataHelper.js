@@ -7,7 +7,7 @@ export const toneFetch = text => {
 
 export const mockFetch = text => {
   fetch(text)
-  return mockResponse
+return mockResponse
 }
 
 export const cleanTones = response => {
