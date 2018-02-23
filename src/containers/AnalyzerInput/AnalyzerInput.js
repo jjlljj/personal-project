@@ -52,11 +52,15 @@ export class AnalyzerInput extends Component {
           className="analyzer-form"
           onSubmit={this.handleSubmit} >
           <div className="btn-wrap">
-            <span 
+            <button
+              type="button" 
               className="get-example"
               onClick={this.handleRandom}
-            >Example</span>
-            <button type="submit" className="submit">Submit</button>
+            >Example</button>
+            <button 
+              type="submit" 
+              className="submit"
+              >Submit</button>
           </div>
           <textarea 
             name="text"

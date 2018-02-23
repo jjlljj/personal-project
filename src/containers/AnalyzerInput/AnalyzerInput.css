@@ -21,10 +21,8 @@
   display: inline-block;
   font-size: 12px;
   height: 40px;
-  padding: 15px;
-  align-content: center;
-  text-align: center;
   width: 120px;
+  border: none;
 }
 
 .submit {
