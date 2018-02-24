@@ -2,13 +2,16 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
 import './DocumentToneDisplay.css'
+import ToneWeb from '../ToneWeb/ToneWeb'
 
 export const DocumentToneDisplay = (props) => {
   const { documentTone } = props
-  console.log(documentTone)
   
   return (
     <div className="document-tone">
+
+      <ToneWeb />
+
       <div className="analysis-wrap">
         <h2>Document Tones: </h2>
         <h3>Primary: {documentTone[0].tone_name}</h3>
