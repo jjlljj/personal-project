@@ -1,12 +1,12 @@
 .tone-web {
   position: relative;
-  margin: 40px 0 20px 20px 20px;
+  margin: 20px 0 20px 30px;
 }
 
 .tone-web svg {
   width: 160px;
   height: 160px;
-  margin-top: 180px;
+  margin-top: 150px;
   margin-left: 150px;
   overflow: visible; 
 }

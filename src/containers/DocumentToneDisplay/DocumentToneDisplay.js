@@ -9,7 +9,6 @@ export const DocumentToneDisplay = (props) => {
   
   return (
     <div className="document-tone">
-      <div className="tone-web-chart"></div>
 
       <ToneWeb />
 
