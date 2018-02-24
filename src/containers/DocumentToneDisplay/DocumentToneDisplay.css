@@ -1,9 +1,11 @@
 .document-tone {
   display: flex;
+  justify-content: center;
 }
 
 .analysis-wrap {
   margin: 20px;
+  min-width: 200px;
 }
 
 .analysis-wrap h2 {
@@ -19,4 +21,10 @@
 
 .analysis-wrap p {
   margin: 10px 0;
+}
+
+@media screen and (max-width: 750px) {
+  .document-tone {
+    flex-wrap: wrap;
+  }
 }
