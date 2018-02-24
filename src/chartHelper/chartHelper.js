@@ -1,5 +1,6 @@
 /* eslint-disable */
-// attributed to https://github.com/alangrafu/radar-chart-d3
+// attributed to https://github.com/alangrafu/radar-chart-d3  
+// modified for d3 v4+
 
 import * as d3 from 'd3'
 import './chartHelper.css'
