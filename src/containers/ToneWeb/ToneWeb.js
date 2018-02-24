@@ -1,21 +1,21 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { connect } from 'react-redux'
+import RadarChart from '../../chartHelper/chartHelper'
 import './ToneWeb.css'
 
-export class ToneWeb extends Component {
 
-  
+export const ToneWeb = (props) => {
+  const { documentTones } = props
 
+  console.log(documentTones)
 
-  render() {
-    const { documentTones } = this.props
-      
-    return (
-      <div>
-        I am toneweb
-      </div>
-    )
-  }
+  return (
+    <div className="tone-web">
+      <div className="tone-web-chart"></div>
+      {// RadarChart.draw("tone-web-chart")
+      }
+    </div>
+  )
 }
 
 const mapStateToProps = ({ documentTones }) => ({
