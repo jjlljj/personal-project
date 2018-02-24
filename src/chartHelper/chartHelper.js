@@ -1,3 +1,6 @@
+/* eslint-ignore */
+// 
+
 import * as d3 from 'd3'
 import { select } from 'd3-selection'
 
@@ -5,7 +8,7 @@ function RadarChart(g, data, options) {
   var cfg = {
    w: 200,        //Width of the circle
    h: 200,        //Height of the circle
-   margin: {top: 20, right: 20, bottom: 20, left: 20}, //The margins of the SVG
+   margin: {top: 100, right: 100, bottom: 100, left: 100}, //The margins of the SVG
    levels: 3,       //How many levels or inner circles should there be drawn
    maxValue: 0,       //What is the value that the biggest circle will represent
    labelFactor: 1.25,   //How much farther than the radius of the outer circle should the labels be placed
@@ -84,19 +87,19 @@ function RadarChart(g, data, options) {
     .style("fill", "#CDCDCD")
     .style("stroke", "#CDCDCD")
     .style("fill-opacity", cfg.opacityCircles)
-   // .style("filter" , "url(#glow)");
+    .style("filter" , "url(#glow)");
 
   //Text indicating at what % each level is
-  axisGrid.selectAll(".axisLabel")
-     .data(d3.range(1,(cfg.levels+1)).reverse())
-     .enter().append("text")
-     .attr("class", "axisLabel")
-     .attr("x", 4)
-     .attr("y", function(d){return -d*radius/cfg.levels;})
-     .attr("dy", "0.4em")
-     .style("font-size", "10px")
-     .attr("fill", "#737373")
-     .text(function(d,i) { return Format(maxValue * d/cfg.levels); });
+  // axisGrid.selectAll(".axisLabel")
+  //    .data(d3.range(1,(cfg.levels+1)).reverse())
+  //    .enter().append("text")
+  //    .attr("class", "axisLabel")
+  //    .attr("x", 4)
+  //    .attr("y", function(d){return -d*radius/cfg.levels;})
+  //    .attr("dy", "0.4em")
+  //    .style("font-size", "10px")
+  //    .attr("fill", "#737373")
+  //    .text(function(d,i) { return Format(maxValue * d/cfg.levels); });
 
   /////////////////////////////////////////////////////////
   //////////////////// Draw the axes //////////////////////
@@ -137,12 +140,10 @@ function RadarChart(g, data, options) {
   var radarLine = d3.radialLine()
     .radius(function(d) { return rScale(d.value); })
     .angle(function(d,i) {  return i*angleSlice; });
-    
-  //var radarLine = d3
 
-  // if(cfg.roundStrokes) {
-  //   radarLine.interpolate("cardinal-closed");
-  // }
+  if(cfg.roundStrokes) {
+    radarLine.curve(d3.curveCardinalClosed)
+  }
         
   //Create a wrapper for the blobs  
   var blobWrapper = select(g).selectAll(".radarWrapper")

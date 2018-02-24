@@ -30,14 +30,29 @@ export class ToneWeb extends Component {
   createToneWeb = () => {
     const node = this.node
     const axisGrid = this.axisGrid
+    const color = d3.scaleOrdinal()
+        .range(["#EDC951","#CC333F","#00A0B0"]);
+    const chartOptions = {
+        w: 200,
+        h: 200,
+        margin: {
+          top: 20, 
+          right: 20, 
+          bottom: 20, 
+          left: 20
+        },
+        maxValue: 1,
+        levels: 4,
+        roundStrokes: true,
+      };
 
-    RadarChart(node, this.formatData())
+    RadarChart(node, this.formatData(), chartOptions)
   }
 
   render() {
     return (
       <div className="tone-web">
-        <svg ref={node => this.node = node} width={400} height={400}></svg>
+        <svg ref={node => this.node = node}></svg>
       </div>
     )
   }
