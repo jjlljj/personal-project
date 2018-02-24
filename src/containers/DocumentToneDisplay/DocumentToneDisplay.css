@@ -1,0 +1,22 @@
+.document-tone {
+  display: flex;
+}
+
+.analysis-wrap {
+  margin: 20px;
+}
+
+.analysis-wrap h2 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.analysis-wrap h3 {
+  margin: 20px 0;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.analysis-wrap p {
+  margin: 10px 0;
+}
