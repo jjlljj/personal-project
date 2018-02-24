@@ -1,50 +1,47 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import RadarChart from '../../chartHelper/chartHelper'
 import * as d3 from 'd3'
+import { select } from 'd3-selection'
 import './ToneWeb.css'
 
 
-export const ToneWeb = (props) => {
-  const { documentTone } = props
-
-  const chartTones = documentTone.map(tone => {
-    return {
-      axis: tone.tone_name,
-      value: tone.score
-    }
-  })
-
-  console.log(chartTones)
-  const data = [
-    {
-      className:'charted-tones',
-      axes: chartTones
-    }
-  ]
-  const chartIt = () => {
-    let chart = RadarChart.chart();
-    let cfg = chart.config(); // retrieve default config
-    let svg = d3.select('.tone-web-chart').append('svg')
-            .attr('width', 300)
-            .attr('height', 300);
-          svg.append('g').classed('single', 1).datum(data).call(chart);
-
+export class ToneWeb extends Component {
+  constructor(props) {
+    super(props)
   }
 
-  return (
-    <div className="tone-web">
-      <div className="tone-web-chart"></div>
-      {
-        //chartIt()
+  componentDidMount() {
+    this.createToneWeb()
+  }
+
+  formatData = () => {
+    const { documentTone } = this.props
+    const chartTones = documentTone.map(tone => {
+      return {
+        axis: tone.tone_name,
+        value: tone.score
       }
-    {
-        RadarChart.draw(".tone-web-chart", data) 
-    }{
-      console.log(RadarChart)
-    }
-    </div>
-  )
+    })
+
+    return [ chartTones ]
+  }
+  
+  createToneWeb = () => {
+    const node = this.node
+    const axisGrid = this.axisGrid
+
+    RadarChart(node, this.formatData())
+  }
+
+  render() {
+    return (
+      <div className="tone-web">
+        <svg ref={node => this.node = node} width={400} height={400}></svg>
+      </div>
+    )
+  }
+  
 }
 
 const mapStateToProps = ({ documentTone }) => ({

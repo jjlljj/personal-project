@@ -1,7 +1,10 @@
-.tone-web{
-  display: block;
-  background: blue;
-  width: 600px;
-  height: 600px;
+.tone-web {
+  position: relative;
 }
 
+.tone-web svg g,
+.tone-web svg text {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}

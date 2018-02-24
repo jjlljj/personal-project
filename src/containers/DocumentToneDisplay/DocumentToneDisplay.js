@@ -9,8 +9,10 @@ export const DocumentToneDisplay = (props) => {
   
   return (
     <div className="document-tone">
+      <div className="tone-web-chart"></div>
 
       <ToneWeb />
+
 
       <div className="analysis-wrap">
         <h2>Document Tones: </h2>
