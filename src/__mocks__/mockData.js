@@ -131,6 +131,93 @@ export const mockCleaned = {
   ]
 }
 
+export const mockCleaned2 = {
+  sentences: [
+    {
+      sentence_id: 0,
+      text: 'My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.',
+      tones: [
+        {
+          score: 0.353962,
+          tone_id: 'joy',
+          tone_name: 'Joy'
+        },
+        {
+          score: 0.294703,
+          tone_id: 'sadness',
+          tone_name: 'Sadness'
+        }
+      ]
+    },
+    {
+      sentence_id: 1,
+      text: 'My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.',
+      tones: [
+        {
+          score: 0.571513,
+          tone_id: 'joy',
+          tone_name: 'Joy'
+        },
+        {
+          score: 0.482451,
+          tone_id: 'analytical',
+          tone_name: 'Analytical'
+        }
+      ]
+    },
+    {
+      sentence_id: 2,
+      text: 'He would like to maintain a business-relationship with Mr. Farley.',
+      tones: [
+        {
+          score: 0.497569,
+          tone_id: 'tentative',
+          tone_name: 'Tentative'
+        },
+        {
+          score: 0.227267,
+          tone_id: 'joy',
+          tone_name: 'Joy'
+        }
+      ]
+    },
+    {
+      sentence_id: 3,
+      text: 'Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.',
+      tones: [
+        {
+          score: 0.579367,
+          tone_id: 'analytical',
+          tone_name: 'Analytical'
+        },
+        {
+          score: 0.359409,
+          tone_id: 'joy',
+          tone_name: 'Joy'
+        }
+      ]
+    }
+  ],
+  documentTone: [
+    {
+      score: 0.619992,
+      tone_id: 'joy',
+      tone_name: 'Joy'
+    },
+    {
+      score: 0.448741,
+      tone_id: 'tentative',
+      tone_name: 'Tentative'
+    },
+    {
+      score: 0.440216,
+      tone_id: 'analytical',
+      tone_name: 'Analytical'
+    }
+  ]
+
+}
+
 export const mockUncleaned = {
   document_tone: {
     tone_categories: [

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, withRouter } from 'react-router-dom'
+import { Route } from 'react-router-dom'
 import './App.css'
 import Main from '../../containers/Main/Main'
 import DisplayResults from '../../containers/DisplayResults/DisplayResults'
@@ -15,4 +15,4 @@ export const App = () => {
   )
 }
 
-export default App;
+export default App

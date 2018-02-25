@@ -1,0 +1,993 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DocumentToneDisplay should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    documentTone={
+        Array [
+            Object {
+              "score": 0.883842,
+              "tone_id": "analytical",
+              "tone_name": "Analytical",
+            },
+            Object {
+              "score": 0.60858,
+              "tone_id": "tentative",
+              "tone_name": "Tentative",
+            },
+            Object {
+              "score": 0.519797,
+              "tone_id": "joy",
+              "tone_name": "Joy",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Document Level Tones
+</h2>,
+        <div
+          className="analysis-wrap"
+>
+          <Connect(ToneWeb) />
+          <div
+                    className="tone-list"
+          >
+                    <h3>
+                              Primary:  
+                              Analytical
+                    </h3>
+                    <p>
+                               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
+                    </p>
+                    <h3>
+                              Secondary:  
+                              Tentative
+                    </h3>
+                    <p>
+                               Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                    </p>
+                    <h3>
+                              Tertiary:  
+                              Joy
+                    </h3>
+                    <p>
+                               Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
+                    </p>
+          </div>
+</div>,
+      ],
+      "className": "document-tone",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Document Level Tones",
+        },
+        "ref": null,
+        "rendered": "Document Level Tones",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Connect(ToneWeb) />,
+            <div
+              className="tone-list"
+>
+              <h3>
+                            Primary:  
+                            Analytical
+              </h3>
+              <p>
+                             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
+              </p>
+              <h3>
+                            Secondary:  
+                            Tentative
+              </h3>
+              <p>
+                             Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+              </p>
+              <h3>
+                            Tertiary:  
+                            Joy
+              </h3>
+              <p>
+                             Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
+              </p>
+</div>,
+          ],
+          "className": "analysis-wrap",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3>
+                  Primary:  
+                  Analytical
+</h3>,
+                <p>
+                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
+</p>,
+                <h3>
+                  Secondary:  
+                  Tentative
+</h3>,
+                <p>
+                   Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+</p>,
+                <h3>
+                  Tertiary:  
+                  Joy
+</h3>,
+                <p>
+                   Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
+</p>,
+              ],
+              "className": "tone-list",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Primary:  ",
+                    "Analytical",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Primary:  ",
+                  "Analytical",
+                ],
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": " Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium ",
+                },
+                "ref": null,
+                "rendered": " Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium ",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Secondary:  ",
+                    "Tentative",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Secondary:  ",
+                  "Tentative",
+                ],
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": " Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora",
+                },
+                "ref": null,
+                "rendered": " Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Tertiary:  ",
+                    "Joy",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Tertiary:  ",
+                  "Joy",
+                ],
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": " Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. ",
+                },
+                "ref": null,
+                "rendered": " Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. ",
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Document Level Tones
+</h2>,
+          <div
+            className="analysis-wrap"
+>
+            <Connect(ToneWeb) />
+            <div
+                        className="tone-list"
+            >
+                        <h3>
+                                    Primary:  
+                                    Analytical
+                        </h3>
+                        <p>
+                                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
+                        </p>
+                        <h3>
+                                    Secondary:  
+                                    Tentative
+                        </h3>
+                        <p>
+                                     Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                        </p>
+                        <h3>
+                                    Tertiary:  
+                                    Joy
+                        </h3>
+                        <p>
+                                     Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
+                        </p>
+            </div>
+</div>,
+        ],
+        "className": "document-tone",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Document Level Tones",
+          },
+          "ref": null,
+          "rendered": "Document Level Tones",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Connect(ToneWeb) />,
+              <div
+                className="tone-list"
+>
+                <h3>
+                                Primary:  
+                                Analytical
+                </h3>
+                <p>
+                                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
+                </p>
+                <h3>
+                                Secondary:  
+                                Tentative
+                </h3>
+                <p>
+                                 Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                </p>
+                <h3>
+                                Tertiary:  
+                                Joy
+                </h3>
+                <p>
+                                 Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
+                </p>
+</div>,
+            ],
+            "className": "analysis-wrap",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h3>
+                    Primary:  
+                    Analytical
+</h3>,
+                  <p>
+                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
+</p>,
+                  <h3>
+                    Secondary:  
+                    Tentative
+</h3>,
+                  <p>
+                     Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+</p>,
+                  <h3>
+                    Tertiary:  
+                    Joy
+</h3>,
+                  <p>
+                     Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
+</p>,
+                ],
+                "className": "tone-list",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Primary:  ",
+                      "Analytical",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Primary:  ",
+                    "Analytical",
+                  ],
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": " Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium ",
+                  },
+                  "ref": null,
+                  "rendered": " Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium ",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Secondary:  ",
+                      "Tentative",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Secondary:  ",
+                    "Tentative",
+                  ],
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": " Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora",
+                  },
+                  "ref": null,
+                  "rendered": " Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Tertiary:  ",
+                      "Joy",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Tertiary:  ",
+                    "Joy",
+                  ],
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": " Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. ",
+                  },
+                  "ref": null,
+                  "rendered": " Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. ",
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`DocumentToneDisplay should match snapshot when passed different results 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    documentTone={
+        Array [
+            Object {
+              "score": 0.619992,
+              "tone_id": "joy",
+              "tone_name": "Joy",
+            },
+            Object {
+              "score": 0.448741,
+              "tone_id": "tentative",
+              "tone_name": "Tentative",
+            },
+            Object {
+              "score": 0.440216,
+              "tone_id": "analytical",
+              "tone_name": "Analytical",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Document Level Tones
+</h2>,
+        <div
+          className="analysis-wrap"
+>
+          <Connect(ToneWeb) />
+          <div
+                    className="tone-list"
+          >
+                    <h3>
+                              Primary:  
+                              Joy
+                    </h3>
+                    <p>
+                               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
+                    </p>
+                    <h3>
+                              Secondary:  
+                              Tentative
+                    </h3>
+                    <p>
+                               Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                    </p>
+                    <h3>
+                              Tertiary:  
+                              Analytical
+                    </h3>
+                    <p>
+                               Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
+                    </p>
+          </div>
+</div>,
+      ],
+      "className": "document-tone",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Document Level Tones",
+        },
+        "ref": null,
+        "rendered": "Document Level Tones",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Connect(ToneWeb) />,
+            <div
+              className="tone-list"
+>
+              <h3>
+                            Primary:  
+                            Joy
+              </h3>
+              <p>
+                             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
+              </p>
+              <h3>
+                            Secondary:  
+                            Tentative
+              </h3>
+              <p>
+                             Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+              </p>
+              <h3>
+                            Tertiary:  
+                            Analytical
+              </h3>
+              <p>
+                             Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
+              </p>
+</div>,
+          ],
+          "className": "analysis-wrap",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3>
+                  Primary:  
+                  Joy
+</h3>,
+                <p>
+                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
+</p>,
+                <h3>
+                  Secondary:  
+                  Tentative
+</h3>,
+                <p>
+                   Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+</p>,
+                <h3>
+                  Tertiary:  
+                  Analytical
+</h3>,
+                <p>
+                   Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
+</p>,
+              ],
+              "className": "tone-list",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Primary:  ",
+                    "Joy",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Primary:  ",
+                  "Joy",
+                ],
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": " Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium ",
+                },
+                "ref": null,
+                "rendered": " Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium ",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Secondary:  ",
+                    "Tentative",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Secondary:  ",
+                  "Tentative",
+                ],
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": " Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora",
+                },
+                "ref": null,
+                "rendered": " Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Tertiary:  ",
+                    "Analytical",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Tertiary:  ",
+                  "Analytical",
+                ],
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": " Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. ",
+                },
+                "ref": null,
+                "rendered": " Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. ",
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Document Level Tones
+</h2>,
+          <div
+            className="analysis-wrap"
+>
+            <Connect(ToneWeb) />
+            <div
+                        className="tone-list"
+            >
+                        <h3>
+                                    Primary:  
+                                    Joy
+                        </h3>
+                        <p>
+                                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
+                        </p>
+                        <h3>
+                                    Secondary:  
+                                    Tentative
+                        </h3>
+                        <p>
+                                     Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                        </p>
+                        <h3>
+                                    Tertiary:  
+                                    Analytical
+                        </h3>
+                        <p>
+                                     Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
+                        </p>
+            </div>
+</div>,
+        ],
+        "className": "document-tone",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Document Level Tones",
+          },
+          "ref": null,
+          "rendered": "Document Level Tones",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Connect(ToneWeb) />,
+              <div
+                className="tone-list"
+>
+                <h3>
+                                Primary:  
+                                Joy
+                </h3>
+                <p>
+                                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
+                </p>
+                <h3>
+                                Secondary:  
+                                Tentative
+                </h3>
+                <p>
+                                 Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                </p>
+                <h3>
+                                Tertiary:  
+                                Analytical
+                </h3>
+                <p>
+                                 Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
+                </p>
+</div>,
+            ],
+            "className": "analysis-wrap",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h3>
+                    Primary:  
+                    Joy
+</h3>,
+                  <p>
+                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
+</p>,
+                  <h3>
+                    Secondary:  
+                    Tentative
+</h3>,
+                  <p>
+                     Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+</p>,
+                  <h3>
+                    Tertiary:  
+                    Analytical
+</h3>,
+                  <p>
+                     Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
+</p>,
+                ],
+                "className": "tone-list",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Primary:  ",
+                      "Joy",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Primary:  ",
+                    "Joy",
+                  ],
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": " Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium ",
+                  },
+                  "ref": null,
+                  "rendered": " Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium ",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Secondary:  ",
+                      "Tentative",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Secondary:  ",
+                    "Tentative",
+                  ],
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": " Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora",
+                  },
+                  "ref": null,
+                  "rendered": " Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Tertiary:  ",
+                      "Analytical",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Tertiary:  ",
+                    "Analytical",
+                  ],
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": " Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. ",
+                  },
+                  "ref": null,
+                  "rendered": " Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. ",
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
