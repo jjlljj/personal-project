@@ -6,6 +6,19 @@ import ToneWeb from '../ToneWeb/ToneWeb'
 
 export const DocumentToneDisplay = (props) => {
   const { documentTone } = props
+
+  const renderToneList = () => {
+    return documentTone[0] && (
+      <div className="tone-list">
+          <h3>Primary:  {documentTone[0].tone_name}</h3>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+          <h3>Secondary:  {documentTone[1].tone_name}</h3>
+          <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora</p>
+          <h3>Tertiary:  {documentTone[2].tone_name}</h3>
+          <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.</p>
+        </div>
+    ) || "No tones detected in this document"
+  }
   
   return (
     <div className="document-tone">
@@ -15,14 +28,8 @@ export const DocumentToneDisplay = (props) => {
       <div className="analysis-wrap">
     
         <ToneWeb />
-        <div className="tone-list">
-          <h3>Primary:  {documentTone[0].tone_name}</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
-          <h3>Secondary:  {documentTone[1].tone_name}</h3>
-          <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora</p>
-          <h3>Tertiary:  {documentTone[2].tone_name}</h3>
-          <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.</p>
-        </div>
+        
+        { renderToneList() }
 
       </div>
 

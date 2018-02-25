@@ -44,6 +44,7 @@ export class ToneWeb extends Component {
         maxValue: 1,
         levels: 4,
         roundStrokes: true,
+        //color
       };
 
     RadarChart(node, this.formatData(), chartOptions)
