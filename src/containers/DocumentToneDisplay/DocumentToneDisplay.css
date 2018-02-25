@@ -21,12 +21,13 @@
 }
 
 .analysis-wrap h3 {
-  margin: 15px 0 15px;
+  margin: 15px 0 10px;
   font-weight: 700;
 }
 
 .analysis-wrap p {
   margin: 10px 0;
+  line-height: 22px;
 }
 
 @media screen and (max-width: 750px) {

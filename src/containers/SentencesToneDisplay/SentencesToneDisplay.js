@@ -14,6 +14,14 @@ export const SentencesToneDisplay = (props) => {
     )
   })
 
+  const renderTones = sentences.map(sentence => {
+    const classList = (sentence.tones[0].tone_id + " tone-category") || ""
+
+    return sentence.tones[0] && (
+        <li className="sentence-tone-item"><span className={classList}>{sentence.tones[0].tone_name}: </span> Quis autem vel eum iure reprehenderit qui in ea voluptate velit</li>
+    ) || ""
+  })
+
   return (
     <div className="sentences-tone">
       <h2>Sentence Level Tones</h2>
@@ -24,6 +32,9 @@ export const SentencesToneDisplay = (props) => {
           </p> 
         </div>
         <div className="tones-list">
+          <ul>
+            { renderTones }
+          </ul>
         </div>
       </div>
     </div>
