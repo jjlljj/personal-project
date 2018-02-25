@@ -1,8 +1,8 @@
 import React from 'react'
 import { Route } from 'react-router-dom'
 import './App.css'
-import Main from '../../containers/Main/Main'
-import DisplayResults from '../../containers/DisplayResults/DisplayResults'
+import Main from '../Main/Main'
+import DisplayResults from '../DisplayResults/DisplayResults'
 import Nav from '../Nav/Nav'
 
 export const App = () => {

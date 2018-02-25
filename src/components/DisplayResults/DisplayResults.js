@@ -1,7 +1,7 @@
 import React from 'react'
 import './DisplayResults.css'
-import DocumentToneDisplay from '../DocumentToneDisplay/DocumentToneDisplay'
-import SentencesToneDisplay from '../SentencesToneDisplay/SentencesToneDisplay'
+import DocumentToneDisplay from '../../containers/DocumentToneDisplay/DocumentToneDisplay'
+import SentencesToneDisplay from '../../containers/SentencesToneDisplay/SentencesToneDisplay'
 
 export const DisplayResults = () => {
 
