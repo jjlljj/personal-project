@@ -1,20 +1,28 @@
 .document-tone {
-  display: flex;
-  justify-content: center;
+
 }
 
-.analysis-wrap {
-  margin: 20px;
-  min-width: 200px;
-}
-
-.analysis-wrap h2 {
+.document-tone h2 {
+  text-align: center;
+  margin-top: 20px;
   font-size: 22px;
   font-weight: 700;
 }
 
+.analysis-wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.tone-list {
+  min-width: 200px;
+  max-width: 600px;
+}
+
 .analysis-wrap h3 {
-  margin: 20px 0;
+  margin: 15px 0 15px;
   font-weight: 700;
   font-size: 18px;
 }
@@ -24,7 +32,7 @@
 }
 
 @media screen and (max-width: 750px) {
-  .document-tone {
+  .analysis-wrap {
     flex-wrap: wrap;
   }
 }
