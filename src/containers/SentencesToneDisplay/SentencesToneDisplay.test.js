@@ -1,14 +1,14 @@
 /* eslint-disable */
 import React from 'react'
 import { shallow } from 'enzyme'
-import { DocumentToneDisplay } from './DocumentToneDisplay'
+import { SentencesToneDisplay } from './SentencesToneDisplay'
 import { mockCleaned } from '../../__mocks__/mockData'
 
-describe('DocumentToneDisplay', () => {
+describe('SentencesToneDisplay', () => {
   let renderedComponent
 
   beforeEach(() => {
-    renderedComponent = shallow(<DocumentToneDisplay sentences={ mockCleaned.sentences } />)
+    renderedComponent = shallow(<SentencesToneDisplay sentences={ mockCleaned.sentences } />)
   })
 
   it('should not pass', () => {
@@ -21,7 +21,7 @@ describe('DocumentToneDisplay', () => {
 
   it.skip('shuold match snapshot when passed different results', () => {
     // add 2nd mockCleaned data to render
-    renderedComponent = shallow(<DocumentToneDisplay sentences={ mockCleaned } />)
+    renderedComponent = shallow(<SentencesToneDisplay sentences={ mockCleaned } />)
 
     expect(renderedComponent).toMatchSnapshot()
   })
