@@ -19,7 +19,7 @@ export const toneFetch = async (text) => {
   }  
 }
 
-export const mockFetch = async (text) => {
+export const toneExampleFetch = async (text) => {
   try {
     console.log(text)
     const url = '/mockAnalyze'

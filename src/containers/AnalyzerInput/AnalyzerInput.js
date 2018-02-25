@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
 import { func, object } from 'prop-types'
 import './AnalyzerInput.css'
-import { toneFetch, mockFetch, cleanTones } from '../../dataHelper/dataHelper'
+import { toneFetch, toneExampleFetch, cleanTones } from '../../dataHelper/dataHelper'
 import { addResult, addDocumentTone, addSentences } from '../../actions/index'
 
 export class AnalyzerInput extends Component {
@@ -24,27 +24,25 @@ export class AnalyzerInput extends Component {
     
     if ( this.state.text.length > 50 ) {
       const results = await toneFetch(this.state.text)
-      const { sentences, documentTone } = cleanTones(results)
-
-      this.props.addResult({ sentences, documentTone })
-      this.props.addSentences(sentences)
-      this.props.addDocumentTone(documentTone)
-
-      this.props.history.push('/analyzed')   
+      this.handleResults(results)  
     }
   }
 
   handleRandom = async event => {
     event.preventDefault()
 
-    const results = await mockFetch(this.state.text)
+    const results = await toneExampleFetch(this.state.text)    
+    this.handleResults(results) 
+  }
+
+  handleResults = results => {
     const { sentences, documentTone } = cleanTones(results)
 
     this.props.addResult({ sentences, documentTone })
     this.props.addSentences(sentences)
     this.props.addDocumentTone(documentTone)
 
-    this.props.history.push('/analyzed')    
+    this.props.history.push('/analyzed')
   }
 
   render() {

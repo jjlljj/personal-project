@@ -5,7 +5,7 @@ export const toneFetch = text => {
   return mockResponse
 }
 
-export const mockFetch = text => {
+export const toneExampleFetch = text => {
   fetch(text)
   return mockResponse
 }
