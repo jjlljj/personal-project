@@ -47,8 +47,9 @@ export const toneExampleFetch = async (text) => {
 export const cleanTones = response => {
   const documentTone = cleanDocumentTone(response)
   const sentences = cleanSentences(response)
+  const sentencesTone = cleanSentencesTone(sentences)
   
-  return { documentTone, sentences }
+  return { documentTone, sentencesTone, sentences }
 }
 
 export const cleanDocumentTone = ({ document_tone }) => {
@@ -96,4 +97,16 @@ export const cleanWebChartData = ( data ) => {
   })
 
   return chartTones
+}
+
+export const cleanSentencesTone = sentences => {
+  return {
+    primary: withoutDupes(sentences, 0),
+    secondary: withoutDupes(sentences, 1)
+  }
+}
+
+export const withoutDupes = (array, idx) => {
+  const tones = array.map(sentence => sentence.tones[idx] || null )
+  return Array.from(new Set(tones))
 }
