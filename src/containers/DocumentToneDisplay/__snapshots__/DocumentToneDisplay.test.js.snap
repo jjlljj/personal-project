@@ -53,21 +53,21 @@ ShallowWrapper {
                               Analytical
                     </h3>
                     <p>
-                              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+                               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
                     </p>
                     <h3>
                               Secondary:  
                               Tentative
                     </h3>
                     <p>
-                              Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                               Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
                     </p>
                     <h3>
                               Tertiary:  
                               Joy
                     </h3>
                     <p>
-                              Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.
+                               Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
                     </p>
           </div>
 </div>,
@@ -102,21 +102,21 @@ ShallowWrapper {
                             Analytical
               </h3>
               <p>
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+                             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
               </p>
               <h3>
                             Secondary:  
                             Tentative
               </h3>
               <p>
-                            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                             Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
               </p>
               <h3>
                             Tertiary:  
                             Joy
               </h3>
               <p>
-                            Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.
+                             Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
               </p>
 </div>,
           ],
@@ -144,21 +144,21 @@ ShallowWrapper {
                   Analytical
 </h3>,
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
 </p>,
                 <h3>
                   Secondary:  
                   Tentative
 </h3>,
                 <p>
-                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                   Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
 </p>,
                 <h3>
                   Tertiary:  
                   Joy
 </h3>,
                 <p>
-                  Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.
+                   Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
 </p>,
               ],
               "className": "tone-list",
@@ -187,10 +187,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+                  "children": " Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium ",
                 },
                 "ref": null,
-                "rendered": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+                "rendered": " Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium ",
                 "type": "p",
               },
               Object {
@@ -215,10 +215,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora",
+                  "children": " Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora",
                 },
                 "ref": null,
-                "rendered": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora",
+                "rendered": " Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora",
                 "type": "p",
               },
               Object {
@@ -243,10 +243,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+                  "children": " Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. ",
                 },
                 "ref": null,
-                "rendered": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+                "rendered": " Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. ",
                 "type": "p",
               },
             ],
@@ -280,21 +280,21 @@ ShallowWrapper {
                                     Analytical
                         </h3>
                         <p>
-                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+                                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
                         </p>
                         <h3>
                                     Secondary:  
                                     Tentative
                         </h3>
                         <p>
-                                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                                     Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
                         </p>
                         <h3>
                                     Tertiary:  
                                     Joy
                         </h3>
                         <p>
-                                    Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.
+                                     Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
                         </p>
             </div>
 </div>,
@@ -329,21 +329,21 @@ ShallowWrapper {
                                 Analytical
                 </h3>
                 <p>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+                                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
                 </p>
                 <h3>
                                 Secondary:  
                                 Tentative
                 </h3>
                 <p>
-                                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                                 Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
                 </p>
                 <h3>
                                 Tertiary:  
                                 Joy
                 </h3>
                 <p>
-                                Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.
+                                 Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
                 </p>
 </div>,
             ],
@@ -371,21 +371,21 @@ ShallowWrapper {
                     Analytical
 </h3>,
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
 </p>,
                   <h3>
                     Secondary:  
                     Tentative
 </h3>,
                   <p>
-                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                     Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
 </p>,
                   <h3>
                     Tertiary:  
                     Joy
 </h3>,
                   <p>
-                    Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.
+                     Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
 </p>,
                 ],
                 "className": "tone-list",
@@ -414,10 +414,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+                    "children": " Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium ",
                   },
                   "ref": null,
-                  "rendered": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+                  "rendered": " Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium ",
                   "type": "p",
                 },
                 Object {
@@ -442,10 +442,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora",
+                    "children": " Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora",
                   },
                   "ref": null,
-                  "rendered": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora",
+                  "rendered": " Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora",
                   "type": "p",
                 },
                 Object {
@@ -470,10 +470,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+                    "children": " Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. ",
                   },
                   "ref": null,
-                  "rendered": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+                  "rendered": " Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. ",
                   "type": "p",
                 },
               ],
@@ -549,21 +549,21 @@ ShallowWrapper {
                               Joy
                     </h3>
                     <p>
-                              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+                               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
                     </p>
                     <h3>
                               Secondary:  
                               Tentative
                     </h3>
                     <p>
-                              Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                               Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
                     </p>
                     <h3>
                               Tertiary:  
                               Analytical
                     </h3>
                     <p>
-                              Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.
+                               Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
                     </p>
           </div>
 </div>,
@@ -598,21 +598,21 @@ ShallowWrapper {
                             Joy
               </h3>
               <p>
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+                             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
               </p>
               <h3>
                             Secondary:  
                             Tentative
               </h3>
               <p>
-                            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                             Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
               </p>
               <h3>
                             Tertiary:  
                             Analytical
               </h3>
               <p>
-                            Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.
+                             Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
               </p>
 </div>,
           ],
@@ -640,21 +640,21 @@ ShallowWrapper {
                   Joy
 </h3>,
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
 </p>,
                 <h3>
                   Secondary:  
                   Tentative
 </h3>,
                 <p>
-                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                   Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
 </p>,
                 <h3>
                   Tertiary:  
                   Analytical
 </h3>,
                 <p>
-                  Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.
+                   Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
 </p>,
               ],
               "className": "tone-list",
@@ -683,10 +683,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+                  "children": " Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium ",
                 },
                 "ref": null,
-                "rendered": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+                "rendered": " Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium ",
                 "type": "p",
               },
               Object {
@@ -711,10 +711,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora",
+                  "children": " Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora",
                 },
                 "ref": null,
-                "rendered": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora",
+                "rendered": " Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora",
                 "type": "p",
               },
               Object {
@@ -739,10 +739,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+                  "children": " Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. ",
                 },
                 "ref": null,
-                "rendered": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+                "rendered": " Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. ",
                 "type": "p",
               },
             ],
@@ -776,21 +776,21 @@ ShallowWrapper {
                                     Joy
                         </h3>
                         <p>
-                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+                                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
                         </p>
                         <h3>
                                     Secondary:  
                                     Tentative
                         </h3>
                         <p>
-                                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                                     Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
                         </p>
                         <h3>
                                     Tertiary:  
                                     Analytical
                         </h3>
                         <p>
-                                    Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.
+                                     Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
                         </p>
             </div>
 </div>,
@@ -825,21 +825,21 @@ ShallowWrapper {
                                 Joy
                 </h3>
                 <p>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+                                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
                 </p>
                 <h3>
                                 Secondary:  
                                 Tentative
                 </h3>
                 <p>
-                                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                                 Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
                 </p>
                 <h3>
                                 Tertiary:  
                                 Analytical
                 </h3>
                 <p>
-                                Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.
+                                 Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
                 </p>
 </div>,
             ],
@@ -867,21 +867,21 @@ ShallowWrapper {
                     Joy
 </h3>,
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
 </p>,
                   <h3>
                     Secondary:  
                     Tentative
 </h3>,
                   <p>
-                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                     Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
 </p>,
                   <h3>
                     Tertiary:  
                     Analytical
 </h3>,
                   <p>
-                    Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.
+                     Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
 </p>,
                 ],
                 "className": "tone-list",
@@ -910,10 +910,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+                    "children": " Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium ",
                   },
                   "ref": null,
-                  "rendered": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+                  "rendered": " Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium ",
                   "type": "p",
                 },
                 Object {
@@ -938,10 +938,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora",
+                    "children": " Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora",
                   },
                   "ref": null,
-                  "rendered": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora",
+                  "rendered": " Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora",
                   "type": "p",
                 },
                 Object {
@@ -966,10 +966,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+                    "children": " Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. ",
                   },
                   "ref": null,
-                  "rendered": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+                  "rendered": " Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. ",
                   "type": "p",
                 },
               ],
