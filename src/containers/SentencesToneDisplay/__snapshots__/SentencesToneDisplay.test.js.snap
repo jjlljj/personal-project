@@ -46,6 +46,18 @@ ShallowWrapper {
             },
           ]
     }
+    sentencesTone={
+        Object {
+            "primary": Array [
+              "Analytical",
+              "Joy",
+            ],
+            "secondary": Array [
+              "Tentative",
+              "Analytical",
+            ],
+          }
+    }
 />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -92,7 +104,7 @@ ShallowWrapper {
                                         className="sentence-tone-item"
                               >
                                         <span
-                                                  className="analytical tone-category"
+                                                  className="Analytical tone-category"
                                         >
                                                   Analytical
                                                   : 
@@ -103,7 +115,7 @@ ShallowWrapper {
                                         className="sentence-tone-item"
                               >
                                         <span
-                                                  className="joy tone-category"
+                                                  className="Joy tone-category"
                                         >
                                                   Joy
                                                   : 
@@ -161,7 +173,7 @@ ShallowWrapper {
                                           className="sentence-tone-item"
                             >
                                           <span
-                                                        className="analytical tone-category"
+                                                        className="Analytical tone-category"
                                           >
                                                         Analytical
                                                         : 
@@ -172,7 +184,7 @@ ShallowWrapper {
                                           className="sentence-tone-item"
                             >
                                           <span
-                                                        className="joy tone-category"
+                                                        className="Joy tone-category"
                                           >
                                                         Joy
                                                         : 
@@ -281,7 +293,7 @@ ShallowWrapper {
                                 className="sentence-tone-item"
                 >
                                 <span
-                                                className="analytical tone-category"
+                                                className="Analytical tone-category"
                                 >
                                                 Analytical
                                                 : 
@@ -292,7 +304,7 @@ ShallowWrapper {
                                 className="sentence-tone-item"
                 >
                                 <span
-                                                className="joy tone-category"
+                                                className="Joy tone-category"
                                 >
                                                 Joy
                                                 : 
@@ -313,7 +325,7 @@ ShallowWrapper {
                     className="sentence-tone-item"
 >
                     <span
-                                        className="analytical tone-category"
+                                        className="Analytical tone-category"
                     >
                                         Analytical
                                         : 
@@ -324,7 +336,7 @@ ShallowWrapper {
                     className="sentence-tone-item"
 >
                     <span
-                                        className="joy tone-category"
+                                        className="Joy tone-category"
                     >
                                         Joy
                                         : 
@@ -337,12 +349,12 @@ ShallowWrapper {
               "rendered": Array [
                 Object {
                   "instance": null,
-                  "key": "analytical0",
+                  "key": "Analytical",
                   "nodeType": "host",
                   "props": Object {
                     "children": Array [
                       <span
-                        className="analytical tone-category"
+                        className="Analytical tone-category"
 >
                         Analytical
                         : 
@@ -362,7 +374,7 @@ ShallowWrapper {
                           "Analytical",
                           ": ",
                         ],
-                        "className": "analytical tone-category",
+                        "className": "Analytical tone-category",
                       },
                       "ref": null,
                       "rendered": Array [
@@ -377,12 +389,12 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "joy1",
+                  "key": "Joy",
                   "nodeType": "host",
                   "props": Object {
                     "children": Array [
                       <span
-                        className="joy tone-category"
+                        className="Joy tone-category"
 >
                         Joy
                         : 
@@ -402,7 +414,7 @@ ShallowWrapper {
                           "Joy",
                           ": ",
                         ],
-                        "className": "joy tone-category",
+                        "className": "Joy tone-category",
                       },
                       "ref": null,
                       "rendered": Array [
@@ -465,7 +477,7 @@ ShallowWrapper {
                                                 className="sentence-tone-item"
                                     >
                                                 <span
-                                                            className="analytical tone-category"
+                                                            className="Analytical tone-category"
                                                 >
                                                             Analytical
                                                             : 
@@ -476,7 +488,7 @@ ShallowWrapper {
                                                 className="sentence-tone-item"
                                     >
                                                 <span
-                                                            className="joy tone-category"
+                                                            className="Joy tone-category"
                                                 >
                                                             Joy
                                                             : 
@@ -534,7 +546,7 @@ ShallowWrapper {
                                                 className="sentence-tone-item"
                                 >
                                                 <span
-                                                                className="analytical tone-category"
+                                                                className="Analytical tone-category"
                                                 >
                                                                 Analytical
                                                                 : 
@@ -545,7 +557,7 @@ ShallowWrapper {
                                                 className="sentence-tone-item"
                                 >
                                                 <span
-                                                                className="joy tone-category"
+                                                                className="Joy tone-category"
                                                 >
                                                                 Joy
                                                                 : 
@@ -654,7 +666,7 @@ ShallowWrapper {
                                     className="sentence-tone-item"
                   >
                                     <span
-                                                      className="analytical tone-category"
+                                                      className="Analytical tone-category"
                                     >
                                                       Analytical
                                                       : 
@@ -665,7 +677,7 @@ ShallowWrapper {
                                     className="sentence-tone-item"
                   >
                                     <span
-                                                      className="joy tone-category"
+                                                      className="Joy tone-category"
                                     >
                                                       Joy
                                                       : 
@@ -686,7 +698,7 @@ ShallowWrapper {
                       className="sentence-tone-item"
 >
                       <span
-                                            className="analytical tone-category"
+                                            className="Analytical tone-category"
                       >
                                             Analytical
                                             : 
@@ -697,7 +709,7 @@ ShallowWrapper {
                       className="sentence-tone-item"
 >
                       <span
-                                            className="joy tone-category"
+                                            className="Joy tone-category"
                       >
                                             Joy
                                             : 
@@ -710,12 +722,12 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "analytical0",
+                    "key": "Analytical",
                     "nodeType": "host",
                     "props": Object {
                       "children": Array [
                         <span
-                          className="analytical tone-category"
+                          className="Analytical tone-category"
 >
                           Analytical
                           : 
@@ -735,7 +747,7 @@ ShallowWrapper {
                             "Analytical",
                             ": ",
                           ],
-                          "className": "analytical tone-category",
+                          "className": "Analytical tone-category",
                         },
                         "ref": null,
                         "rendered": Array [
@@ -750,12 +762,12 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "joy1",
+                    "key": "Joy",
                     "nodeType": "host",
                     "props": Object {
                       "children": Array [
                         <span
-                          className="joy tone-category"
+                          className="Joy tone-category"
 >
                           Joy
                           : 
@@ -775,7 +787,7 @@ ShallowWrapper {
                             "Joy",
                             ": ",
                           ],
-                          "className": "joy tone-category",
+                          "className": "Joy tone-category",
                         },
                         "ref": null,
                         "rendered": Array [
@@ -883,6 +895,18 @@ ShallowWrapper {
             },
           ]
     }
+    sentencesTone={
+        Object {
+            "primary": Array [
+              "Analytical",
+              "Joy",
+            ],
+            "secondary": Array [
+              "Tentative",
+              "Analytical",
+            ],
+          }
+    }
 />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -941,42 +965,20 @@ ShallowWrapper {
                                         className="sentence-tone-item"
                               >
                                         <span
-                                                  className="joy tone-category"
-                                        >
-                                                  Joy
-                                                  : 
-                                        </span>
-                                        Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-                              </li>
-                              <li
-                                        className="sentence-tone-item"
-                              >
-                                        <span
-                                                  className="joy tone-category"
-                                        >
-                                                  Joy
-                                                  : 
-                                        </span>
-                                        Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-                              </li>
-                              <li
-                                        className="sentence-tone-item"
-                              >
-                                        <span
-                                                  className="tentative tone-category"
-                                        >
-                                                  Tentative
-                                                  : 
-                                        </span>
-                                        Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-                              </li>
-                              <li
-                                        className="sentence-tone-item"
-                              >
-                                        <span
-                                                  className="analytical tone-category"
+                                                  className="Analytical tone-category"
                                         >
                                                   Analytical
+                                                  : 
+                                        </span>
+                                        Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                              </li>
+                              <li
+                                        className="sentence-tone-item"
+                              >
+                                        <span
+                                                  className="Joy tone-category"
+                                        >
+                                                  Joy
                                                   : 
                                         </span>
                                         Quis autem vel eum iure reprehenderit qui in ea voluptate velit
@@ -1044,42 +1046,20 @@ ShallowWrapper {
                                           className="sentence-tone-item"
                             >
                                           <span
-                                                        className="joy tone-category"
-                                          >
-                                                        Joy
-                                                        : 
-                                          </span>
-                                          Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-                            </li>
-                            <li
-                                          className="sentence-tone-item"
-                            >
-                                          <span
-                                                        className="joy tone-category"
-                                          >
-                                                        Joy
-                                                        : 
-                                          </span>
-                                          Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-                            </li>
-                            <li
-                                          className="sentence-tone-item"
-                            >
-                                          <span
-                                                        className="tentative tone-category"
-                                          >
-                                                        Tentative
-                                                        : 
-                                          </span>
-                                          Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-                            </li>
-                            <li
-                                          className="sentence-tone-item"
-                            >
-                                          <span
-                                                        className="analytical tone-category"
+                                                        className="Analytical tone-category"
                                           >
                                                         Analytical
+                                                        : 
+                                          </span>
+                                          Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                            </li>
+                            <li
+                                          className="sentence-tone-item"
+                            >
+                                          <span
+                                                        className="Joy tone-category"
+                                          >
+                                                        Joy
                                                         : 
                                           </span>
                                           Quis autem vel eum iure reprehenderit qui in ea voluptate velit
@@ -1246,42 +1226,20 @@ ShallowWrapper {
                                 className="sentence-tone-item"
                 >
                                 <span
-                                                className="joy tone-category"
-                                >
-                                                Joy
-                                                : 
-                                </span>
-                                Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-                </li>
-                <li
-                                className="sentence-tone-item"
-                >
-                                <span
-                                                className="joy tone-category"
-                                >
-                                                Joy
-                                                : 
-                                </span>
-                                Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-                </li>
-                <li
-                                className="sentence-tone-item"
-                >
-                                <span
-                                                className="tentative tone-category"
-                                >
-                                                Tentative
-                                                : 
-                                </span>
-                                Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-                </li>
-                <li
-                                className="sentence-tone-item"
-                >
-                                <span
-                                                className="analytical tone-category"
+                                                className="Analytical tone-category"
                                 >
                                                 Analytical
+                                                : 
+                                </span>
+                                Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                </li>
+                <li
+                                className="sentence-tone-item"
+                >
+                                <span
+                                                className="Joy tone-category"
+                                >
+                                                Joy
                                                 : 
                                 </span>
                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
@@ -1300,42 +1258,20 @@ ShallowWrapper {
                     className="sentence-tone-item"
 >
                     <span
-                                        className="joy tone-category"
-                    >
-                                        Joy
-                                        : 
-                    </span>
-                    Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-</li>,
-                  <li
-                    className="sentence-tone-item"
->
-                    <span
-                                        className="joy tone-category"
-                    >
-                                        Joy
-                                        : 
-                    </span>
-                    Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-</li>,
-                  <li
-                    className="sentence-tone-item"
->
-                    <span
-                                        className="tentative tone-category"
-                    >
-                                        Tentative
-                                        : 
-                    </span>
-                    Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-</li>,
-                  <li
-                    className="sentence-tone-item"
->
-                    <span
-                                        className="analytical tone-category"
+                                        className="Analytical tone-category"
                     >
                                         Analytical
+                                        : 
+                    </span>
+                    Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+</li>,
+                  <li
+                    className="sentence-tone-item"
+>
+                    <span
+                                        className="Joy tone-category"
+                    >
+                                        Joy
                                         : 
                     </span>
                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit
@@ -1346,132 +1282,12 @@ ShallowWrapper {
               "rendered": Array [
                 Object {
                   "instance": null,
-                  "key": "joy0",
+                  "key": "Analytical",
                   "nodeType": "host",
                   "props": Object {
                     "children": Array [
                       <span
-                        className="joy tone-category"
->
-                        Joy
-                        : 
-</span>,
-                      "Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
-                    ],
-                    "className": "sentence-tone-item",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          "Joy",
-                          ": ",
-                        ],
-                        "className": "joy tone-category",
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        "Joy",
-                        ": ",
-                      ],
-                      "type": "span",
-                    },
-                    "Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
-                  ],
-                  "type": "li",
-                },
-                Object {
-                  "instance": null,
-                  "key": "joy1",
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <span
-                        className="joy tone-category"
->
-                        Joy
-                        : 
-</span>,
-                      "Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
-                    ],
-                    "className": "sentence-tone-item",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          "Joy",
-                          ": ",
-                        ],
-                        "className": "joy tone-category",
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        "Joy",
-                        ": ",
-                      ],
-                      "type": "span",
-                    },
-                    "Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
-                  ],
-                  "type": "li",
-                },
-                Object {
-                  "instance": null,
-                  "key": "tentative2",
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <span
-                        className="tentative tone-category"
->
-                        Tentative
-                        : 
-</span>,
-                      "Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
-                    ],
-                    "className": "sentence-tone-item",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          "Tentative",
-                          ": ",
-                        ],
-                        "className": "tentative tone-category",
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        "Tentative",
-                        ": ",
-                      ],
-                      "type": "span",
-                    },
-                    "Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
-                  ],
-                  "type": "li",
-                },
-                Object {
-                  "instance": null,
-                  "key": "analytical3",
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <span
-                        className="analytical tone-category"
+                        className="Analytical tone-category"
 >
                         Analytical
                         : 
@@ -1491,11 +1307,51 @@ ShallowWrapper {
                           "Analytical",
                           ": ",
                         ],
-                        "className": "analytical tone-category",
+                        "className": "Analytical tone-category",
                       },
                       "ref": null,
                       "rendered": Array [
                         "Analytical",
+                        ": ",
+                      ],
+                      "type": "span",
+                    },
+                    "Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                  ],
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "Joy",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <span
+                        className="Joy tone-category"
+>
+                        Joy
+                        : 
+</span>,
+                      "Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                    ],
+                    "className": "sentence-tone-item",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Joy",
+                          ": ",
+                        ],
+                        "className": "Joy tone-category",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Joy",
                         ": ",
                       ],
                       "type": "span",
@@ -1566,42 +1422,20 @@ ShallowWrapper {
                                                 className="sentence-tone-item"
                                     >
                                                 <span
-                                                            className="joy tone-category"
-                                                >
-                                                            Joy
-                                                            : 
-                                                </span>
-                                                Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-                                    </li>
-                                    <li
-                                                className="sentence-tone-item"
-                                    >
-                                                <span
-                                                            className="joy tone-category"
-                                                >
-                                                            Joy
-                                                            : 
-                                                </span>
-                                                Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-                                    </li>
-                                    <li
-                                                className="sentence-tone-item"
-                                    >
-                                                <span
-                                                            className="tentative tone-category"
-                                                >
-                                                            Tentative
-                                                            : 
-                                                </span>
-                                                Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-                                    </li>
-                                    <li
-                                                className="sentence-tone-item"
-                                    >
-                                                <span
-                                                            className="analytical tone-category"
+                                                            className="Analytical tone-category"
                                                 >
                                                             Analytical
+                                                            : 
+                                                </span>
+                                                Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                                    </li>
+                                    <li
+                                                className="sentence-tone-item"
+                                    >
+                                                <span
+                                                            className="Joy tone-category"
+                                                >
+                                                            Joy
                                                             : 
                                                 </span>
                                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
@@ -1669,42 +1503,20 @@ ShallowWrapper {
                                                 className="sentence-tone-item"
                                 >
                                                 <span
-                                                                className="joy tone-category"
-                                                >
-                                                                Joy
-                                                                : 
-                                                </span>
-                                                Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-                                </li>
-                                <li
-                                                className="sentence-tone-item"
-                                >
-                                                <span
-                                                                className="joy tone-category"
-                                                >
-                                                                Joy
-                                                                : 
-                                                </span>
-                                                Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-                                </li>
-                                <li
-                                                className="sentence-tone-item"
-                                >
-                                                <span
-                                                                className="tentative tone-category"
-                                                >
-                                                                Tentative
-                                                                : 
-                                                </span>
-                                                Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-                                </li>
-                                <li
-                                                className="sentence-tone-item"
-                                >
-                                                <span
-                                                                className="analytical tone-category"
+                                                                className="Analytical tone-category"
                                                 >
                                                                 Analytical
+                                                                : 
+                                                </span>
+                                                Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                                </li>
+                                <li
+                                                className="sentence-tone-item"
+                                >
+                                                <span
+                                                                className="Joy tone-category"
+                                                >
+                                                                Joy
                                                                 : 
                                                 </span>
                                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
@@ -1871,42 +1683,20 @@ ShallowWrapper {
                                     className="sentence-tone-item"
                   >
                                     <span
-                                                      className="joy tone-category"
-                                    >
-                                                      Joy
-                                                      : 
-                                    </span>
-                                    Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-                  </li>
-                  <li
-                                    className="sentence-tone-item"
-                  >
-                                    <span
-                                                      className="joy tone-category"
-                                    >
-                                                      Joy
-                                                      : 
-                                    </span>
-                                    Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-                  </li>
-                  <li
-                                    className="sentence-tone-item"
-                  >
-                                    <span
-                                                      className="tentative tone-category"
-                                    >
-                                                      Tentative
-                                                      : 
-                                    </span>
-                                    Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-                  </li>
-                  <li
-                                    className="sentence-tone-item"
-                  >
-                                    <span
-                                                      className="analytical tone-category"
+                                                      className="Analytical tone-category"
                                     >
                                                       Analytical
+                                                      : 
+                                    </span>
+                                    Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                  </li>
+                  <li
+                                    className="sentence-tone-item"
+                  >
+                                    <span
+                                                      className="Joy tone-category"
+                                    >
+                                                      Joy
                                                       : 
                                     </span>
                                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit
@@ -1925,42 +1715,20 @@ ShallowWrapper {
                       className="sentence-tone-item"
 >
                       <span
-                                            className="joy tone-category"
-                      >
-                                            Joy
-                                            : 
-                      </span>
-                      Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-</li>,
-                    <li
-                      className="sentence-tone-item"
->
-                      <span
-                                            className="joy tone-category"
-                      >
-                                            Joy
-                                            : 
-                      </span>
-                      Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-</li>,
-                    <li
-                      className="sentence-tone-item"
->
-                      <span
-                                            className="tentative tone-category"
-                      >
-                                            Tentative
-                                            : 
-                      </span>
-                      Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-</li>,
-                    <li
-                      className="sentence-tone-item"
->
-                      <span
-                                            className="analytical tone-category"
+                                            className="Analytical tone-category"
                       >
                                             Analytical
+                                            : 
+                      </span>
+                      Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+</li>,
+                    <li
+                      className="sentence-tone-item"
+>
+                      <span
+                                            className="Joy tone-category"
+                      >
+                                            Joy
                                             : 
                       </span>
                       Quis autem vel eum iure reprehenderit qui in ea voluptate velit
@@ -1971,132 +1739,12 @@ ShallowWrapper {
                 "rendered": Array [
                   Object {
                     "instance": null,
-                    "key": "joy0",
+                    "key": "Analytical",
                     "nodeType": "host",
                     "props": Object {
                       "children": Array [
                         <span
-                          className="joy tone-category"
->
-                          Joy
-                          : 
-</span>,
-                        "Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
-                      ],
-                      "className": "sentence-tone-item",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": Array [
-                            "Joy",
-                            ": ",
-                          ],
-                          "className": "joy tone-category",
-                        },
-                        "ref": null,
-                        "rendered": Array [
-                          "Joy",
-                          ": ",
-                        ],
-                        "type": "span",
-                      },
-                      "Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
-                    ],
-                    "type": "li",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": "joy1",
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <span
-                          className="joy tone-category"
->
-                          Joy
-                          : 
-</span>,
-                        "Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
-                      ],
-                      "className": "sentence-tone-item",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": Array [
-                            "Joy",
-                            ": ",
-                          ],
-                          "className": "joy tone-category",
-                        },
-                        "ref": null,
-                        "rendered": Array [
-                          "Joy",
-                          ": ",
-                        ],
-                        "type": "span",
-                      },
-                      "Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
-                    ],
-                    "type": "li",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": "tentative2",
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <span
-                          className="tentative tone-category"
->
-                          Tentative
-                          : 
-</span>,
-                        "Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
-                      ],
-                      "className": "sentence-tone-item",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": Array [
-                            "Tentative",
-                            ": ",
-                          ],
-                          "className": "tentative tone-category",
-                        },
-                        "ref": null,
-                        "rendered": Array [
-                          "Tentative",
-                          ": ",
-                        ],
-                        "type": "span",
-                      },
-                      "Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
-                    ],
-                    "type": "li",
-                  },
-                  Object {
-                    "instance": null,
-                    "key": "analytical3",
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <span
-                          className="analytical tone-category"
+                          className="Analytical tone-category"
 >
                           Analytical
                           : 
@@ -2116,11 +1764,51 @@ ShallowWrapper {
                             "Analytical",
                             ": ",
                           ],
-                          "className": "analytical tone-category",
+                          "className": "Analytical tone-category",
                         },
                         "ref": null,
                         "rendered": Array [
                           "Analytical",
+                          ": ",
+                        ],
+                        "type": "span",
+                      },
+                      "Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                    ],
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "Joy",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span
+                          className="Joy tone-category"
+>
+                          Joy
+                          : 
+</span>,
+                        "Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                      ],
+                      "className": "sentence-tone-item",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "Joy",
+                            ": ",
+                          ],
+                          "className": "Joy tone-category",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Joy",
                           ": ",
                         ],
                         "type": "span",

@@ -8,7 +8,10 @@ describe('SentencesToneDisplay', () => {
   let renderedComponent
 
   beforeEach(() => {
-    renderedComponent = shallow(<SentencesToneDisplay sentences={ mockCleaned.sentences } />)
+    renderedComponent = shallow(<SentencesToneDisplay 
+        sentences={ mockCleaned.sentences }
+        sentencesTone={ mockCleaned.sentencesTone }
+       />)
   })
 
   it('should match snapshot', () => {
@@ -16,7 +19,10 @@ describe('SentencesToneDisplay', () => {
   })
 
   it('should match snapshot when passed different results', () => {
-    renderedComponent = shallow(<SentencesToneDisplay sentences={ mockCleaned2.sentences } />)
+    renderedComponent = shallow(<SentencesToneDisplay 
+        sentences={ mockCleaned2.sentences }
+        sentencesTone={ mockCleaned2.sentencesTone }
+       />)
 
     expect(renderedComponent).toMatchSnapshot()
   })
