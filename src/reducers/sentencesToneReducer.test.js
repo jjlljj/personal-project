@@ -15,3 +15,4 @@ describe('sentencesToneReducer', () => {
 
     expect(sentencesToneReducer(undefined, action)).toEqual(expected)
   })
+})
