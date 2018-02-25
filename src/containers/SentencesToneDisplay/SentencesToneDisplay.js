@@ -10,8 +10,11 @@ export const SentencesToneDisplay = (props) => {
   const renderText = sentences.map(sentence => {
     const classList = sentence.tones[0].tone_id || ""
 
-    return(
-      <span className={ classList } key={sentence.sentence_id}> {sentence.text}</span>
+    return (
+      <span 
+        className={ classList } 
+        key={sentence.sentence_id}> {sentence.text}
+      </span>
     )
   })
 
@@ -19,11 +22,13 @@ export const SentencesToneDisplay = (props) => {
     const classList = (sentence.tones[0].tone_id + " tone-category") || ""
 
     return sentence.tones[0] && (
-        <li 
-          className="sentence-tone-item"
-          key={sentence.tones[0].tone_id + sentence.sentence_id}>
-          <span className={classList}>{sentence.tones[0].tone_name}: </span> Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-        </li>
+      <li 
+        className="sentence-tone-item"
+        key={sentence.tones[0].tone_id + sentence.sentence_id}>
+        <span className={classList}>
+          {sentence.tones[0].tone_name}: </span> 
+        Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+      </li>
     ) || ""
   })
 
@@ -47,13 +52,13 @@ export const SentencesToneDisplay = (props) => {
 }
 
 SentencesToneDisplay.propTypes = {
-  senteces: arrayOf(shape({
-    sentence_id: number,
+  sentences: arrayOf(shape({
+    sentence_id: number,  //eslint-disable-line
     text: string,
     tones: arrayOf(shape({
       score: number,
-      tone_id: string,
-      tone_name: string
+      tone_id: string,  //eslint-disable-line
+      tone_name: string //eslint-disable-line
     }))
   }))
 }

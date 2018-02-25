@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
+import { func, object } from 'prop-types'
 import './AnalyzerInput.css'
 import { toneFetch, mockFetch, cleanTones } from '../../dataHelper/dataHelper'
 import { addResult, addDocumentTone, addSentences } from '../../actions/index'
@@ -21,7 +22,7 @@ export class AnalyzerInput extends Component {
   handleSubmit = async event => {
     event.preventDefault()
     
-    if( this.state.text.length > 50 ) {
+    if ( this.state.text.length > 50 ) {
       const results = await toneFetch(this.state.text)
       const { sentences, documentTone } = cleanTones(results)
 
@@ -34,6 +35,7 @@ export class AnalyzerInput extends Component {
   }
 
   handleRandom = async event => {
+    event.preventDefault()
 
     const results = await mockFetch(this.state.text)
     const { sentences, documentTone } = cleanTones(results)
@@ -55,7 +57,7 @@ export class AnalyzerInput extends Component {
             <button 
               type="submit" 
               className="submit"
-              >Submit</button>
+            >Submit</button>
             <button
               type="button" 
               className="get-example"
@@ -71,6 +73,13 @@ export class AnalyzerInput extends Component {
       </div>
     ) 
   }
+}
+
+AnalyzerInput.propTypes = {
+  addResult: func,
+  addDocumentTone: func,
+  addSentences: func,
+  history: object
 }
 
 const mapDispatchToProps = (dispatch) => ({
