@@ -8,7 +8,7 @@ export const DocumentToneDisplay = (props) => {
   const { documentTone } = props
 
   const renderToneList = () => {
-    return documentTone[0] && (
+    return documentTone.length >= 3 && (
       <div className="tone-list">
           <h3>Primary:  {documentTone[0].tone_name}</h3>
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
@@ -17,7 +17,7 @@ export const DocumentToneDisplay = (props) => {
           <h3>Tertiary:  {documentTone[2].tone_name}</h3>
           <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.</p>
         </div>
-    ) || "No tones detected in this document"
+    ) || (<p>Unable to perform document level analysis</p>)
   }
   
   return (

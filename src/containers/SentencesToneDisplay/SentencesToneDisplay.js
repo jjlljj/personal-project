@@ -14,13 +14,18 @@ export const SentencesToneDisplay = (props) => {
     )
   })
 
-
   return (
-    <div>
+    <div className="sentences-tone">
       <h2>Sentence Level Tones</h2>
-      <p>
-        { renderText }
-      </p> 
+      <div className="sentences-wrap"> 
+        <div className="sentences">
+          <p>
+            { renderText }
+          </p> 
+        </div>
+        <div className="tones-list">
+        </div>
+      </div>
     </div>
   )
 }
