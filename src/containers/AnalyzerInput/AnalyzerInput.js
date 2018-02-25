@@ -36,9 +36,9 @@ export class AnalyzerInput extends Component {
   }
 
   handleResults = results => {
-    const { sentences, documentTone } = cleanTones(results)
+    const { sentences, sentencesTone, documentTone } = cleanTones(results)
 
-    this.props.addResult({ sentences, documentTone })
+    this.props.addResult({ sentences, sentencesTone, documentTone })
     this.props.addSentences(sentences)
     this.props.addDocumentTone(documentTone)
 
