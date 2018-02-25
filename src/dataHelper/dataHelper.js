@@ -107,6 +107,6 @@ export const cleanSentencesTone = sentences => {
 }
 
 export const withoutDupes = (array, idx) => {
-  const tones = array.map(sentence => sentence.tones[idx] || null )
+  const tones = array.map(sentence => sentence.tones[idx].tone_name || null )
   return Array.from(new Set(tones))
 }

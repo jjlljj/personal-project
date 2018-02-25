@@ -130,14 +130,8 @@ export const mockCleaned = {
     }
   ],
   sentencesTone: {
-    "primary": [
-      {"score": 0.897416, "tone_id": "analytical", "tone_name": "Analytical"}, 
-      {"score": 0.580387, "tone_id": "joy", "tone_name": "Joy"}
-      ], 
-    "secondary": [
-      {"score": 0.647986, "tone_id": "tentative", "tone_name": "Tentative"}, 
-      {"score": 0.550576, "tone_id": "analytical", "tone_name": "Analytical"}
-    ]
+    "primary": [ "Analytical", "Joy" ], 
+    "secondary": [ "Tentative", "Analytical" ]
   }
 }
 
@@ -226,13 +220,8 @@ export const mockCleaned2 = {
     }
   ],
   "sentencesTone": {
-    "primary": [
-      {"score": 0.897416, "tone_id": "analytical", "tone_name": "Analytical"}, 
-      {"score": 0.580387, "tone_id": "joy", "tone_name": "Joy"}], 
-    "secondary": [
-      {"score": 0.647986, "tone_id": "tentative", "tone_name": "Tentative"}, 
-      {"score": 0.550576, "tone_id": "analytical", "tone_name": "Analytical"}
-    ]
+    "primary": [ "Analytical", "Joy" ], 
+    "secondary": [ "Tentative", "Analytical" ]
   }
 }
 

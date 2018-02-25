@@ -150,15 +150,9 @@ describe('dataHelper', () => {
   describe('cleanSentencesTone',() => {
     it('should return the expected object with primary and secondary sentence tones', () => {
       const expected = {
-        "primary": [
-          {"score": 0.897416, "tone_id": "analytical", "tone_name": "Analytical"}, 
-          {"score": 0.580387, "tone_id": "joy", "tone_name": "Joy"}
-          ], 
-        "secondary": [
-          {"score": 0.647986, "tone_id": "tentative", "tone_name": "Tentative"}, 
-          {"score": 0.550576, "tone_id": "analytical", "tone_name": "Analytical"}
-          ]
-        }
+        "primary": [ "Analytical", "Joy" ], 
+        "secondary": [ "Tentative", "Analytical" ]
+      }
       const result = cleanSentencesTone(mockCleaned.sentences)
       expect(result).toEqual(expected)
     })
@@ -166,10 +160,7 @@ describe('dataHelper', () => {
 
   describe('withoutDupes', () => {
     it('should return the expected array of tones without duplicates', () => {
-        const expected = [
-          {"score": 0.897416, "tone_id": "analytical", "tone_name": "Analytical"}, 
-          {"score": 0.580387, "tone_id": "joy", "tone_name": "Joy"}
-        ]
+        const expected = [ "Analytical", "Joy" ]
       const result = withoutDupes(mockCleaned.sentences, 0)
 
       expect(result).toEqual(expected)  
