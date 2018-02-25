@@ -5,7 +5,7 @@ import { arrayOf, shape, number, string } from 'prop-types'
 import './SentencesToneDisplay.css'
 
 export const SentencesToneDisplay = (props) => {
-  const { sentences } = props
+  const { sentences, sentencesTone } = props
   
   const renderText = sentences.map(sentence => {
     const classList = sentence.tones[0].tone_id || ""
@@ -18,15 +18,15 @@ export const SentencesToneDisplay = (props) => {
     )
   })
 
-  const renderTones = sentences.map(sentence => {
-    const classList = (sentence.tones[0].tone_id + " tone-category") || ""
+  const renderTones = sentencesTone.primary && sentencesTone.primary.map(tone => {
+    const classList = (tone + " tone-category")
 
-    return sentence.tones[0] && (
+    return (
       <li 
         className="sentence-tone-item"
-        key={sentence.tones[0].tone_id + sentence.sentence_id}>
+        key={tone}>
         <span className={classList}>
-          {sentence.tones[0].tone_name}: </span> 
+          {tone}: </span> 
         Quis autem vel eum iure reprehenderit qui in ea voluptate velit
       </li>
     ) || ""
@@ -43,7 +43,8 @@ export const SentencesToneDisplay = (props) => {
         </div>
         <div className="tones-list">
           <ul>
-            { renderTones }
+            { renderTones 
+            }
           </ul>
         </div>
       </div>
@@ -60,11 +61,16 @@ SentencesToneDisplay.propTypes = {
       tone_id: string,  //eslint-disable-line
       tone_name: string //eslint-disable-line
     }))
-  }))
+  })),
+  sentencesTone: shape({
+    primary: arrayOf(string),
+    secondary: arrayOf(string)
+  })
 }
 
-const mapStateToProps = ({ sentences }) => ({
-  sentences
+const mapStateToProps = ({ sentences, sentencesTone }) => ({
+  sentences,
+  sentencesTone
 })
 
 export default withRouter(connect(mapStateToProps)(SentencesToneDisplay))
