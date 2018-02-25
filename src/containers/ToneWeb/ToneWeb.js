@@ -5,7 +5,6 @@ import RadarChart from '../../chartHelper/chartHelper'
 import * as d3 from 'd3'
 import './ToneWeb.css'
 
-
 export class ToneWeb extends Component {
   constructor(props) {
     super(props)
@@ -51,7 +50,7 @@ export class ToneWeb extends Component {
 ToneWeb.propTypes = {
   data: arrayOf(arrayOf(shape({
     axis: string,
-    value: number //eslint-disable-line
+    value: number
   })))
 }
 

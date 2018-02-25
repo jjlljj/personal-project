@@ -134,7 +134,7 @@ describe('dataHelper', () => {
   })
 
   describe('cleanWebChartData', () => {
-    it('should return the expected formatted array of data', () => {
+    it('should return the expected array of data formatted for the toneWeb chart', () => {
     const expected = [
       {"axis": "Analytical", "value": 0.883842}, 
       {"axis": "Tentative", "value": 0.60858}, 
