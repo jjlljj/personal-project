@@ -1,0 +1,3493 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SentencesToneDisplay should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    sentences={
+        Array [
+            Object {
+              "sentence_id": 0,
+              "text": "I hope that we can reach an amicable understanding and a solution to this problem.",
+              "tones": Array [
+                Object {
+                  "score": 0.897416,
+                  "tone_id": "analytical",
+                  "tone_name": "Analytical",
+                },
+                Object {
+                  "score": 0.647986,
+                  "tone_id": "tentative",
+                  "tone_name": "Tentative",
+                },
+                Object {
+                  "score": 0.44646,
+                  "tone_id": "sadness",
+                  "tone_name": "Sadness",
+                },
+              ],
+            },
+            Object {
+              "sentence_id": 1,
+              "text": "Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.",
+              "tones": Array [
+                Object {
+                  "score": 0.580387,
+                  "tone_id": "joy",
+                  "tone_name": "Joy",
+                },
+                Object {
+                  "score": 0.550576,
+                  "tone_id": "analytical",
+                  "tone_name": "Analytical",
+                },
+              ],
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Sentence Level Tones
+</h2>,
+        <div
+          className="sentences-wrap"
+>
+          <div
+                    className="sentences"
+          >
+                    <p>
+                              <span
+                                        className="analytical"
+                              >
+                                         
+                                        I hope that we can reach an amicable understanding and a solution to this problem.
+                              </span>
+                              <span
+                                        className="joy"
+                              >
+                                         
+                                        Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
+                              </span>
+                    </p>
+          </div>
+          <div
+                    className="tones-list"
+          >
+                    <ul>
+                              <li
+                                        className="sentence-tone-item"
+                              >
+                                        <span
+                                                  className="analytical tone-category"
+                                        >
+                                                  Analytical
+                                                  : 
+                                        </span>
+                                         Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                              </li>
+                              <li
+                                        className="sentence-tone-item"
+                              >
+                                        <span
+                                                  className="joy tone-category"
+                                        >
+                                                  Joy
+                                                  : 
+                                        </span>
+                                         Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                              </li>
+                    </ul>
+          </div>
+</div>,
+      ],
+      "className": "sentences-tone",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Sentence Level Tones",
+        },
+        "ref": null,
+        "rendered": "Sentence Level Tones",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="sentences"
+>
+              <p>
+                            <span
+                                          className="analytical"
+                            >
+                                           
+                                          I hope that we can reach an amicable understanding and a solution to this problem.
+                            </span>
+                            <span
+                                          className="joy"
+                            >
+                                           
+                                          Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
+                            </span>
+              </p>
+</div>,
+            <div
+              className="tones-list"
+>
+              <ul>
+                            <li
+                                          className="sentence-tone-item"
+                            >
+                                          <span
+                                                        className="analytical tone-category"
+                                          >
+                                                        Analytical
+                                                        : 
+                                          </span>
+                                           Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                            </li>
+                            <li
+                                          className="sentence-tone-item"
+                            >
+                                          <span
+                                                        className="joy tone-category"
+                                          >
+                                                        Joy
+                                                        : 
+                                          </span>
+                                           Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                            </li>
+              </ul>
+</div>,
+          ],
+          "className": "sentences-wrap",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <p>
+                <span
+                                className="analytical"
+                >
+                                 
+                                I hope that we can reach an amicable understanding and a solution to this problem.
+                </span>
+                <span
+                                className="joy"
+                >
+                                 
+                                Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
+                </span>
+</p>,
+              "className": "sentences",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="analytical"
+>
+                     
+                    I hope that we can reach an amicable understanding and a solution to this problem.
+</span>,
+                  <span
+                    className="joy"
+>
+                     
+                    Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
+</span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      "I hope that we can reach an amicable understanding and a solution to this problem.",
+                    ],
+                    "className": "analytical",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    "I hope that we can reach an amicable understanding and a solution to this problem.",
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      "Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.",
+                    ],
+                    "className": "joy",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    "Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.",
+                  ],
+                  "type": "span",
+                },
+              ],
+              "type": "p",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ul>
+                <li
+                                className="sentence-tone-item"
+                >
+                                <span
+                                                className="analytical tone-category"
+                                >
+                                                Analytical
+                                                : 
+                                </span>
+                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                </li>
+                <li
+                                className="sentence-tone-item"
+                >
+                                <span
+                                                className="joy tone-category"
+                                >
+                                                Joy
+                                                : 
+                                </span>
+                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                </li>
+</ul>,
+              "className": "tones-list",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <li
+                    className="sentence-tone-item"
+>
+                    <span
+                                        className="analytical tone-category"
+                    >
+                                        Analytical
+                                        : 
+                    </span>
+                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+</li>,
+                  <li
+                    className="sentence-tone-item"
+>
+                    <span
+                                        className="joy tone-category"
+                    >
+                                        Joy
+                                        : 
+                    </span>
+                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+</li>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <span
+                        className="analytical tone-category"
+>
+                        Analytical
+                        : 
+</span>,
+                      " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                    ],
+                    "className": "sentence-tone-item",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Analytical",
+                          ": ",
+                        ],
+                        "className": "analytical tone-category",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Analytical",
+                        ": ",
+                      ],
+                      "type": "span",
+                    },
+                    " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                  ],
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <span
+                        className="joy tone-category"
+>
+                        Joy
+                        : 
+</span>,
+                      " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                    ],
+                    "className": "sentence-tone-item",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Joy",
+                          ": ",
+                        ],
+                        "className": "joy tone-category",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Joy",
+                        ": ",
+                      ],
+                      "type": "span",
+                    },
+                    " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                  ],
+                  "type": "li",
+                },
+              ],
+              "type": "ul",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Sentence Level Tones
+</h2>,
+          <div
+            className="sentences-wrap"
+>
+            <div
+                        className="sentences"
+            >
+                        <p>
+                                    <span
+                                                className="analytical"
+                                    >
+                                                 
+                                                I hope that we can reach an amicable understanding and a solution to this problem.
+                                    </span>
+                                    <span
+                                                className="joy"
+                                    >
+                                                 
+                                                Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
+                                    </span>
+                        </p>
+            </div>
+            <div
+                        className="tones-list"
+            >
+                        <ul>
+                                    <li
+                                                className="sentence-tone-item"
+                                    >
+                                                <span
+                                                            className="analytical tone-category"
+                                                >
+                                                            Analytical
+                                                            : 
+                                                </span>
+                                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                                    </li>
+                                    <li
+                                                className="sentence-tone-item"
+                                    >
+                                                <span
+                                                            className="joy tone-category"
+                                                >
+                                                            Joy
+                                                            : 
+                                                </span>
+                                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                                    </li>
+                        </ul>
+            </div>
+</div>,
+        ],
+        "className": "sentences-tone",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Sentence Level Tones",
+          },
+          "ref": null,
+          "rendered": "Sentence Level Tones",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="sentences"
+>
+                <p>
+                                <span
+                                                className="analytical"
+                                >
+                                                 
+                                                I hope that we can reach an amicable understanding and a solution to this problem.
+                                </span>
+                                <span
+                                                className="joy"
+                                >
+                                                 
+                                                Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
+                                </span>
+                </p>
+</div>,
+              <div
+                className="tones-list"
+>
+                <ul>
+                                <li
+                                                className="sentence-tone-item"
+                                >
+                                                <span
+                                                                className="analytical tone-category"
+                                                >
+                                                                Analytical
+                                                                : 
+                                                </span>
+                                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                                </li>
+                                <li
+                                                className="sentence-tone-item"
+                                >
+                                                <span
+                                                                className="joy tone-category"
+                                                >
+                                                                Joy
+                                                                : 
+                                                </span>
+                                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                                </li>
+                </ul>
+</div>,
+            ],
+            "className": "sentences-wrap",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <p>
+                  <span
+                                    className="analytical"
+                  >
+                                     
+                                    I hope that we can reach an amicable understanding and a solution to this problem.
+                  </span>
+                  <span
+                                    className="joy"
+                  >
+                                     
+                                    Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
+                  </span>
+</p>,
+                "className": "sentences",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <span
+                      className="analytical"
+>
+                       
+                      I hope that we can reach an amicable understanding and a solution to this problem.
+</span>,
+                    <span
+                      className="joy"
+>
+                       
+                      Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
+</span>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        " ",
+                        "I hope that we can reach an amicable understanding and a solution to this problem.",
+                      ],
+                      "className": "analytical",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      " ",
+                      "I hope that we can reach an amicable understanding and a solution to this problem.",
+                    ],
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        " ",
+                        "Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.",
+                      ],
+                      "className": "joy",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      " ",
+                      "Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.",
+                    ],
+                    "type": "span",
+                  },
+                ],
+                "type": "p",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ul>
+                  <li
+                                    className="sentence-tone-item"
+                  >
+                                    <span
+                                                      className="analytical tone-category"
+                                    >
+                                                      Analytical
+                                                      : 
+                                    </span>
+                                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                  </li>
+                  <li
+                                    className="sentence-tone-item"
+                  >
+                                    <span
+                                                      className="joy tone-category"
+                                    >
+                                                      Joy
+                                                      : 
+                                    </span>
+                                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                  </li>
+</ul>,
+                "className": "tones-list",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <li
+                      className="sentence-tone-item"
+>
+                      <span
+                                            className="analytical tone-category"
+                      >
+                                            Analytical
+                                            : 
+                      </span>
+                       Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+</li>,
+                    <li
+                      className="sentence-tone-item"
+>
+                      <span
+                                            className="joy tone-category"
+                      >
+                                            Joy
+                                            : 
+                      </span>
+                       Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+</li>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span
+                          className="analytical tone-category"
+>
+                          Analytical
+                          : 
+</span>,
+                        " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                      ],
+                      "className": "sentence-tone-item",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "Analytical",
+                            ": ",
+                          ],
+                          "className": "analytical tone-category",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Analytical",
+                          ": ",
+                        ],
+                        "type": "span",
+                      },
+                      " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                    ],
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span
+                          className="joy tone-category"
+>
+                          Joy
+                          : 
+</span>,
+                        " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                      ],
+                      "className": "sentence-tone-item",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "Joy",
+                            ": ",
+                          ],
+                          "className": "joy tone-category",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Joy",
+                          ": ",
+                        ],
+                        "type": "span",
+                      },
+                      " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                    ],
+                    "type": "li",
+                  },
+                ],
+                "type": "ul",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`SentencesToneDisplay should match snapshot when passed different results 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    sentences={
+        Array [
+            Object {
+              "sentence_id": 0,
+              "text": "My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.",
+              "tones": Array [
+                Object {
+                  "score": 0.353962,
+                  "tone_id": "joy",
+                  "tone_name": "Joy",
+                },
+                Object {
+                  "score": 0.294703,
+                  "tone_id": "sadness",
+                  "tone_name": "Sadness",
+                },
+              ],
+            },
+            Object {
+              "sentence_id": 1,
+              "text": "My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.",
+              "tones": Array [
+                Object {
+                  "score": 0.571513,
+                  "tone_id": "joy",
+                  "tone_name": "Joy",
+                },
+                Object {
+                  "score": 0.482451,
+                  "tone_id": "analytical",
+                  "tone_name": "Analytical",
+                },
+              ],
+            },
+            Object {
+              "sentence_id": 2,
+              "text": "He would like to maintain a business-relationship with Mr. Farley.",
+              "tones": Array [
+                Object {
+                  "score": 0.497569,
+                  "tone_id": "tentative",
+                  "tone_name": "Tentative",
+                },
+                Object {
+                  "score": 0.227267,
+                  "tone_id": "joy",
+                  "tone_name": "Joy",
+                },
+              ],
+            },
+            Object {
+              "sentence_id": 3,
+              "text": "Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.",
+              "tones": Array [
+                Object {
+                  "score": 0.579367,
+                  "tone_id": "analytical",
+                  "tone_name": "Analytical",
+                },
+                Object {
+                  "score": 0.359409,
+                  "tone_id": "joy",
+                  "tone_name": "Joy",
+                },
+              ],
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Sentence Level Tones
+</h2>,
+        <div
+          className="sentences-wrap"
+>
+          <div
+                    className="sentences"
+          >
+                    <p>
+                              <span
+                                        className="joy"
+                              >
+                                         
+                                        My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
+                              </span>
+                              <span
+                                        className="joy"
+                              >
+                                         
+                                        My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
+                              </span>
+                              <span
+                                        className="tentative"
+                              >
+                                         
+                                        He would like to maintain a business-relationship with Mr. Farley.
+                              </span>
+                              <span
+                                        className="analytical"
+                              >
+                                         
+                                        Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.
+                              </span>
+                    </p>
+          </div>
+          <div
+                    className="tones-list"
+          >
+                    <ul>
+                              <li
+                                        className="sentence-tone-item"
+                              >
+                                        <span
+                                                  className="joy tone-category"
+                                        >
+                                                  Joy
+                                                  : 
+                                        </span>
+                                         Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                              </li>
+                              <li
+                                        className="sentence-tone-item"
+                              >
+                                        <span
+                                                  className="joy tone-category"
+                                        >
+                                                  Joy
+                                                  : 
+                                        </span>
+                                         Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                              </li>
+                              <li
+                                        className="sentence-tone-item"
+                              >
+                                        <span
+                                                  className="tentative tone-category"
+                                        >
+                                                  Tentative
+                                                  : 
+                                        </span>
+                                         Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                              </li>
+                              <li
+                                        className="sentence-tone-item"
+                              >
+                                        <span
+                                                  className="analytical tone-category"
+                                        >
+                                                  Analytical
+                                                  : 
+                                        </span>
+                                         Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                              </li>
+                    </ul>
+          </div>
+</div>,
+      ],
+      "className": "sentences-tone",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Sentence Level Tones",
+        },
+        "ref": null,
+        "rendered": "Sentence Level Tones",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="sentences"
+>
+              <p>
+                            <span
+                                          className="joy"
+                            >
+                                           
+                                          My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
+                            </span>
+                            <span
+                                          className="joy"
+                            >
+                                           
+                                          My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
+                            </span>
+                            <span
+                                          className="tentative"
+                            >
+                                           
+                                          He would like to maintain a business-relationship with Mr. Farley.
+                            </span>
+                            <span
+                                          className="analytical"
+                            >
+                                           
+                                          Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.
+                            </span>
+              </p>
+</div>,
+            <div
+              className="tones-list"
+>
+              <ul>
+                            <li
+                                          className="sentence-tone-item"
+                            >
+                                          <span
+                                                        className="joy tone-category"
+                                          >
+                                                        Joy
+                                                        : 
+                                          </span>
+                                           Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                            </li>
+                            <li
+                                          className="sentence-tone-item"
+                            >
+                                          <span
+                                                        className="joy tone-category"
+                                          >
+                                                        Joy
+                                                        : 
+                                          </span>
+                                           Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                            </li>
+                            <li
+                                          className="sentence-tone-item"
+                            >
+                                          <span
+                                                        className="tentative tone-category"
+                                          >
+                                                        Tentative
+                                                        : 
+                                          </span>
+                                           Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                            </li>
+                            <li
+                                          className="sentence-tone-item"
+                            >
+                                          <span
+                                                        className="analytical tone-category"
+                                          >
+                                                        Analytical
+                                                        : 
+                                          </span>
+                                           Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                            </li>
+              </ul>
+</div>,
+          ],
+          "className": "sentences-wrap",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <p>
+                <span
+                                className="joy"
+                >
+                                 
+                                My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
+                </span>
+                <span
+                                className="joy"
+                >
+                                 
+                                My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
+                </span>
+                <span
+                                className="tentative"
+                >
+                                 
+                                He would like to maintain a business-relationship with Mr. Farley.
+                </span>
+                <span
+                                className="analytical"
+                >
+                                 
+                                Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.
+                </span>
+</p>,
+              "className": "sentences",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="joy"
+>
+                     
+                    My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
+</span>,
+                  <span
+                    className="joy"
+>
+                     
+                    My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
+</span>,
+                  <span
+                    className="tentative"
+>
+                     
+                    He would like to maintain a business-relationship with Mr. Farley.
+</span>,
+                  <span
+                    className="analytical"
+>
+                     
+                    Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.
+</span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      "My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.",
+                    ],
+                    "className": "joy",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    "My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.",
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      "My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.",
+                    ],
+                    "className": "joy",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    "My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.",
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      "He would like to maintain a business-relationship with Mr. Farley.",
+                    ],
+                    "className": "tentative",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    "He would like to maintain a business-relationship with Mr. Farley.",
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      "Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.",
+                    ],
+                    "className": "analytical",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    "Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.",
+                  ],
+                  "type": "span",
+                },
+              ],
+              "type": "p",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ul>
+                <li
+                                className="sentence-tone-item"
+                >
+                                <span
+                                                className="joy tone-category"
+                                >
+                                                Joy
+                                                : 
+                                </span>
+                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                </li>
+                <li
+                                className="sentence-tone-item"
+                >
+                                <span
+                                                className="joy tone-category"
+                                >
+                                                Joy
+                                                : 
+                                </span>
+                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                </li>
+                <li
+                                className="sentence-tone-item"
+                >
+                                <span
+                                                className="tentative tone-category"
+                                >
+                                                Tentative
+                                                : 
+                                </span>
+                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                </li>
+                <li
+                                className="sentence-tone-item"
+                >
+                                <span
+                                                className="analytical tone-category"
+                                >
+                                                Analytical
+                                                : 
+                                </span>
+                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                </li>
+</ul>,
+              "className": "tones-list",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <li
+                    className="sentence-tone-item"
+>
+                    <span
+                                        className="joy tone-category"
+                    >
+                                        Joy
+                                        : 
+                    </span>
+                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+</li>,
+                  <li
+                    className="sentence-tone-item"
+>
+                    <span
+                                        className="joy tone-category"
+                    >
+                                        Joy
+                                        : 
+                    </span>
+                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+</li>,
+                  <li
+                    className="sentence-tone-item"
+>
+                    <span
+                                        className="tentative tone-category"
+                    >
+                                        Tentative
+                                        : 
+                    </span>
+                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+</li>,
+                  <li
+                    className="sentence-tone-item"
+>
+                    <span
+                                        className="analytical tone-category"
+                    >
+                                        Analytical
+                                        : 
+                    </span>
+                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+</li>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <span
+                        className="joy tone-category"
+>
+                        Joy
+                        : 
+</span>,
+                      " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                    ],
+                    "className": "sentence-tone-item",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Joy",
+                          ": ",
+                        ],
+                        "className": "joy tone-category",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Joy",
+                        ": ",
+                      ],
+                      "type": "span",
+                    },
+                    " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                  ],
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <span
+                        className="joy tone-category"
+>
+                        Joy
+                        : 
+</span>,
+                      " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                    ],
+                    "className": "sentence-tone-item",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Joy",
+                          ": ",
+                        ],
+                        "className": "joy tone-category",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Joy",
+                        ": ",
+                      ],
+                      "type": "span",
+                    },
+                    " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                  ],
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <span
+                        className="tentative tone-category"
+>
+                        Tentative
+                        : 
+</span>,
+                      " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                    ],
+                    "className": "sentence-tone-item",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Tentative",
+                          ": ",
+                        ],
+                        "className": "tentative tone-category",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Tentative",
+                        ": ",
+                      ],
+                      "type": "span",
+                    },
+                    " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                  ],
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <span
+                        className="analytical tone-category"
+>
+                        Analytical
+                        : 
+</span>,
+                      " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                    ],
+                    "className": "sentence-tone-item",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Analytical",
+                          ": ",
+                        ],
+                        "className": "analytical tone-category",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Analytical",
+                        ": ",
+                      ],
+                      "type": "span",
+                    },
+                    " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                  ],
+                  "type": "li",
+                },
+              ],
+              "type": "ul",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Sentence Level Tones
+</h2>,
+          <div
+            className="sentences-wrap"
+>
+            <div
+                        className="sentences"
+            >
+                        <p>
+                                    <span
+                                                className="joy"
+                                    >
+                                                 
+                                                My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
+                                    </span>
+                                    <span
+                                                className="joy"
+                                    >
+                                                 
+                                                My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
+                                    </span>
+                                    <span
+                                                className="tentative"
+                                    >
+                                                 
+                                                He would like to maintain a business-relationship with Mr. Farley.
+                                    </span>
+                                    <span
+                                                className="analytical"
+                                    >
+                                                 
+                                                Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.
+                                    </span>
+                        </p>
+            </div>
+            <div
+                        className="tones-list"
+            >
+                        <ul>
+                                    <li
+                                                className="sentence-tone-item"
+                                    >
+                                                <span
+                                                            className="joy tone-category"
+                                                >
+                                                            Joy
+                                                            : 
+                                                </span>
+                                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                                    </li>
+                                    <li
+                                                className="sentence-tone-item"
+                                    >
+                                                <span
+                                                            className="joy tone-category"
+                                                >
+                                                            Joy
+                                                            : 
+                                                </span>
+                                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                                    </li>
+                                    <li
+                                                className="sentence-tone-item"
+                                    >
+                                                <span
+                                                            className="tentative tone-category"
+                                                >
+                                                            Tentative
+                                                            : 
+                                                </span>
+                                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                                    </li>
+                                    <li
+                                                className="sentence-tone-item"
+                                    >
+                                                <span
+                                                            className="analytical tone-category"
+                                                >
+                                                            Analytical
+                                                            : 
+                                                </span>
+                                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                                    </li>
+                        </ul>
+            </div>
+</div>,
+        ],
+        "className": "sentences-tone",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Sentence Level Tones",
+          },
+          "ref": null,
+          "rendered": "Sentence Level Tones",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="sentences"
+>
+                <p>
+                                <span
+                                                className="joy"
+                                >
+                                                 
+                                                My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
+                                </span>
+                                <span
+                                                className="joy"
+                                >
+                                                 
+                                                My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
+                                </span>
+                                <span
+                                                className="tentative"
+                                >
+                                                 
+                                                He would like to maintain a business-relationship with Mr. Farley.
+                                </span>
+                                <span
+                                                className="analytical"
+                                >
+                                                 
+                                                Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.
+                                </span>
+                </p>
+</div>,
+              <div
+                className="tones-list"
+>
+                <ul>
+                                <li
+                                                className="sentence-tone-item"
+                                >
+                                                <span
+                                                                className="joy tone-category"
+                                                >
+                                                                Joy
+                                                                : 
+                                                </span>
+                                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                                </li>
+                                <li
+                                                className="sentence-tone-item"
+                                >
+                                                <span
+                                                                className="joy tone-category"
+                                                >
+                                                                Joy
+                                                                : 
+                                                </span>
+                                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                                </li>
+                                <li
+                                                className="sentence-tone-item"
+                                >
+                                                <span
+                                                                className="tentative tone-category"
+                                                >
+                                                                Tentative
+                                                                : 
+                                                </span>
+                                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                                </li>
+                                <li
+                                                className="sentence-tone-item"
+                                >
+                                                <span
+                                                                className="analytical tone-category"
+                                                >
+                                                                Analytical
+                                                                : 
+                                                </span>
+                                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                                </li>
+                </ul>
+</div>,
+            ],
+            "className": "sentences-wrap",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <p>
+                  <span
+                                    className="joy"
+                  >
+                                     
+                                    My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
+                  </span>
+                  <span
+                                    className="joy"
+                  >
+                                     
+                                    My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
+                  </span>
+                  <span
+                                    className="tentative"
+                  >
+                                     
+                                    He would like to maintain a business-relationship with Mr. Farley.
+                  </span>
+                  <span
+                                    className="analytical"
+                  >
+                                     
+                                    Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.
+                  </span>
+</p>,
+                "className": "sentences",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <span
+                      className="joy"
+>
+                       
+                      My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
+</span>,
+                    <span
+                      className="joy"
+>
+                       
+                      My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
+</span>,
+                    <span
+                      className="tentative"
+>
+                       
+                      He would like to maintain a business-relationship with Mr. Farley.
+</span>,
+                    <span
+                      className="analytical"
+>
+                       
+                      Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.
+</span>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        " ",
+                        "My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.",
+                      ],
+                      "className": "joy",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      " ",
+                      "My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.",
+                    ],
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        " ",
+                        "My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.",
+                      ],
+                      "className": "joy",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      " ",
+                      "My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.",
+                    ],
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        " ",
+                        "He would like to maintain a business-relationship with Mr. Farley.",
+                      ],
+                      "className": "tentative",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      " ",
+                      "He would like to maintain a business-relationship with Mr. Farley.",
+                    ],
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        " ",
+                        "Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.",
+                      ],
+                      "className": "analytical",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      " ",
+                      "Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.",
+                    ],
+                    "type": "span",
+                  },
+                ],
+                "type": "p",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ul>
+                  <li
+                                    className="sentence-tone-item"
+                  >
+                                    <span
+                                                      className="joy tone-category"
+                                    >
+                                                      Joy
+                                                      : 
+                                    </span>
+                                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                  </li>
+                  <li
+                                    className="sentence-tone-item"
+                  >
+                                    <span
+                                                      className="joy tone-category"
+                                    >
+                                                      Joy
+                                                      : 
+                                    </span>
+                                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                  </li>
+                  <li
+                                    className="sentence-tone-item"
+                  >
+                                    <span
+                                                      className="tentative tone-category"
+                                    >
+                                                      Tentative
+                                                      : 
+                                    </span>
+                                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                  </li>
+                  <li
+                                    className="sentence-tone-item"
+                  >
+                                    <span
+                                                      className="analytical tone-category"
+                                    >
+                                                      Analytical
+                                                      : 
+                                    </span>
+                                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                  </li>
+</ul>,
+                "className": "tones-list",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <li
+                      className="sentence-tone-item"
+>
+                      <span
+                                            className="joy tone-category"
+                      >
+                                            Joy
+                                            : 
+                      </span>
+                       Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+</li>,
+                    <li
+                      className="sentence-tone-item"
+>
+                      <span
+                                            className="joy tone-category"
+                      >
+                                            Joy
+                                            : 
+                      </span>
+                       Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+</li>,
+                    <li
+                      className="sentence-tone-item"
+>
+                      <span
+                                            className="tentative tone-category"
+                      >
+                                            Tentative
+                                            : 
+                      </span>
+                       Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+</li>,
+                    <li
+                      className="sentence-tone-item"
+>
+                      <span
+                                            className="analytical tone-category"
+                      >
+                                            Analytical
+                                            : 
+                      </span>
+                       Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+</li>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span
+                          className="joy tone-category"
+>
+                          Joy
+                          : 
+</span>,
+                        " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                      ],
+                      "className": "sentence-tone-item",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "Joy",
+                            ": ",
+                          ],
+                          "className": "joy tone-category",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Joy",
+                          ": ",
+                        ],
+                        "type": "span",
+                      },
+                      " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                    ],
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span
+                          className="joy tone-category"
+>
+                          Joy
+                          : 
+</span>,
+                        " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                      ],
+                      "className": "sentence-tone-item",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "Joy",
+                            ": ",
+                          ],
+                          "className": "joy tone-category",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Joy",
+                          ": ",
+                        ],
+                        "type": "span",
+                      },
+                      " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                    ],
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span
+                          className="tentative tone-category"
+>
+                          Tentative
+                          : 
+</span>,
+                        " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                      ],
+                      "className": "sentence-tone-item",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "Tentative",
+                            ": ",
+                          ],
+                          "className": "tentative tone-category",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Tentative",
+                          ": ",
+                        ],
+                        "type": "span",
+                      },
+                      " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                    ],
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span
+                          className="analytical tone-category"
+>
+                          Analytical
+                          : 
+</span>,
+                        " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                      ],
+                      "className": "sentence-tone-item",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "Analytical",
+                            ": ",
+                          ],
+                          "className": "analytical tone-category",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Analytical",
+                          ": ",
+                        ],
+                        "type": "span",
+                      },
+                      " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                    ],
+                    "type": "li",
+                  },
+                ],
+                "type": "ul",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`SentencesToneDisplay shuold match snapshot when passed different results 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    sentences={
+        Array [
+            Object {
+              "sentence_id": 0,
+              "text": "My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.",
+              "tones": Array [
+                Object {
+                  "score": 0.353962,
+                  "tone_id": "joy",
+                  "tone_name": "Joy",
+                },
+                Object {
+                  "score": 0.294703,
+                  "tone_id": "sadness",
+                  "tone_name": "Sadness",
+                },
+              ],
+            },
+            Object {
+              "sentence_id": 1,
+              "text": "My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.",
+              "tones": Array [
+                Object {
+                  "score": 0.571513,
+                  "tone_id": "joy",
+                  "tone_name": "Joy",
+                },
+                Object {
+                  "score": 0.482451,
+                  "tone_id": "analytical",
+                  "tone_name": "Analytical",
+                },
+              ],
+            },
+            Object {
+              "sentence_id": 2,
+              "text": "He would like to maintain a business-relationship with Mr. Farley.",
+              "tones": Array [
+                Object {
+                  "score": 0.497569,
+                  "tone_id": "tentative",
+                  "tone_name": "Tentative",
+                },
+                Object {
+                  "score": 0.227267,
+                  "tone_id": "joy",
+                  "tone_name": "Joy",
+                },
+              ],
+            },
+            Object {
+              "sentence_id": 3,
+              "text": "Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.",
+              "tones": Array [
+                Object {
+                  "score": 0.579367,
+                  "tone_id": "analytical",
+                  "tone_name": "Analytical",
+                },
+                Object {
+                  "score": 0.359409,
+                  "tone_id": "joy",
+                  "tone_name": "Joy",
+                },
+              ],
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Sentence Level Tones
+</h2>,
+        <div
+          className="sentences-wrap"
+>
+          <div
+                    className="sentences"
+          >
+                    <p>
+                              <span
+                                        className="joy"
+                              >
+                                         
+                                        My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
+                              </span>
+                              <span
+                                        className="joy"
+                              >
+                                         
+                                        My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
+                              </span>
+                              <span
+                                        className="tentative"
+                              >
+                                         
+                                        He would like to maintain a business-relationship with Mr. Farley.
+                              </span>
+                              <span
+                                        className="analytical"
+                              >
+                                         
+                                        Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.
+                              </span>
+                    </p>
+          </div>
+          <div
+                    className="tones-list"
+          >
+                    <ul>
+                              <li
+                                        className="sentence-tone-item"
+                              >
+                                        <span
+                                                  className="joy tone-category"
+                                        >
+                                                  Joy
+                                                  : 
+                                        </span>
+                                         Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                              </li>
+                              <li
+                                        className="sentence-tone-item"
+                              >
+                                        <span
+                                                  className="joy tone-category"
+                                        >
+                                                  Joy
+                                                  : 
+                                        </span>
+                                         Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                              </li>
+                              <li
+                                        className="sentence-tone-item"
+                              >
+                                        <span
+                                                  className="tentative tone-category"
+                                        >
+                                                  Tentative
+                                                  : 
+                                        </span>
+                                         Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                              </li>
+                              <li
+                                        className="sentence-tone-item"
+                              >
+                                        <span
+                                                  className="analytical tone-category"
+                                        >
+                                                  Analytical
+                                                  : 
+                                        </span>
+                                         Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                              </li>
+                    </ul>
+          </div>
+</div>,
+      ],
+      "className": "sentences-tone",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Sentence Level Tones",
+        },
+        "ref": null,
+        "rendered": "Sentence Level Tones",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="sentences"
+>
+              <p>
+                            <span
+                                          className="joy"
+                            >
+                                           
+                                          My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
+                            </span>
+                            <span
+                                          className="joy"
+                            >
+                                           
+                                          My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
+                            </span>
+                            <span
+                                          className="tentative"
+                            >
+                                           
+                                          He would like to maintain a business-relationship with Mr. Farley.
+                            </span>
+                            <span
+                                          className="analytical"
+                            >
+                                           
+                                          Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.
+                            </span>
+              </p>
+</div>,
+            <div
+              className="tones-list"
+>
+              <ul>
+                            <li
+                                          className="sentence-tone-item"
+                            >
+                                          <span
+                                                        className="joy tone-category"
+                                          >
+                                                        Joy
+                                                        : 
+                                          </span>
+                                           Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                            </li>
+                            <li
+                                          className="sentence-tone-item"
+                            >
+                                          <span
+                                                        className="joy tone-category"
+                                          >
+                                                        Joy
+                                                        : 
+                                          </span>
+                                           Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                            </li>
+                            <li
+                                          className="sentence-tone-item"
+                            >
+                                          <span
+                                                        className="tentative tone-category"
+                                          >
+                                                        Tentative
+                                                        : 
+                                          </span>
+                                           Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                            </li>
+                            <li
+                                          className="sentence-tone-item"
+                            >
+                                          <span
+                                                        className="analytical tone-category"
+                                          >
+                                                        Analytical
+                                                        : 
+                                          </span>
+                                           Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                            </li>
+              </ul>
+</div>,
+          ],
+          "className": "sentences-wrap",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <p>
+                <span
+                                className="joy"
+                >
+                                 
+                                My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
+                </span>
+                <span
+                                className="joy"
+                >
+                                 
+                                My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
+                </span>
+                <span
+                                className="tentative"
+                >
+                                 
+                                He would like to maintain a business-relationship with Mr. Farley.
+                </span>
+                <span
+                                className="analytical"
+                >
+                                 
+                                Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.
+                </span>
+</p>,
+              "className": "sentences",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="joy"
+>
+                     
+                    My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
+</span>,
+                  <span
+                    className="joy"
+>
+                     
+                    My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
+</span>,
+                  <span
+                    className="tentative"
+>
+                     
+                    He would like to maintain a business-relationship with Mr. Farley.
+</span>,
+                  <span
+                    className="analytical"
+>
+                     
+                    Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.
+</span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      "My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.",
+                    ],
+                    "className": "joy",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    "My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.",
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      "My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.",
+                    ],
+                    "className": "joy",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    "My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.",
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      "He would like to maintain a business-relationship with Mr. Farley.",
+                    ],
+                    "className": "tentative",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    "He would like to maintain a business-relationship with Mr. Farley.",
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      "Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.",
+                    ],
+                    "className": "analytical",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    "Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.",
+                  ],
+                  "type": "span",
+                },
+              ],
+              "type": "p",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ul>
+                <li
+                                className="sentence-tone-item"
+                >
+                                <span
+                                                className="joy tone-category"
+                                >
+                                                Joy
+                                                : 
+                                </span>
+                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                </li>
+                <li
+                                className="sentence-tone-item"
+                >
+                                <span
+                                                className="joy tone-category"
+                                >
+                                                Joy
+                                                : 
+                                </span>
+                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                </li>
+                <li
+                                className="sentence-tone-item"
+                >
+                                <span
+                                                className="tentative tone-category"
+                                >
+                                                Tentative
+                                                : 
+                                </span>
+                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                </li>
+                <li
+                                className="sentence-tone-item"
+                >
+                                <span
+                                                className="analytical tone-category"
+                                >
+                                                Analytical
+                                                : 
+                                </span>
+                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                </li>
+</ul>,
+              "className": "tones-list",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <li
+                    className="sentence-tone-item"
+>
+                    <span
+                                        className="joy tone-category"
+                    >
+                                        Joy
+                                        : 
+                    </span>
+                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+</li>,
+                  <li
+                    className="sentence-tone-item"
+>
+                    <span
+                                        className="joy tone-category"
+                    >
+                                        Joy
+                                        : 
+                    </span>
+                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+</li>,
+                  <li
+                    className="sentence-tone-item"
+>
+                    <span
+                                        className="tentative tone-category"
+                    >
+                                        Tentative
+                                        : 
+                    </span>
+                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+</li>,
+                  <li
+                    className="sentence-tone-item"
+>
+                    <span
+                                        className="analytical tone-category"
+                    >
+                                        Analytical
+                                        : 
+                    </span>
+                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+</li>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <span
+                        className="joy tone-category"
+>
+                        Joy
+                        : 
+</span>,
+                      " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                    ],
+                    "className": "sentence-tone-item",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Joy",
+                          ": ",
+                        ],
+                        "className": "joy tone-category",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Joy",
+                        ": ",
+                      ],
+                      "type": "span",
+                    },
+                    " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                  ],
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <span
+                        className="joy tone-category"
+>
+                        Joy
+                        : 
+</span>,
+                      " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                    ],
+                    "className": "sentence-tone-item",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Joy",
+                          ": ",
+                        ],
+                        "className": "joy tone-category",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Joy",
+                        ": ",
+                      ],
+                      "type": "span",
+                    },
+                    " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                  ],
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <span
+                        className="tentative tone-category"
+>
+                        Tentative
+                        : 
+</span>,
+                      " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                    ],
+                    "className": "sentence-tone-item",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Tentative",
+                          ": ",
+                        ],
+                        "className": "tentative tone-category",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Tentative",
+                        ": ",
+                      ],
+                      "type": "span",
+                    },
+                    " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                  ],
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <span
+                        className="analytical tone-category"
+>
+                        Analytical
+                        : 
+</span>,
+                      " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                    ],
+                    "className": "sentence-tone-item",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Analytical",
+                          ": ",
+                        ],
+                        "className": "analytical tone-category",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Analytical",
+                        ": ",
+                      ],
+                      "type": "span",
+                    },
+                    " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                  ],
+                  "type": "li",
+                },
+              ],
+              "type": "ul",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Sentence Level Tones
+</h2>,
+          <div
+            className="sentences-wrap"
+>
+            <div
+                        className="sentences"
+            >
+                        <p>
+                                    <span
+                                                className="joy"
+                                    >
+                                                 
+                                                My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
+                                    </span>
+                                    <span
+                                                className="joy"
+                                    >
+                                                 
+                                                My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
+                                    </span>
+                                    <span
+                                                className="tentative"
+                                    >
+                                                 
+                                                He would like to maintain a business-relationship with Mr. Farley.
+                                    </span>
+                                    <span
+                                                className="analytical"
+                                    >
+                                                 
+                                                Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.
+                                    </span>
+                        </p>
+            </div>
+            <div
+                        className="tones-list"
+            >
+                        <ul>
+                                    <li
+                                                className="sentence-tone-item"
+                                    >
+                                                <span
+                                                            className="joy tone-category"
+                                                >
+                                                            Joy
+                                                            : 
+                                                </span>
+                                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                                    </li>
+                                    <li
+                                                className="sentence-tone-item"
+                                    >
+                                                <span
+                                                            className="joy tone-category"
+                                                >
+                                                            Joy
+                                                            : 
+                                                </span>
+                                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                                    </li>
+                                    <li
+                                                className="sentence-tone-item"
+                                    >
+                                                <span
+                                                            className="tentative tone-category"
+                                                >
+                                                            Tentative
+                                                            : 
+                                                </span>
+                                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                                    </li>
+                                    <li
+                                                className="sentence-tone-item"
+                                    >
+                                                <span
+                                                            className="analytical tone-category"
+                                                >
+                                                            Analytical
+                                                            : 
+                                                </span>
+                                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                                    </li>
+                        </ul>
+            </div>
+</div>,
+        ],
+        "className": "sentences-tone",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Sentence Level Tones",
+          },
+          "ref": null,
+          "rendered": "Sentence Level Tones",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="sentences"
+>
+                <p>
+                                <span
+                                                className="joy"
+                                >
+                                                 
+                                                My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
+                                </span>
+                                <span
+                                                className="joy"
+                                >
+                                                 
+                                                My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
+                                </span>
+                                <span
+                                                className="tentative"
+                                >
+                                                 
+                                                He would like to maintain a business-relationship with Mr. Farley.
+                                </span>
+                                <span
+                                                className="analytical"
+                                >
+                                                 
+                                                Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.
+                                </span>
+                </p>
+</div>,
+              <div
+                className="tones-list"
+>
+                <ul>
+                                <li
+                                                className="sentence-tone-item"
+                                >
+                                                <span
+                                                                className="joy tone-category"
+                                                >
+                                                                Joy
+                                                                : 
+                                                </span>
+                                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                                </li>
+                                <li
+                                                className="sentence-tone-item"
+                                >
+                                                <span
+                                                                className="joy tone-category"
+                                                >
+                                                                Joy
+                                                                : 
+                                                </span>
+                                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                                </li>
+                                <li
+                                                className="sentence-tone-item"
+                                >
+                                                <span
+                                                                className="tentative tone-category"
+                                                >
+                                                                Tentative
+                                                                : 
+                                                </span>
+                                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                                </li>
+                                <li
+                                                className="sentence-tone-item"
+                                >
+                                                <span
+                                                                className="analytical tone-category"
+                                                >
+                                                                Analytical
+                                                                : 
+                                                </span>
+                                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                                </li>
+                </ul>
+</div>,
+            ],
+            "className": "sentences-wrap",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <p>
+                  <span
+                                    className="joy"
+                  >
+                                     
+                                    My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
+                  </span>
+                  <span
+                                    className="joy"
+                  >
+                                     
+                                    My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
+                  </span>
+                  <span
+                                    className="tentative"
+                  >
+                                     
+                                    He would like to maintain a business-relationship with Mr. Farley.
+                  </span>
+                  <span
+                                    className="analytical"
+                  >
+                                     
+                                    Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.
+                  </span>
+</p>,
+                "className": "sentences",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <span
+                      className="joy"
+>
+                       
+                      My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
+</span>,
+                    <span
+                      className="joy"
+>
+                       
+                      My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
+</span>,
+                    <span
+                      className="tentative"
+>
+                       
+                      He would like to maintain a business-relationship with Mr. Farley.
+</span>,
+                    <span
+                      className="analytical"
+>
+                       
+                      Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.
+</span>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        " ",
+                        "My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.",
+                      ],
+                      "className": "joy",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      " ",
+                      "My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.",
+                    ],
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        " ",
+                        "My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.",
+                      ],
+                      "className": "joy",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      " ",
+                      "My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.",
+                    ],
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        " ",
+                        "He would like to maintain a business-relationship with Mr. Farley.",
+                      ],
+                      "className": "tentative",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      " ",
+                      "He would like to maintain a business-relationship with Mr. Farley.",
+                    ],
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        " ",
+                        "Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.",
+                      ],
+                      "className": "analytical",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      " ",
+                      "Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.",
+                    ],
+                    "type": "span",
+                  },
+                ],
+                "type": "p",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ul>
+                  <li
+                                    className="sentence-tone-item"
+                  >
+                                    <span
+                                                      className="joy tone-category"
+                                    >
+                                                      Joy
+                                                      : 
+                                    </span>
+                                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                  </li>
+                  <li
+                                    className="sentence-tone-item"
+                  >
+                                    <span
+                                                      className="joy tone-category"
+                                    >
+                                                      Joy
+                                                      : 
+                                    </span>
+                                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                  </li>
+                  <li
+                                    className="sentence-tone-item"
+                  >
+                                    <span
+                                                      className="tentative tone-category"
+                                    >
+                                                      Tentative
+                                                      : 
+                                    </span>
+                                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                  </li>
+                  <li
+                                    className="sentence-tone-item"
+                  >
+                                    <span
+                                                      className="analytical tone-category"
+                                    >
+                                                      Analytical
+                                                      : 
+                                    </span>
+                                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+                  </li>
+</ul>,
+                "className": "tones-list",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <li
+                      className="sentence-tone-item"
+>
+                      <span
+                                            className="joy tone-category"
+                      >
+                                            Joy
+                                            : 
+                      </span>
+                       Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+</li>,
+                    <li
+                      className="sentence-tone-item"
+>
+                      <span
+                                            className="joy tone-category"
+                      >
+                                            Joy
+                                            : 
+                      </span>
+                       Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+</li>,
+                    <li
+                      className="sentence-tone-item"
+>
+                      <span
+                                            className="tentative tone-category"
+                      >
+                                            Tentative
+                                            : 
+                      </span>
+                       Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+</li>,
+                    <li
+                      className="sentence-tone-item"
+>
+                      <span
+                                            className="analytical tone-category"
+                      >
+                                            Analytical
+                                            : 
+                      </span>
+                       Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+</li>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span
+                          className="joy tone-category"
+>
+                          Joy
+                          : 
+</span>,
+                        " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                      ],
+                      "className": "sentence-tone-item",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "Joy",
+                            ": ",
+                          ],
+                          "className": "joy tone-category",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Joy",
+                          ": ",
+                        ],
+                        "type": "span",
+                      },
+                      " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                    ],
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span
+                          className="joy tone-category"
+>
+                          Joy
+                          : 
+</span>,
+                        " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                      ],
+                      "className": "sentence-tone-item",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "Joy",
+                            ": ",
+                          ],
+                          "className": "joy tone-category",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Joy",
+                          ": ",
+                        ],
+                        "type": "span",
+                      },
+                      " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                    ],
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span
+                          className="tentative tone-category"
+>
+                          Tentative
+                          : 
+</span>,
+                        " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                      ],
+                      "className": "sentence-tone-item",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "Tentative",
+                            ": ",
+                          ],
+                          "className": "tentative tone-category",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Tentative",
+                          ": ",
+                        ],
+                        "type": "span",
+                      },
+                      " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                    ],
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span
+                          className="analytical tone-category"
+>
+                          Analytical
+                          : 
+</span>,
+                        " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                      ],
+                      "className": "sentence-tone-item",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "Analytical",
+                            ": ",
+                          ],
+                          "className": "analytical tone-category",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Analytical",
+                          ": ",
+                        ],
+                        "type": "span",
+                      },
+                      " Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
+                    ],
+                    "type": "li",
+                  },
+                ],
+                "type": "ul",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

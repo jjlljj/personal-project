@@ -60,23 +60,8 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h3>
-          Analyzed: 
-</h3>,
-        <p>
-          <span
-                    className="analytical"
-          >
-                     
-                    I hope that we can reach an amicable understanding and a solution to this problem.
-          </span>
-          <span
-                    className="joy"
-          >
-                     
-                    Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
-          </span>
-</p>,
+        <withRouter(Connect(Component)) />,
+        <withRouter(Connect(Component)) />,
       ],
     },
     "ref": null,
@@ -84,74 +69,20 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Analyzed: ",
-        },
+        "nodeType": "function",
+        "props": Object {},
         "ref": null,
-        "rendered": "Analyzed: ",
-        "type": "h3",
+        "rendered": null,
+        "type": [Function],
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <span
-              className="analytical"
->
-               
-              I hope that we can reach an amicable understanding and a solution to this problem.
-</span>,
-            <span
-              className="joy"
->
-               
-              Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
-</span>,
-          ],
-        },
+        "nodeType": "function",
+        "props": Object {},
         "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                " ",
-                "I hope that we can reach an amicable understanding and a solution to this problem.",
-              ],
-              "className": "analytical",
-            },
-            "ref": null,
-            "rendered": Array [
-              " ",
-              "I hope that we can reach an amicable understanding and a solution to this problem.",
-            ],
-            "type": "span",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                " ",
-                "Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.",
-              ],
-              "className": "joy",
-            },
-            "ref": null,
-            "rendered": Array [
-              " ",
-              "Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.",
-            ],
-            "type": "span",
-          },
-        ],
-        "type": "p",
+        "rendered": null,
+        "type": [Function],
       },
     ],
     "type": "div",
@@ -163,23 +94,8 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h3>
-            Analyzed: 
-</h3>,
-          <p>
-            <span
-                        className="analytical"
-            >
-                         
-                        I hope that we can reach an amicable understanding and a solution to this problem.
-            </span>
-            <span
-                        className="joy"
-            >
-                         
-                        Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
-            </span>
-</p>,
+          <withRouter(Connect(Component)) />,
+          <withRouter(Connect(Component)) />,
         ],
       },
       "ref": null,
@@ -187,74 +103,20 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Analyzed: ",
-          },
+          "nodeType": "function",
+          "props": Object {},
           "ref": null,
-          "rendered": "Analyzed: ",
-          "type": "h3",
+          "rendered": null,
+          "type": [Function],
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <span
-                className="analytical"
->
-                 
-                I hope that we can reach an amicable understanding and a solution to this problem.
-</span>,
-              <span
-                className="joy"
->
-                 
-                Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
-</span>,
-            ],
-          },
+          "nodeType": "function",
+          "props": Object {},
           "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  " ",
-                  "I hope that we can reach an amicable understanding and a solution to this problem.",
-                ],
-                "className": "analytical",
-              },
-              "ref": null,
-              "rendered": Array [
-                " ",
-                "I hope that we can reach an amicable understanding and a solution to this problem.",
-              ],
-              "type": "span",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  " ",
-                  "Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.",
-                ],
-                "className": "joy",
-              },
-              "ref": null,
-              "rendered": Array [
-                " ",
-                "Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.",
-              ],
-              "type": "span",
-            },
-          ],
-          "type": "p",
+          "rendered": null,
+          "type": [Function],
         },
       ],
       "type": "div",

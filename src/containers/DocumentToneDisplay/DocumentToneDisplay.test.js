@@ -8,16 +8,15 @@ describe('DocumentToneDisplay', () => {
   let renderedComponent
 
   beforeEach(() => {
-    renderedComponent = shallow(<DocumentToneDisplay sentences={ mockCleaned.documentTone } />)
+    renderedComponent = shallow(<DocumentToneDisplay documentTone={ mockCleaned.documentTone } />)
   })
 
   it('should match snapshot', () => {
     expect(renderedComponent).toMatchSnapshot()
   })
 
-  it.skip('shuold match snapshot when passed different results', () => {
-    // add 2nd mockCleaned data to render
-    renderedComponent = shallow(<DocumentToneDisplay sentences={ mockCleaned2 } />)
+  it('should match snapshot when passed different results', () => {
+    renderedComponent = shallow(<DocumentToneDisplay documentTone={ mockCleaned2.documentTone } />)
 
     expect(renderedComponent).toMatchSnapshot()
   })

@@ -65,4 +65,3 @@ const mapStateToProps = ({ documentTone }) => ({
 })
 
 export default connect(mapStateToProps)(ToneWeb)
-
