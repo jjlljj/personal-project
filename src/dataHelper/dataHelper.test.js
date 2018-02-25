@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { toneFetch, toneExampleFetch, cleanTones, cleanDocumentTone, cleanSentences, cleanTone, cleanToneCategories, filterAndSort, cleanWebChartData } from './dataHelper'
+import { toneFetch, toneExampleFetch, cleanTones, cleanDocumentTone, cleanSentences, cleanTone, cleanToneCategories, filterAndSort, cleanWebChartData, cleanSentencesTone, withoutDupes } from './dataHelper'
 import { mockText, mockExpected, mockResponse, mockCleaned, mockUncleaned, mockMergedTonesArray } from '../__mocks__/mockData'
 
 describe('dataHelper', () => {
@@ -135,15 +135,35 @@ describe('dataHelper', () => {
 
   describe('cleanWebChartData', () => {
     it('should return the expected array of data formatted for the toneWeb chart', () => {
-    const expected = [
-      {"axis": "Analytical", "value": 0.883842}, 
-      {"axis": "Tentative", "value": 0.60858}, 
-      {"axis": "Joy", "value": 0.519797}
-    ]
+      const expected = [
+        {"axis": "Analytical", "value": 0.883842}, 
+        {"axis": "Tentative", "value": 0.60858}, 
+        {"axis": "Joy", "value": 0.519797}
+      ]
 
-    const result = cleanWebChartData(mockCleaned.documentTone)
+      const result = cleanWebChartData(mockCleaned.documentTone)
 
-    expect(result).toEqual(expected)
+      expect(result).toEqual(expected)
+    })
   })
+
+  describe('cleanSentencesTone',() => {
+    it('should return the expected object with primary and secondary sentence tones', () => {
+      const expected = {
+        "primary": [ "Analytical", "Joy" ], 
+        "secondary": [ "Tentative", "Analytical" ]
+      }
+      const result = cleanSentencesTone(mockCleaned.sentences)
+      expect(result).toEqual(expected)
+    })
+  })
+
+  describe('withoutDupes', () => {
+    it('should return the expected array of tones without duplicates', () => {
+        const expected = [ "Analytical", "Joy" ]
+      const result = withoutDupes(mockCleaned.sentences, 0)
+
+      expect(result).toEqual(expected)  
+    })
   })
 })

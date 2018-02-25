@@ -12,6 +12,11 @@ export const clearSentences = () => ({
   type: 'CLEAR_SENTENCES'
 })
 
+export const addSentencesTone = sentencesTone => ({
+  type: 'ADD_SENTENCES_TONE',
+  sentencesTone
+})
+
 export const addDocumentTone = documentTone => ({
   type: 'ADD_DOCUMENT_TONE',
   documentTone

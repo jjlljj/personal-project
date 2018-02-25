@@ -39,11 +39,20 @@ describe('actions', () => {
     expect(actions.addDocumentTone(mockCleaned.documentTone)).toEqual(expected)
   })
 
-  it('clearDocumentTone shuld return a type of CLEAR_DOCUMENT_TONE', () => {
+  it('clearDocumentTone should return a type of CLEAR_DOCUMENT_TONE', () => {
     const expected = {
       type: 'CLEAR_DOCUMENT_TONE'
     }
 
     expect(actions.clearDocumentTone()).toEqual(expected)
+  })
+
+  it('addSentencesTone should return a type of ADD_SENTENCES_TONE with an object of tone arrays', () => {
+    const expected = {
+      type: 'ADD_SENTENCES_TONE',
+      sentencesTone: mockCleaned.sentencesTone
+    }
+
+    expect(actions.addSentencesTone(mockCleaned.sentencesTone)).toEqual(expected)
   })
 })

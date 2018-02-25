@@ -2,26 +2,26 @@
   font-weight: 700;
 }
 
-.sadness {
+.sadness, .Sadness {
   color: blue;
 }
 
-.analytical {
+.analytical, .Analytical {
   color: green;
 }
 
-.tentative {
+.tentative, .Tentative {
   color: orange;
 }
 
-.confident {
+.confident, .Confident {
   color: magenta;
 }
 
-.angry {
+.angry, .Angry {
   color: red;
 }
 
-.joy {
+.joy, .Joy {
   color: purple;
 }

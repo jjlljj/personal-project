@@ -128,7 +128,11 @@ export const mockCleaned = {
         }
       ]
     }
-  ]
+  ],
+  sentencesTone: {
+    "primary": [ "Analytical", "Joy" ], 
+    "secondary": [ "Tentative", "Analytical" ]
+  }
 }
 
 export const mockCleaned2 = {
@@ -214,8 +218,11 @@ export const mockCleaned2 = {
       tone_id: 'analytical',
       tone_name: 'Analytical'
     }
-  ]
-
+  ],
+  "sentencesTone": {
+    "primary": [ "Analytical", "Joy" ], 
+    "secondary": [ "Tentative", "Analytical" ]
+  }
 }
 
 export const mockUncleaned = {

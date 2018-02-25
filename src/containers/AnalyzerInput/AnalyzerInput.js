@@ -4,7 +4,7 @@ import { withRouter } from 'react-router-dom'
 import { func, object } from 'prop-types'
 import './AnalyzerInput.css'
 import { toneFetch, toneExampleFetch, cleanTones } from '../../dataHelper/dataHelper'
-import { addResult, addDocumentTone, addSentences } from '../../actions/index'
+import { addResult, addDocumentTone, addSentencesTone, addSentences } from '../../actions/index'
 
 export class AnalyzerInput extends Component {
   constructor(props) {
@@ -36,13 +36,15 @@ export class AnalyzerInput extends Component {
   }
 
   handleResults = results => {
-    const { sentences, documentTone } = cleanTones(results)
+    const { sentences, sentencesTone, documentTone } = cleanTones(results)
+    const { addResult, addSentences, addDocumentTone, addSentencesTone, history } = this.props
 
-    this.props.addResult({ sentences, documentTone })
-    this.props.addSentences(sentences)
-    this.props.addDocumentTone(documentTone)
+    addResult({ sentences, sentencesTone, documentTone })
+    addSentences(sentences)
+    addDocumentTone(documentTone)
+    addSentencesTone(sentencesTone)
 
-    this.props.history.push('/analyzed')
+    history.push('/analyzed')
   }
 
   render() {
@@ -77,12 +79,14 @@ AnalyzerInput.propTypes = {
   addResult: func,
   addDocumentTone: func,
   addSentences: func,
+  addSentencesTone: func,
   history: object
 }
 
 const mapDispatchToProps = (dispatch) => ({
   addResult: result => dispatch(addResult(result)),
   addDocumentTone: documentTone => dispatch(addDocumentTone(documentTone)),
+  addSentencesTone: sentencesTone => dispatch(addSentencesTone(sentencesTone)),
   addSentences: sentences => dispatch(addSentences(sentences))
 })
 
