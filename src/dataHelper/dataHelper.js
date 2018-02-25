@@ -86,3 +86,14 @@ export const filterAndSort = (tones, thresh = 0) => {
     .filter(tone => tone.score >= thresh)
     .sort((a, b) => b.score - a.score) 
 }
+
+export const cleanWebChartData = ( data ) => { 
+  const chartTones = data.map(tone => {
+    return {
+      axis: tone.tone_name,   //eslint-disable-line
+      value: tone.score
+    }
+  })
+
+  return chartTones
+}

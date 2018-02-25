@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { toneFetch, mockFetch, cleanTones, cleanDocumentTone, cleanSentences, cleanTone, cleanToneCategories, filterAndSort } from './dataHelper'
+import { toneFetch, mockFetch, cleanTones, cleanDocumentTone, cleanSentences, cleanTone, cleanToneCategories, filterAndSort, cleanWebChartData } from './dataHelper'
 import { mockText, mockExpected, mockResponse, mockCleaned, mockUncleaned, mockMergedTonesArray } from '../__mocks__/mockData'
 
 describe('dataHelper', () => {
@@ -131,5 +131,19 @@ describe('dataHelper', () => {
 
       expect(result).toEqual(expected)
     })
+  })
+
+  describe('cleanWebChartData', () => {
+    it('should return the expected formatted array of data', () => {
+    const expected = [
+      {"axis": "Analytical", "value": 0.883842}, 
+      {"axis": "Tentative", "value": 0.60858}, 
+      {"axis": "Joy", "value": 0.519797}
+    ]
+
+    const result = cleanWebChartData(mockCleaned.documentTone)
+
+    expect(result).toEqual(expected)
+  })
   })
 })

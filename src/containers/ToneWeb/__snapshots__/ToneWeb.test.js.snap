@@ -5,23 +5,22 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <ToneWeb
-    documentTone={
+    data={
         Array [
-            Object {
-              "score": 0.883842,
-              "tone_id": "analytical",
-              "tone_name": "Analytical",
-            },
-            Object {
-              "score": 0.60858,
-              "tone_id": "tentative",
-              "tone_name": "Tentative",
-            },
-            Object {
-              "score": 0.519797,
-              "tone_id": "joy",
-              "tone_name": "Joy",
-            },
+            Array [
+              Object {
+                "axis": "Analytical",
+                "value": 0.883842,
+              },
+              Object {
+                "axis": "Tentative",
+                "value": 0.60858,
+              },
+              Object {
+                "axis": "Joy",
+                "value": 0.519797,
+              },
+            ],
           ]
     }
 />,
@@ -89,23 +88,22 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <ToneWeb
-    documentTone={
+    data={
         Array [
-            Object {
-              "score": 0.619992,
-              "tone_id": "joy",
-              "tone_name": "Joy",
-            },
-            Object {
-              "score": 0.448741,
-              "tone_id": "tentative",
-              "tone_name": "Tentative",
-            },
-            Object {
-              "score": 0.440216,
-              "tone_id": "analytical",
-              "tone_name": "Analytical",
-            },
+            Array [
+              Object {
+                "axis": "Joy",
+                "value": 0.619992,
+              },
+              Object {
+                "axis": "Tentative",
+                "value": 0.448741,
+              },
+              Object {
+                "axis": "Analytical",
+                "value": 0.440216,
+              },
+            ],
           ]
     }
 />,

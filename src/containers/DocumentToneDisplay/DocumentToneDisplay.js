@@ -2,11 +2,13 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
 import { arrayOf, shape, number, string } from 'prop-types'
+import { cleanWebChartData } from '../../dataHelper/dataHelper'
 import './DocumentToneDisplay.css'
 import ToneWeb from '../ToneWeb/ToneWeb'
 
 export const DocumentToneDisplay = (props) => {
   const { documentTone } = props
+  const data = cleanWebChartData(documentTone)
 
   const renderToneList = () => {
     return documentTone.length >= 3 && (
@@ -28,7 +30,7 @@ export const DocumentToneDisplay = (props) => {
 
       <div className="analysis-wrap">
     
-        <ToneWeb />
+        <ToneWeb data={ [data] } />
         
         { renderToneList() }
 
