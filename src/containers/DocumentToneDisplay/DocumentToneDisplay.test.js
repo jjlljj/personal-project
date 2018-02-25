@@ -2,26 +2,22 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 import { DocumentToneDisplay } from './DocumentToneDisplay'
-import { mockCleaned } from '../../__mocks__/mockData'
+import { mockCleaned, mockCleaned2 } from '../../__mocks__/mockData'
 
 describe('DocumentToneDisplay', () => {
   let renderedComponent
 
   beforeEach(() => {
-    renderedComponent = shallow(<DocumentToneDisplay sentences={ mockCleaned.sentences } />)
+    renderedComponent = shallow(<DocumentToneDisplay sentences={ mockCleaned.documentTone } />)
   })
 
-  it('should not pass', () => {
-    expect(false).toEqual(true)
-  })
-
-  it.skip('should match snapshot', () => {
+  it('should match snapshot', () => {
     expect(renderedComponent).toMatchSnapshot()
   })
 
   it.skip('shuold match snapshot when passed different results', () => {
     // add 2nd mockCleaned data to render
-    renderedComponent = shallow(<DocumentToneDisplay sentences={ mockCleaned } />)
+    renderedComponent = shallow(<DocumentToneDisplay sentences={ mockCleaned2 } />)
 
     expect(renderedComponent).toMatchSnapshot()
   })
