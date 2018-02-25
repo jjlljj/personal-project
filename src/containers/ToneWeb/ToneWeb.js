@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
+import { arrayOf, shape, number, string } from 'prop-types'
 import RadarChart from '../../chartHelper/chartHelper'
 import * as d3 from 'd3'
 import { select } from 'd3-selection'
@@ -58,6 +59,14 @@ export class ToneWeb extends Component {
     )
   }
   
+}
+
+ToneWeb.propTypes = {
+  documentTone: arrayOf(shape({
+    score: number,
+    tone_id: string,
+    tone_name: string
+  }))
 }
 
 const mapStateToProps = ({ documentTone }) => ({

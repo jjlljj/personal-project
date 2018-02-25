@@ -1,6 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
+import { arrayOf, shape, number, string } from 'prop-types'
 import './DocumentToneDisplay.css'
 import ToneWeb from '../ToneWeb/ToneWeb'
 
@@ -35,6 +36,14 @@ export const DocumentToneDisplay = (props) => {
 
     </div>
   )
+}
+
+DocumentToneDisplay.propTypes = {
+  documentTone: arrayOf(shape({
+    score: number,
+    tone_id: string,
+    tone_name: string
+  }))
 }
 
 const mapStateToProps = ({ documentTone }) => ({
