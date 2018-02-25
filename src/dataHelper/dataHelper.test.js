@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { toneFetch, mockFetch, cleanTones, cleanDocumentTone, cleanSentences, cleanTone, cleanToneCategories, filterAndSort } from './dataHelper'
+import { toneFetch, toneExampleFetch, cleanTones, cleanDocumentTone, cleanSentences, cleanTone, cleanToneCategories, filterAndSort, cleanWebChartData } from './dataHelper'
 import { mockText, mockExpected, mockResponse, mockCleaned, mockUncleaned, mockMergedTonesArray } from '../__mocks__/mockData'
 
 describe('dataHelper', () => {
@@ -40,7 +40,7 @@ describe('dataHelper', () => {
     })
   })
 
-  describe('mockFetch', () => {
+  describe('toneExampleFetch', () => {
     beforeEach(() => {
       window.fetch = jest.fn().mockImplementation(() => Promise.resolve({
         status: 200,
@@ -53,13 +53,13 @@ describe('dataHelper', () => {
       
       expect(window.fetch).not.toHaveBeenCalled()
 
-      mockFetch(mockText)
+      toneExampleFetch(mockText)
 
       expect(window.fetch).toHaveBeenCalledWith(expectedUrl, mockExpected)
     })
 
     it('should return a response object', () => {
-      const response = mockFetch(mockText)
+      const response = toneExampleFetch(mockText)
 
       expect(response).resolves.toEqual(mockResponse)
     })
@@ -69,7 +69,7 @@ describe('dataHelper', () => {
         status: 500
       }))
 
-      const response = mockFetch()
+      const response = toneExampleFetch()
       const expected = Error("Unable to fetch mock data")
 
       expect(response).rejects.toEqual(expected)
@@ -131,5 +131,19 @@ describe('dataHelper', () => {
 
       expect(result).toEqual(expected)
     })
+  })
+
+  describe('cleanWebChartData', () => {
+    it('should return the expected array of data formatted for the toneWeb chart', () => {
+    const expected = [
+      {"axis": "Analytical", "value": 0.883842}, 
+      {"axis": "Tentative", "value": 0.60858}, 
+      {"axis": "Joy", "value": 0.519797}
+    ]
+
+    const result = cleanWebChartData(mockCleaned.documentTone)
+
+    expect(result).toEqual(expected)
+  })
   })
 })

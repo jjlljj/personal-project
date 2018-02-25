@@ -87,4 +87,72 @@ describe('AnalyzerInput', () => {
 
     expect(await mockAddSentences).toHaveBeenCalledWith(mockCleaned.sentences)
   })
+
+  it('handleRandom should call the toneExampleFetch', () => {
+    const mockSubmitEvent = { preventDefault: jest.fn() }
+
+    renderedComponent.instance().handleRandom(mockSubmitEvent)
+
+    expect(window.fetch).toHaveBeenCalled()
+  })
+
+  it('handleRandom should call the action addResults with the expected params', async () => {
+    const mockSubmitEvent = { preventDefault: jest.fn() }
+    
+    expect(mockAddResult).not.toHaveBeenCalled()
+
+    renderedComponent.instance().handleRandom(mockSubmitEvent)
+
+    expect(await mockAddResult).toHaveBeenCalledWith(mockCleaned)
+  })
+
+  it('handleRandom should call the action addDocumentTone with the expected params', async () => {
+    const mockSubmitEvent = { preventDefault: jest.fn() }
+    
+    expect(mockAddDocumentTone).not.toHaveBeenCalled()
+
+    renderedComponent.instance().handleRandom(mockSubmitEvent)
+
+    expect(await mockAddDocumentTone).toHaveBeenCalledWith(mockCleaned.documentTone)
+  })
+
+  it('handleRandom should call the action addSentences with the expected params', async () => {
+    const mockSubmitEvent = { preventDefault: jest.fn() }
+    
+    expect(mockAddSentences).not.toHaveBeenCalled()
+
+    renderedComponent.setState({text: mockText})
+    renderedComponent.instance().handleRandom(mockSubmitEvent)
+
+    expect(await mockAddSentences).toHaveBeenCalledWith(mockCleaned.sentences)
+  })
+
+
+  it('handleResults should call the action addResults with the expected params', () => {
+    expect(mockAddResult).not.toHaveBeenCalled()
+
+    renderedComponent.instance().handleResults(mockCleaned)
+
+    expect(mockAddResult).toHaveBeenCalledWith(mockCleaned)
+  })
+
+  it('handleResults should call the action addDocumentTone with the expected params', () => {
+    
+    expect(mockAddDocumentTone).not.toHaveBeenCalled()
+
+    renderedComponent.instance().handleResults(mockCleaned)
+
+    expect(mockAddDocumentTone).toHaveBeenCalledWith(mockCleaned.documentTone)
+  })
+
+  it('handleResults should call the action addSentences with the expected params', async () => {
+    
+    expect(mockAddSentences).not.toHaveBeenCalled()
+
+    renderedComponent.instance().handleResults(mockCleaned)
+
+    expect(mockAddSentences).toHaveBeenCalledWith(mockCleaned.sentences)
+  })
+
+
 })
