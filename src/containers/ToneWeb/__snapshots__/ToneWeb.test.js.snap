@@ -17,7 +17,7 @@ ShallowWrapper {
                 "value": 0.60858,
               },
               Object {
-                "axis": "Joy",
+                "axis": "Positive",
                 "value": 0.519797,
               },
             ],
@@ -92,7 +92,7 @@ ShallowWrapper {
         Array [
             Array [
               Object {
-                "axis": "Joy",
+                "axis": "Positive",
                 "value": 0.619992,
               },
               Object {

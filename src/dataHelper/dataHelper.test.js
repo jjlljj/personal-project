@@ -53,9 +53,9 @@ describe('dataHelper', () => {
       
       expect(window.fetch).not.toHaveBeenCalled()
 
-      toneExampleFetch(mockText)
+      toneExampleFetch()
 
-      expect(window.fetch).toHaveBeenCalledWith(expectedUrl, mockExpected)
+      expect(window.fetch).toHaveBeenCalled()
     })
 
     it('should return a response object', () => {
@@ -138,7 +138,7 @@ describe('dataHelper', () => {
       const expected = [
         {"axis": "Analytical", "value": 0.883842}, 
         {"axis": "Tentative", "value": 0.60858}, 
-        {"axis": "Joy", "value": 0.519797}
+        {"axis": "Positive", "value": 0.519797}
       ]
 
       const result = cleanWebChartData(mockCleaned.documentTone)
@@ -150,7 +150,7 @@ describe('dataHelper', () => {
   describe('cleanSentencesTone',() => {
     it('should return the expected object with primary and secondary sentence tones', () => {
       const expected = {
-        "primary": [ "Analytical", "Joy" ], 
+        "primary": [ "Analytical", "Positive" ], 
         "secondary": [ "Tentative", "Analytical" ]
       }
       const result = cleanSentencesTone(mockCleaned.sentences)
@@ -160,7 +160,7 @@ describe('dataHelper', () => {
 
   describe('withoutDupes', () => {
     it('should return the expected array of tones without duplicates', () => {
-        const expected = [ "Analytical", "Joy" ]
+        const expected = [ "Analytical", "Positive" ]
       const result = withoutDupes(mockCleaned.sentences, 0)
 
       expect(result).toEqual(expected)  

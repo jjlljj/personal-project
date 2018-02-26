@@ -24,6 +24,7 @@ export class AnalyzerInput extends Component {
     
     if ( this.state.text.length > 50 ) {
       const results = await toneFetch(this.state.text)
+      
       this.handleResults(results)  
     }
   }
@@ -44,7 +45,7 @@ export class AnalyzerInput extends Component {
     addDocumentTone(documentTone)
     addSentencesTone(sentencesTone)
 
-    history.push('/analyzed')
+    history.push('/results')
   }
 
   render() {

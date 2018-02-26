@@ -24,7 +24,7 @@ ShallowWrapper {
                     ariaCurrent="true"
                     to="/"
           >
-                    SITE HEADER
+                    toneDetector
           </NavLink>
 </h1>,
         <nav>
@@ -32,16 +32,16 @@ ShallowWrapper {
                     <NavLink
                               activeClassName="active"
                               ariaCurrent="true"
-                              to="/analyzed"
+                              to="/analyze"
                     >
-                              Analyzed
+                              Analyze
                     </NavLink>
           </div>
           <div>
                     <NavLink
                               activeClassName="active"
                               ariaCurrent="true"
-                              to="/"
+                              to="/about"
                     >
                               About
                     </NavLink>
@@ -62,7 +62,7 @@ ShallowWrapper {
             ariaCurrent="true"
             to="/"
 >
-            SITE HEADER
+            toneDetector
 </NavLink>,
         },
         "ref": null,
@@ -73,11 +73,11 @@ ShallowWrapper {
           "props": Object {
             "activeClassName": "active",
             "ariaCurrent": "true",
-            "children": "SITE HEADER",
+            "children": "toneDetector",
             "to": "/",
           },
           "ref": null,
-          "rendered": "SITE HEADER",
+          "rendered": "toneDetector",
           "type": [Function],
         },
         "type": "h1",
@@ -92,16 +92,16 @@ ShallowWrapper {
               <NavLink
                             activeClassName="active"
                             ariaCurrent="true"
-                            to="/analyzed"
+                            to="/analyze"
               >
-                            Analyzed
+                            Analyze
               </NavLink>
 </div>,
             <div>
               <NavLink
                             activeClassName="active"
                             ariaCurrent="true"
-                            to="/"
+                            to="/about"
               >
                             About
               </NavLink>
@@ -118,9 +118,9 @@ ShallowWrapper {
               "children": <NavLink
                 activeClassName="active"
                 ariaCurrent="true"
-                to="/analyzed"
+                to="/analyze"
 >
-                Analyzed
+                Analyze
 </NavLink>,
             },
             "ref": null,
@@ -131,11 +131,11 @@ ShallowWrapper {
               "props": Object {
                 "activeClassName": "active",
                 "ariaCurrent": "true",
-                "children": "Analyzed",
-                "to": "/analyzed",
+                "children": "Analyze",
+                "to": "/analyze",
               },
               "ref": null,
-              "rendered": "Analyzed",
+              "rendered": "Analyze",
               "type": [Function],
             },
             "type": "div",
@@ -148,7 +148,7 @@ ShallowWrapper {
               "children": <NavLink
                 activeClassName="active"
                 ariaCurrent="true"
-                to="/"
+                to="/about"
 >
                 About
 </NavLink>,
@@ -162,7 +162,7 @@ ShallowWrapper {
                 "activeClassName": "active",
                 "ariaCurrent": "true",
                 "children": "About",
-                "to": "/",
+                "to": "/about",
               },
               "ref": null,
               "rendered": "About",
@@ -189,7 +189,7 @@ ShallowWrapper {
                         ariaCurrent="true"
                         to="/"
             >
-                        SITE HEADER
+                        toneDetector
             </NavLink>
 </h1>,
           <nav>
@@ -197,16 +197,16 @@ ShallowWrapper {
                         <NavLink
                                     activeClassName="active"
                                     ariaCurrent="true"
-                                    to="/analyzed"
+                                    to="/analyze"
                         >
-                                    Analyzed
+                                    Analyze
                         </NavLink>
             </div>
             <div>
                         <NavLink
                                     activeClassName="active"
                                     ariaCurrent="true"
-                                    to="/"
+                                    to="/about"
                         >
                                     About
                         </NavLink>
@@ -227,7 +227,7 @@ ShallowWrapper {
               ariaCurrent="true"
               to="/"
 >
-              SITE HEADER
+              toneDetector
 </NavLink>,
           },
           "ref": null,
@@ -238,11 +238,11 @@ ShallowWrapper {
             "props": Object {
               "activeClassName": "active",
               "ariaCurrent": "true",
-              "children": "SITE HEADER",
+              "children": "toneDetector",
               "to": "/",
             },
             "ref": null,
-            "rendered": "SITE HEADER",
+            "rendered": "toneDetector",
             "type": [Function],
           },
           "type": "h1",
@@ -257,16 +257,16 @@ ShallowWrapper {
                 <NavLink
                                 activeClassName="active"
                                 ariaCurrent="true"
-                                to="/analyzed"
+                                to="/analyze"
                 >
-                                Analyzed
+                                Analyze
                 </NavLink>
 </div>,
               <div>
                 <NavLink
                                 activeClassName="active"
                                 ariaCurrent="true"
-                                to="/"
+                                to="/about"
                 >
                                 About
                 </NavLink>
@@ -283,9 +283,9 @@ ShallowWrapper {
                 "children": <NavLink
                   activeClassName="active"
                   ariaCurrent="true"
-                  to="/analyzed"
+                  to="/analyze"
 >
-                  Analyzed
+                  Analyze
 </NavLink>,
               },
               "ref": null,
@@ -296,11 +296,11 @@ ShallowWrapper {
                 "props": Object {
                   "activeClassName": "active",
                   "ariaCurrent": "true",
-                  "children": "Analyzed",
-                  "to": "/analyzed",
+                  "children": "Analyze",
+                  "to": "/analyze",
                 },
                 "ref": null,
-                "rendered": "Analyzed",
+                "rendered": "Analyze",
                 "type": [Function],
               },
               "type": "div",
@@ -313,7 +313,7 @@ ShallowWrapper {
                 "children": <NavLink
                   activeClassName="active"
                   ariaCurrent="true"
-                  to="/"
+                  to="/about"
 >
                   About
 </NavLink>,
@@ -327,7 +327,7 @@ ShallowWrapper {
                   "activeClassName": "active",
                   "ariaCurrent": "true",
                   "children": "About",
-                  "to": "/",
+                  "to": "/about",
                 },
                 "ref": null,
                 "rendered": "About",

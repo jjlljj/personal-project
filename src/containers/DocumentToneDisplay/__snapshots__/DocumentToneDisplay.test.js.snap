@@ -19,8 +19,8 @@ ShallowWrapper {
             },
             Object {
               "score": 0.519797,
-              "tone_id": "joy",
-              "tone_name": "Joy",
+              "tone_id": "positive",
+              "tone_name": "Positive",
             },
           ]
     }
@@ -57,7 +57,7 @@ ShallowWrapper {
                                             "value": 0.60858,
                                           },
                                           Object {
-                                            "axis": "Joy",
+                                            "axis": "Positive",
                                             "value": 0.519797,
                                           },
                                         ],
@@ -83,7 +83,7 @@ ShallowWrapper {
                     </p>
                     <h3>
                               Tertiary:  
-                              Joy
+                              Positive
                     </h3>
                     <p>
                                Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
@@ -125,7 +125,7 @@ ShallowWrapper {
                                               "value": 0.60858,
                                             },
                                             Object {
-                                              "axis": "Joy",
+                                              "axis": "Positive",
                                               "value": 0.519797,
                                             },
                                           ],
@@ -151,7 +151,7 @@ ShallowWrapper {
               </p>
               <h3>
                             Tertiary:  
-                            Joy
+                            Positive
               </h3>
               <p>
                              Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
@@ -178,7 +178,7 @@ ShallowWrapper {
                     "value": 0.60858,
                   },
                   Object {
-                    "axis": "Joy",
+                    "axis": "Positive",
                     "value": 0.519797,
                   },
                 ],
@@ -210,7 +210,7 @@ ShallowWrapper {
 </p>,
                 <h3>
                   Tertiary:  
-                  Joy
+                  Positive
 </h3>,
                 <p>
                    Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
@@ -283,13 +283,13 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     "Tertiary:  ",
-                    "Joy",
+                    "Positive",
                   ],
                 },
                 "ref": null,
                 "rendered": Array [
                   "Tertiary:  ",
-                  "Joy",
+                  "Positive",
                 ],
                 "type": "h3",
               },
@@ -339,7 +339,7 @@ ShallowWrapper {
                                                     "value": 0.60858,
                                                   },
                                                   Object {
-                                                    "axis": "Joy",
+                                                    "axis": "Positive",
                                                     "value": 0.519797,
                                                   },
                                                 ],
@@ -365,7 +365,7 @@ ShallowWrapper {
                         </p>
                         <h3>
                                     Tertiary:  
-                                    Joy
+                                    Positive
                         </h3>
                         <p>
                                      Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
@@ -407,7 +407,7 @@ ShallowWrapper {
                                                     "value": 0.60858,
                                                   },
                                                   Object {
-                                                    "axis": "Joy",
+                                                    "axis": "Positive",
                                                     "value": 0.519797,
                                                   },
                                                 ],
@@ -433,7 +433,7 @@ ShallowWrapper {
                 </p>
                 <h3>
                                 Tertiary:  
-                                Joy
+                                Positive
                 </h3>
                 <p>
                                  Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
@@ -460,7 +460,7 @@ ShallowWrapper {
                       "value": 0.60858,
                     },
                     Object {
-                      "axis": "Joy",
+                      "axis": "Positive",
                       "value": 0.519797,
                     },
                   ],
@@ -492,7 +492,7 @@ ShallowWrapper {
 </p>,
                   <h3>
                     Tertiary:  
-                    Joy
+                    Positive
 </h3>,
                   <p>
                      Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. 
@@ -565,13 +565,13 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       "Tertiary:  ",
-                      "Joy",
+                      "Positive",
                     ],
                   },
                   "ref": null,
                   "rendered": Array [
                     "Tertiary:  ",
-                    "Joy",
+                    "Positive",
                   ],
                   "type": "h3",
                 },
@@ -615,8 +615,8 @@ ShallowWrapper {
         Array [
             Object {
               "score": 0.619992,
-              "tone_id": "joy",
-              "tone_name": "Joy",
+              "tone_id": "positive",
+              "tone_name": "Positive",
             },
             Object {
               "score": 0.448741,
@@ -655,7 +655,7 @@ ShallowWrapper {
                               Array [
                                         Array [
                                           Object {
-                                            "axis": "Joy",
+                                            "axis": "Positive",
                                             "value": 0.619992,
                                           },
                                           Object {
@@ -675,7 +675,7 @@ ShallowWrapper {
           >
                     <h3>
                               Primary:  
-                              Joy
+                              Positive
                     </h3>
                     <p>
                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
@@ -723,7 +723,7 @@ ShallowWrapper {
                             Array [
                                           Array [
                                             Object {
-                                              "axis": "Joy",
+                                              "axis": "Positive",
                                               "value": 0.619992,
                                             },
                                             Object {
@@ -743,7 +743,7 @@ ShallowWrapper {
 >
               <h3>
                             Primary:  
-                            Joy
+                            Positive
               </h3>
               <p>
                              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
@@ -776,7 +776,7 @@ ShallowWrapper {
               "data": Array [
                 Array [
                   Object {
-                    "axis": "Joy",
+                    "axis": "Positive",
                     "value": 0.619992,
                   },
                   Object {
@@ -802,7 +802,7 @@ ShallowWrapper {
               "children": Array [
                 <h3>
                   Primary:  
-                  Joy
+                  Positive
 </h3>,
                 <p>
                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
@@ -833,13 +833,13 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     "Primary:  ",
-                    "Joy",
+                    "Positive",
                   ],
                 },
                 "ref": null,
                 "rendered": Array [
                   "Primary:  ",
-                  "Joy",
+                  "Positive",
                 ],
                 "type": "h3",
               },
@@ -937,7 +937,7 @@ ShallowWrapper {
                                     Array [
                                                 Array [
                                                   Object {
-                                                    "axis": "Joy",
+                                                    "axis": "Positive",
                                                     "value": 0.619992,
                                                   },
                                                   Object {
@@ -957,7 +957,7 @@ ShallowWrapper {
             >
                         <h3>
                                     Primary:  
-                                    Joy
+                                    Positive
                         </h3>
                         <p>
                                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
@@ -1005,7 +1005,7 @@ ShallowWrapper {
                                 Array [
                                                 Array [
                                                   Object {
-                                                    "axis": "Joy",
+                                                    "axis": "Positive",
                                                     "value": 0.619992,
                                                   },
                                                   Object {
@@ -1025,7 +1025,7 @@ ShallowWrapper {
 >
                 <h3>
                                 Primary:  
-                                Joy
+                                Positive
                 </h3>
                 <p>
                                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
@@ -1058,7 +1058,7 @@ ShallowWrapper {
                 "data": Array [
                   Array [
                     Object {
-                      "axis": "Joy",
+                      "axis": "Positive",
                       "value": 0.619992,
                     },
                     Object {
@@ -1084,7 +1084,7 @@ ShallowWrapper {
                 "children": Array [
                   <h3>
                     Primary:  
-                    Joy
+                    Positive
 </h3>,
                   <p>
                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium 
@@ -1115,13 +1115,13 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       "Primary:  ",
-                      "Joy",
+                      "Positive",
                     ],
                   },
                   "ref": null,
                   "rendered": Array [
                     "Primary:  ",
-                    "Joy",
+                    "Positive",
                   ],
                   "type": "h3",
                 },

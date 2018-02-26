@@ -3,7 +3,7 @@
 }
 
 .sadness, .Sadness {
-  color: blue;
+  color: purple;
 }
 
 .analytical, .Analytical {
@@ -11,7 +11,7 @@
 }
 
 .tentative, .Tentative {
-  color: orange;
+  color: #4CCEE8;
 }
 
 .confident, .Confident {
@@ -22,6 +22,10 @@
   color: red;
 }
 
-.joy, .Joy {
-  color: purple;
+.fear, .Fear {
+  color: orange;
+}
+
+.positive, .Positive {
+  color: blue;
 }
