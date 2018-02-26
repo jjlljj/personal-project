@@ -17,10 +17,107 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": "I am all about",
+      "children": Array [
+        <h2>
+          Interpret, Don't Misinterpret
+</h2>,
+        <div
+          className="text-wrap"
+>
+          <p>
+                    We negotiate every day. Whether by email, chat, instant message, we are constantly navigating new spaces in which the meaning of our words matter. These can be quick and off the cuff, or they can allow time for reflection and careful choice of language.
+          </p>
+          <p>
+                    Yet often, these lack the cues of tone, intent and meaning that we pick up when we hear and see the party we are negotiating with. Using e-communication technologies we sometimes send unintended messages or misinterpret a message we receive. As a result, rather than reaching a resolution through the negotiation, the conflict escalates.
+          </p>
+</div>,
+        <h2>
+          Tones:
+</h2>,
+        <div
+          className="text-wrap"
+/>,
+      ],
+      "className": "about",
     },
     "ref": null,
-    "rendered": "I am all about",
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Interpret, Don't Misinterpret",
+        },
+        "ref": null,
+        "rendered": "Interpret, Don't Misinterpret",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p>
+              We negotiate every day. Whether by email, chat, instant message, we are constantly navigating new spaces in which the meaning of our words matter. These can be quick and off the cuff, or they can allow time for reflection and careful choice of language.
+</p>,
+            <p>
+              Yet often, these lack the cues of tone, intent and meaning that we pick up when we hear and see the party we are negotiating with. Using e-communication technologies we sometimes send unintended messages or misinterpret a message we receive. As a result, rather than reaching a resolution through the negotiation, the conflict escalates.
+</p>,
+          ],
+          "className": "text-wrap",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "We negotiate every day. Whether by email, chat, instant message, we are constantly navigating new spaces in which the meaning of our words matter. These can be quick and off the cuff, or they can allow time for reflection and careful choice of language.",
+            },
+            "ref": null,
+            "rendered": "We negotiate every day. Whether by email, chat, instant message, we are constantly navigating new spaces in which the meaning of our words matter. These can be quick and off the cuff, or they can allow time for reflection and careful choice of language.",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Yet often, these lack the cues of tone, intent and meaning that we pick up when we hear and see the party we are negotiating with. Using e-communication technologies we sometimes send unintended messages or misinterpret a message we receive. As a result, rather than reaching a resolution through the negotiation, the conflict escalates.",
+            },
+            "ref": null,
+            "rendered": "Yet often, these lack the cues of tone, intent and meaning that we pick up when we hear and see the party we are negotiating with. Using e-communication technologies we sometimes send unintended messages or misinterpret a message we receive. As a result, rather than reaching a resolution through the negotiation, the conflict escalates.",
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Tones:",
+        },
+        "ref": null,
+        "rendered": "Tones:",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "text-wrap",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+    ],
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -29,10 +126,107 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "I am all about",
+        "children": Array [
+          <h2>
+            Interpret, Don't Misinterpret
+</h2>,
+          <div
+            className="text-wrap"
+>
+            <p>
+                        We negotiate every day. Whether by email, chat, instant message, we are constantly navigating new spaces in which the meaning of our words matter. These can be quick and off the cuff, or they can allow time for reflection and careful choice of language.
+            </p>
+            <p>
+                        Yet often, these lack the cues of tone, intent and meaning that we pick up when we hear and see the party we are negotiating with. Using e-communication technologies we sometimes send unintended messages or misinterpret a message we receive. As a result, rather than reaching a resolution through the negotiation, the conflict escalates.
+            </p>
+</div>,
+          <h2>
+            Tones:
+</h2>,
+          <div
+            className="text-wrap"
+/>,
+        ],
+        "className": "about",
       },
       "ref": null,
-      "rendered": "I am all about",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Interpret, Don't Misinterpret",
+          },
+          "ref": null,
+          "rendered": "Interpret, Don't Misinterpret",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p>
+                We negotiate every day. Whether by email, chat, instant message, we are constantly navigating new spaces in which the meaning of our words matter. These can be quick and off the cuff, or they can allow time for reflection and careful choice of language.
+</p>,
+              <p>
+                Yet often, these lack the cues of tone, intent and meaning that we pick up when we hear and see the party we are negotiating with. Using e-communication technologies we sometimes send unintended messages or misinterpret a message we receive. As a result, rather than reaching a resolution through the negotiation, the conflict escalates.
+</p>,
+            ],
+            "className": "text-wrap",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "We negotiate every day. Whether by email, chat, instant message, we are constantly navigating new spaces in which the meaning of our words matter. These can be quick and off the cuff, or they can allow time for reflection and careful choice of language.",
+              },
+              "ref": null,
+              "rendered": "We negotiate every day. Whether by email, chat, instant message, we are constantly navigating new spaces in which the meaning of our words matter. These can be quick and off the cuff, or they can allow time for reflection and careful choice of language.",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Yet often, these lack the cues of tone, intent and meaning that we pick up when we hear and see the party we are negotiating with. Using e-communication technologies we sometimes send unintended messages or misinterpret a message we receive. As a result, rather than reaching a resolution through the negotiation, the conflict escalates.",
+              },
+              "ref": null,
+              "rendered": "Yet often, these lack the cues of tone, intent and meaning that we pick up when we hear and see the party we are negotiating with. Using e-communication technologies we sometimes send unintended messages or misinterpret a message we receive. As a result, rather than reaching a resolution through the negotiation, the conflict escalates.",
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Tones:",
+          },
+          "ref": null,
+          "rendered": "Tones:",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "text-wrap",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
       "type": "div",
     },
   ],

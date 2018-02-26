@@ -50,7 +50,7 @@ export class AnalyzerInput extends Component {
 
   render() {
     return (
-      <div>
+      <div className="analyzer-input-wrap">
         <form
           className="analyzer-form"
           onSubmit={this.handleSubmit} >
