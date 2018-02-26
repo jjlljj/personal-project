@@ -75,19 +75,19 @@ export class AnalyzerInput extends Component {
             <button 
               type="submit" 
               className="submit"
-            >Submit</button>
+            >Analyze</button>
             <button
               type="button" 
               className="get-example"
               onClick={this.handleRandom}
-            >Example</button>
+            >Show Example</button>
           </div>
           <Alert />
           <textarea 
             name="text"
             onChange={this.handleChange}
             value={this.state.text}
-            placeholder="Enter text here" />
+            placeholder="Enter text to analyze" />
         </form>
       </div>
     ) 
