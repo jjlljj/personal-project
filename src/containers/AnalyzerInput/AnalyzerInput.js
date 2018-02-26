@@ -45,7 +45,7 @@ export class AnalyzerInput extends Component {
     addDocumentTone(documentTone)
     addSentencesTone(sentencesTone)
 
-    history.push('/analyzed')
+    history.push('/results')
   }
 
   render() {
