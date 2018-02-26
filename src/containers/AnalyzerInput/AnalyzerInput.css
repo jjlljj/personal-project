@@ -1,39 +1,56 @@
+.analyzer-input-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .analyzer-form {
+  display: flex-wrap;
   margin: 20px;
+  max-width: 600px;
+  min-width: 300px;
+  width: 100%;
 }
 
 .analyzer-form textarea {
-  display: block;
-  width: 300px;
-  height: 200px;
-  margin: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  min-width: 300px;
+  min-height: 300px;
+  margin: 20px 0;
+  padding: 20px;
 }
 
 .btn-wrap {
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
 .get-example {
+  box-sizing: border-box;
   background-color: #f2f2f2;
   box-sizing: border-box;
   display: inline-block;
   font-size: 12px;
   height: 40px;
-  width: 120px;
+  width: 48%;
   border: none;
 }
 
 .submit {
+  box-sizing: border-box;
   background: #f2f2f2;
   border: none;
   display: inline-block;
   font-size: 12px;
   height: 40px;
   padding: 10px;
-  width: 120px;
+  width: 48%;
 }
 
 .get-example:hover {

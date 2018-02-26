@@ -13,7 +13,7 @@ export const App = () => {
       <Route path="/" component={Nav} />
       <Route exact path="/" component={Main} />
       <Route exact path="/results" component={DisplayResults} />
-      <Route exact path="/analyze" component={Main} />
+      <Route exact path="/analyze" component={AnalyzerInput} />
       <Route expact path="/about" component={About} />
     </div>
   )
