@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { connect } from 'react-redux'
 import { arrayOf, shape, number, string } from 'prop-types'
 import RadarChart from '../../chartHelper/chartHelper'
 import * as d3 from 'd3'
@@ -15,7 +14,7 @@ export class ToneWeb extends Component {
   }
   
   createToneWeb = () => {
-    const { data } = this.props
+    const { chartData } = this.props
     const node = this.node
     const color = d3.scaleOrdinal()
       .range(["#3399ff", "#EDC951", "#00A0B0"])
@@ -34,7 +33,7 @@ export class ToneWeb extends Component {
       color
     }
 
-    RadarChart(node, data, chartOptions)
+    RadarChart(node, chartData, chartOptions)
   }
 
   render() {
@@ -48,7 +47,7 @@ export class ToneWeb extends Component {
 }
 
 ToneWeb.propTypes = {
-  data: arrayOf(arrayOf(shape({
+  chartData: arrayOf(arrayOf(shape({
     axis: string,
     value: number
   })))

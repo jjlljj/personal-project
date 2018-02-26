@@ -18,19 +18,20 @@ export const SentencesToneDisplay = (props) => {
     )
   })
 
-  const renderTones = sentencesTone.primary && sentencesTone.primary.map(tone => {
-    const classList = (tone + " tone-category")
+  const renderTones = sentencesTone.primary &&
+    sentencesTone.primary.map(tone => {
+      const classList = (tone + " tone-category")
 
-    return (
-      <li 
-        className="sentence-tone-item"
-        key={tone}>
-        <span className={classList}>
-          {tone}: </span> 
-        Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-      </li>
-    ) || ""
-  })
+      return (
+        <li 
+          className="sentence-tone-item"
+          key={tone}>
+          <span className={classList}>
+            {tone}: </span> 
+          Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+        </li>
+      ) || ""
+    })
 
   return (
     <div className="sentences-tone">
