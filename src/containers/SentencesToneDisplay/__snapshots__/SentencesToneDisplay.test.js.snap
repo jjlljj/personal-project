@@ -85,11 +85,13 @@ ShallowWrapper {
                               <span
                                         className="analytical"
                               >
+                                         
                                         I hope that we can reach an amicable understanding and a solution to this problem.
                               </span>
                               <span
                                         className="positive"
                               >
+                                         
                                         Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
                               </span>
                     </p>
@@ -166,11 +168,13 @@ ShallowWrapper {
                             <span
                                           className="analytical"
                             >
+                                           
                                           I hope that we can reach an amicable understanding and a solution to this problem.
                             </span>
                             <span
                                           className="positive"
                             >
+                                           
                                           Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
                             </span>
               </p>
@@ -231,11 +235,13 @@ ShallowWrapper {
                 <span
                                 className="analytical"
                 >
+                                 
                                 I hope that we can reach an amicable understanding and a solution to this problem.
                 </span>
                 <span
                                 className="positive"
                 >
+                                 
                                 Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
                 </span>
 </p>,
@@ -251,11 +257,13 @@ ShallowWrapper {
                   <span
                     className="analytical"
 >
+                     
                     I hope that we can reach an amicable understanding and a solution to this problem.
 </span>,
                   <span
                     className="positive"
 >
+                     
                     Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
 </span>,
                 ],
@@ -267,11 +275,17 @@ ShallowWrapper {
                   "key": "0",
                   "nodeType": "host",
                   "props": Object {
-                    "children": "I hope that we can reach an amicable understanding and a solution to this problem.",
+                    "children": Array [
+                      " ",
+                      "I hope that we can reach an amicable understanding and a solution to this problem.",
+                    ],
                     "className": "analytical",
                   },
                   "ref": null,
-                  "rendered": "I hope that we can reach an amicable understanding and a solution to this problem.",
+                  "rendered": Array [
+                    " ",
+                    "I hope that we can reach an amicable understanding and a solution to this problem.",
+                  ],
                   "type": "span",
                 },
                 Object {
@@ -279,11 +293,17 @@ ShallowWrapper {
                   "key": "1",
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.",
+                    "children": Array [
+                      " ",
+                      "Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.",
+                    ],
                     "className": "positive",
                   },
                   "ref": null,
-                  "rendered": "Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.",
+                  "rendered": Array [
+                    " ",
+                    "Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.",
+                  ],
                   "type": "span",
                 },
               ],
@@ -512,11 +532,13 @@ ShallowWrapper {
                                     <span
                                                 className="analytical"
                                     >
+                                                 
                                                 I hope that we can reach an amicable understanding and a solution to this problem.
                                     </span>
                                     <span
                                                 className="positive"
                                     >
+                                                 
                                                 Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
                                     </span>
                         </p>
@@ -593,11 +615,13 @@ ShallowWrapper {
                                 <span
                                                 className="analytical"
                                 >
+                                                 
                                                 I hope that we can reach an amicable understanding and a solution to this problem.
                                 </span>
                                 <span
                                                 className="positive"
                                 >
+                                                 
                                                 Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
                                 </span>
                 </p>
@@ -658,11 +682,13 @@ ShallowWrapper {
                   <span
                                     className="analytical"
                   >
+                                     
                                     I hope that we can reach an amicable understanding and a solution to this problem.
                   </span>
                   <span
                                     className="positive"
                   >
+                                     
                                     Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
                   </span>
 </p>,
@@ -678,11 +704,13 @@ ShallowWrapper {
                     <span
                       className="analytical"
 >
+                       
                       I hope that we can reach an amicable understanding and a solution to this problem.
 </span>,
                     <span
                       className="positive"
 >
+                       
                       Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
 </span>,
                   ],
@@ -694,11 +722,17 @@ ShallowWrapper {
                     "key": "0",
                     "nodeType": "host",
                     "props": Object {
-                      "children": "I hope that we can reach an amicable understanding and a solution to this problem.",
+                      "children": Array [
+                        " ",
+                        "I hope that we can reach an amicable understanding and a solution to this problem.",
+                      ],
                       "className": "analytical",
                     },
                     "ref": null,
-                    "rendered": "I hope that we can reach an amicable understanding and a solution to this problem.",
+                    "rendered": Array [
+                      " ",
+                      "I hope that we can reach an amicable understanding and a solution to this problem.",
+                    ],
                     "type": "span",
                   },
                   Object {
@@ -706,11 +740,17 @@ ShallowWrapper {
                     "key": "1",
                     "nodeType": "host",
                     "props": Object {
-                      "children": "Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.",
+                      "children": Array [
+                        " ",
+                        "Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.",
+                      ],
                       "className": "positive",
                     },
                     "ref": null,
-                    "rendered": "Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.",
+                    "rendered": Array [
+                      " ",
+                      "Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.",
+                    ],
                     "type": "span",
                   },
                 ],
@@ -1042,21 +1082,25 @@ ShallowWrapper {
                               <span
                                         className="positive"
                               >
+                                         
                                         My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
                               </span>
                               <span
                                         className="positive"
                               >
+                                         
                                         My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
                               </span>
                               <span
                                         className="tentative"
                               >
+                                         
                                         He would like to maintain a business-relationship with Mr. Farley.
                               </span>
                               <span
                                         className="analytical"
                               >
+                                         
                                         Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.
                               </span>
                     </p>
@@ -1133,21 +1177,25 @@ ShallowWrapper {
                             <span
                                           className="positive"
                             >
+                                           
                                           My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
                             </span>
                             <span
                                           className="positive"
                             >
+                                           
                                           My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
                             </span>
                             <span
                                           className="tentative"
                             >
+                                           
                                           He would like to maintain a business-relationship with Mr. Farley.
                             </span>
                             <span
                                           className="analytical"
                             >
+                                           
                                           Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.
                             </span>
               </p>
@@ -1208,21 +1256,25 @@ ShallowWrapper {
                 <span
                                 className="positive"
                 >
+                                 
                                 My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
                 </span>
                 <span
                                 className="positive"
                 >
+                                 
                                 My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
                 </span>
                 <span
                                 className="tentative"
                 >
+                                 
                                 He would like to maintain a business-relationship with Mr. Farley.
                 </span>
                 <span
                                 className="analytical"
                 >
+                                 
                                 Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.
                 </span>
 </p>,
@@ -1238,21 +1290,25 @@ ShallowWrapper {
                   <span
                     className="positive"
 >
+                     
                     My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
 </span>,
                   <span
                     className="positive"
 >
+                     
                     My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
 </span>,
                   <span
                     className="tentative"
 >
+                     
                     He would like to maintain a business-relationship with Mr. Farley.
 </span>,
                   <span
                     className="analytical"
 >
+                     
                     Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.
 </span>,
                 ],
@@ -1264,11 +1320,17 @@ ShallowWrapper {
                   "key": "0",
                   "nodeType": "host",
                   "props": Object {
-                    "children": "My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.",
+                    "children": Array [
+                      " ",
+                      "My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.",
+                    ],
                     "className": "positive",
                   },
                   "ref": null,
-                  "rendered": "My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.",
+                  "rendered": Array [
+                    " ",
+                    "My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.",
+                  ],
                   "type": "span",
                 },
                 Object {
@@ -1276,11 +1338,17 @@ ShallowWrapper {
                   "key": "1",
                   "nodeType": "host",
                   "props": Object {
-                    "children": "My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.",
+                    "children": Array [
+                      " ",
+                      "My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.",
+                    ],
                     "className": "positive",
                   },
                   "ref": null,
-                  "rendered": "My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.",
+                  "rendered": Array [
+                    " ",
+                    "My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.",
+                  ],
                   "type": "span",
                 },
                 Object {
@@ -1288,11 +1356,17 @@ ShallowWrapper {
                   "key": "2",
                   "nodeType": "host",
                   "props": Object {
-                    "children": "He would like to maintain a business-relationship with Mr. Farley.",
+                    "children": Array [
+                      " ",
+                      "He would like to maintain a business-relationship with Mr. Farley.",
+                    ],
                     "className": "tentative",
                   },
                   "ref": null,
-                  "rendered": "He would like to maintain a business-relationship with Mr. Farley.",
+                  "rendered": Array [
+                    " ",
+                    "He would like to maintain a business-relationship with Mr. Farley.",
+                  ],
                   "type": "span",
                 },
                 Object {
@@ -1300,11 +1374,17 @@ ShallowWrapper {
                   "key": "3",
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.",
+                    "children": Array [
+                      " ",
+                      "Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.",
+                    ],
                     "className": "analytical",
                   },
                   "ref": null,
-                  "rendered": "Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.",
+                  "rendered": Array [
+                    " ",
+                    "Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.",
+                  ],
                   "type": "span",
                 },
               ],
@@ -1533,21 +1613,25 @@ ShallowWrapper {
                                     <span
                                                 className="positive"
                                     >
+                                                 
                                                 My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
                                     </span>
                                     <span
                                                 className="positive"
                                     >
+                                                 
                                                 My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
                                     </span>
                                     <span
                                                 className="tentative"
                                     >
+                                                 
                                                 He would like to maintain a business-relationship with Mr. Farley.
                                     </span>
                                     <span
                                                 className="analytical"
                                     >
+                                                 
                                                 Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.
                                     </span>
                         </p>
@@ -1624,21 +1708,25 @@ ShallowWrapper {
                                 <span
                                                 className="positive"
                                 >
+                                                 
                                                 My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
                                 </span>
                                 <span
                                                 className="positive"
                                 >
+                                                 
                                                 My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
                                 </span>
                                 <span
                                                 className="tentative"
                                 >
+                                                 
                                                 He would like to maintain a business-relationship with Mr. Farley.
                                 </span>
                                 <span
                                                 className="analytical"
                                 >
+                                                 
                                                 Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.
                                 </span>
                 </p>
@@ -1699,21 +1787,25 @@ ShallowWrapper {
                   <span
                                     className="positive"
                   >
+                                     
                                     My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
                   </span>
                   <span
                                     className="positive"
                   >
+                                     
                                     My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
                   </span>
                   <span
                                     className="tentative"
                   >
+                                     
                                     He would like to maintain a business-relationship with Mr. Farley.
                   </span>
                   <span
                                     className="analytical"
                   >
+                                     
                                     Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.
                   </span>
 </p>,
@@ -1729,21 +1821,25 @@ ShallowWrapper {
                     <span
                       className="positive"
 >
+                       
                       My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
 </span>,
                     <span
                       className="positive"
 >
+                       
                       My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
 </span>,
                     <span
                       className="tentative"
 >
+                       
                       He would like to maintain a business-relationship with Mr. Farley.
 </span>,
                     <span
                       className="analytical"
 >
+                       
                       Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.
 </span>,
                   ],
@@ -1755,11 +1851,17 @@ ShallowWrapper {
                     "key": "0",
                     "nodeType": "host",
                     "props": Object {
-                      "children": "My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.",
+                      "children": Array [
+                        " ",
+                        "My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.",
+                      ],
                       "className": "positive",
                     },
                     "ref": null,
-                    "rendered": "My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.",
+                    "rendered": Array [
+                      " ",
+                      "My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.",
+                    ],
                     "type": "span",
                   },
                   Object {
@@ -1767,11 +1869,17 @@ ShallowWrapper {
                     "key": "1",
                     "nodeType": "host",
                     "props": Object {
-                      "children": "My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.",
+                      "children": Array [
+                        " ",
+                        "My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.",
+                      ],
                       "className": "positive",
                     },
                     "ref": null,
-                    "rendered": "My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.",
+                    "rendered": Array [
+                      " ",
+                      "My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.",
+                    ],
                     "type": "span",
                   },
                   Object {
@@ -1779,11 +1887,17 @@ ShallowWrapper {
                     "key": "2",
                     "nodeType": "host",
                     "props": Object {
-                      "children": "He would like to maintain a business-relationship with Mr. Farley.",
+                      "children": Array [
+                        " ",
+                        "He would like to maintain a business-relationship with Mr. Farley.",
+                      ],
                       "className": "tentative",
                     },
                     "ref": null,
-                    "rendered": "He would like to maintain a business-relationship with Mr. Farley.",
+                    "rendered": Array [
+                      " ",
+                      "He would like to maintain a business-relationship with Mr. Farley.",
+                    ],
                     "type": "span",
                   },
                   Object {
@@ -1791,11 +1905,17 @@ ShallowWrapper {
                     "key": "3",
                     "nodeType": "host",
                     "props": Object {
-                      "children": "Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.",
+                      "children": Array [
+                        " ",
+                        "Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.",
+                      ],
                       "className": "analytical",
                     },
                     "ref": null,
-                    "rendered": "Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.",
+                    "rendered": Array [
+                      " ",
+                      "Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.",
+                    ],
                     "type": "span",
                   },
                 ],
