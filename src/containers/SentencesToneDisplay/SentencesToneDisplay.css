@@ -33,3 +33,17 @@
 .sentence-tone-item {
   margin: 15px;
 }
+
+.tones-list button {
+  background: #f2f2f2;
+  border: none;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 12px;
+  height: 40px;
+  width: 48%;
+}
+
+.tones-list .active {
+  background: blue;
+}

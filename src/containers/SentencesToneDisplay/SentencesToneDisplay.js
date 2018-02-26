@@ -1,30 +1,43 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
 import { arrayOf, shape, number, string } from 'prop-types'
 import './SentencesToneDisplay.css'
 
-export const SentencesToneDisplay = (props) => {
-  const { sentences, sentencesTone } = props
+export class SentencesToneDisplay extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      sentencesView: "primary",
+      primary: 'active',
+      secondary: ''
+    }
+  }
   
-  const renderText = sentences.map(sentence => {
+  renderText = () => {
+    const { sentences } = this.props
+
+    return sentences.map(sentence => {
     const classList = sentence.tones[0] && sentence.tones[0].tone_id || ""
 
-    return (
-      <span 
-        className={ classList } 
-        key={sentence.sentence_id}> {sentence.text}
-      </span>
-    )
-  })
+      return (
+        <span className={ classList } key={sentence.sentence_id}> 
+          {sentence.text}
+        </span>
+      )
+    })
+  }
 
-  const renderTones = sentencesTone.primary &&
-    sentencesTone.primary.map(tone => {
+  renderTones = () => {
+    const { sentencesTone } = this.props
+    const { sentencesView } = this.state
+
+    return sentencesTone[sentencesView] &&
+    sentencesTone[sentencesView].map(tone => {
       const classList = (tone + " tone-category")
 
       return (
-        <li 
-          className="sentence-tone-item"
+        <li className="sentence-tone-item"
           key={tone}>
           <span className={classList}>
             {tone}: </span> 
@@ -32,25 +45,45 @@ export const SentencesToneDisplay = (props) => {
         </li>
       ) || ""
     })
+  }
 
-  return (
-    <div className="sentences-tone">
-      <h2>Sentence Level Tones</h2>
-      <div className="sentences-wrap"> 
-        <div className="sentences">
-          <p>
-            { renderText }
-          </p> 
-        </div>
-        <div className="tones-list">
-          <ul>
-            { renderTones 
-            }
-          </ul>
+  handleClick = (event) => {
+    event.preventDefault()
+    const { name } = event.target
+    
+    this.setState({ sentencesView: event.target.name, primary: "", secondary: "" }, () => {
+      this.setState({[name]: 'active'})
+    })
+  }
+
+  render() {
+    return (
+      <div className="sentences-tone">
+        <h2>Sentence Level Tones</h2>
+        <div className="sentences-wrap"> 
+          <div className="sentences">
+            <p>
+              { this.renderText() }
+            </p> 
+          </div>
+          <div className="tones-list">
+            <button
+              name="primary"
+              className={this.state.primary}
+              onClick={this.handleClick} >Primary</button>
+            <button
+              name="secondary"
+              className={this.state.secondary}
+              onClick={this.handleClick} >Secondary</button>
+            <ul>
+              { this.renderTones() 
+              }
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  )
+    )   
+  }
 }
 
 SentencesToneDisplay.propTypes = {
