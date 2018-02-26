@@ -33,7 +33,7 @@ export class AnalyzerInput extends Component {
       this.handleResults(results)  
     } else {
       console.log(this.props)
-      this.props.alerts.createAlert('Alert', 'My Alert Message')
+      this.props.alerts.createAlert('Alert', 'Text too short for analysis')
     }
   }
 
@@ -63,7 +63,6 @@ export class AnalyzerInput extends Component {
         <form
           className="analyzer-form"
           onSubmit={this.handleSubmit} >
-          <Alert />
           <div className="btn-wrap">
             <button 
               type="submit" 
@@ -75,7 +74,7 @@ export class AnalyzerInput extends Component {
               onClick={this.handleRandom}
             >Example</button>
           </div>
-          
+          <Alert />
           <textarea 
             name="text"
             onChange={this.handleChange}
