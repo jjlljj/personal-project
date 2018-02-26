@@ -45,7 +45,7 @@ ShallowWrapper {
           className="analysis-wrap"
 >
           <ToneWeb
-                    data={
+                    chartData={
                               Array [
                                         Array [
                                           Object {
@@ -113,7 +113,7 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <ToneWeb
-              data={
+              chartData={
                             Array [
                                           Array [
                                             Object {
@@ -167,7 +167,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "data": Array [
+              "chartData": Array [
                 Array [
                   Object {
                     "axis": "Analytical",
@@ -327,7 +327,7 @@ ShallowWrapper {
             className="analysis-wrap"
 >
             <ToneWeb
-                        data={
+                        chartData={
                                     Array [
                                                 Array [
                                                   Object {
@@ -395,7 +395,7 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <ToneWeb
-                data={
+                chartData={
                                 Array [
                                                 Array [
                                                   Object {
@@ -449,7 +449,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "data": Array [
+                "chartData": Array [
                   Array [
                     Object {
                       "axis": "Analytical",
@@ -651,7 +651,7 @@ ShallowWrapper {
           className="analysis-wrap"
 >
           <ToneWeb
-                    data={
+                    chartData={
                               Array [
                                         Array [
                                           Object {
@@ -719,7 +719,7 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <ToneWeb
-              data={
+              chartData={
                             Array [
                                           Array [
                                             Object {
@@ -773,7 +773,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "data": Array [
+              "chartData": Array [
                 Array [
                   Object {
                     "axis": "Positive",
@@ -933,7 +933,7 @@ ShallowWrapper {
             className="analysis-wrap"
 >
             <ToneWeb
-                        data={
+                        chartData={
                                     Array [
                                                 Array [
                                                   Object {
@@ -1001,7 +1001,7 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <ToneWeb
-                data={
+                chartData={
                                 Array [
                                                 Array [
                                                   Object {
@@ -1055,7 +1055,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "data": Array [
+                "chartData": Array [
                   Array [
                     Object {
                       "axis": "Positive",

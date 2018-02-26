@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
@@ -8,13 +9,13 @@ import ToneWeb from '../ToneWeb/ToneWeb'
 
 export const DocumentToneDisplay = (props) => {
   const { documentTone } = props
-  const data = cleanWebChartData(documentTone)
+  const chartData = cleanWebChartData(documentTone)
 
   const renderToneList = () => {
     return documentTone.length >= 3 && (
       <div className="tone-list">
         <h3>Primary:  {documentTone[0].tone_name}</h3>
-        <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium </p>
+        <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium </p> 
         <h3>Secondary:  {documentTone[1].tone_name}</h3>
         <p> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora</p>
         <h3>Tertiary:  {documentTone[2].tone_name}</h3>
@@ -30,7 +31,7 @@ export const DocumentToneDisplay = (props) => {
 
       <div className="analysis-wrap">
     
-        <ToneWeb data={ [data] } />
+        <ToneWeb chartData={ [chartData] } />
         
         { renderToneList() }
 

@@ -3,8 +3,10 @@ import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
 import { func, object } from 'prop-types'
 import './AnalyzerInput.css'
-import { toneFetch, toneExampleFetch, cleanTones } from '../../dataHelper/dataHelper'
-import { addResult, addDocumentTone, addSentencesTone, addSentences } from '../../actions/index'
+import { toneFetch, toneExampleFetch, 
+  cleanTones } from '../../dataHelper/dataHelper'
+import { addResult, addDocumentTone, 
+  addSentencesTone, addSentences } from '../../actions/index'
 
 export class AnalyzerInput extends Component {
   constructor(props) {
@@ -38,7 +40,8 @@ export class AnalyzerInput extends Component {
 
   handleResults = results => {
     const { sentences, sentencesTone, documentTone } = cleanTones(results)
-    const { addResult, addSentences, addDocumentTone, addSentencesTone, history } = this.props
+    const { addResult, addSentences, addDocumentTone, 
+      addSentencesTone, history } = this.props
 
     addResult({ sentences, sentencesTone, documentTone })
     addSentences(sentences)
