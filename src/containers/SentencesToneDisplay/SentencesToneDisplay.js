@@ -33,7 +33,7 @@ export class SentencesToneDisplay extends Component {
   renderTones = () => {
     const { sentencesTone } = this.props
     const { sentencesView } = this.state
-    console.log('renderTones')
+    
     return sentencesTone[sentencesView] &&
     sentencesTone[sentencesView].map(tone => {
       const classList = (tone + " tone-category")
@@ -49,7 +49,7 @@ export class SentencesToneDisplay extends Component {
     })
   }
 
-  handleClick = (event) => {
+  handleToggle = (event) => {
     event.preventDefault()
     const { name } = event.target
     const toneIndex = name === "primary" ? 0 : 1
@@ -73,11 +73,11 @@ export class SentencesToneDisplay extends Component {
             <button
               name="primary"
               className={this.state.primary}
-              onClick={this.handleClick} >Primary</button>
+              onClick={this.handleToggle} >Primary</button>
             <button
               name="secondary"
               className={this.state.secondary}
-              onClick={this.handleClick} >Secondary</button>
+              onClick={this.handleToggle} >Secondary</button>
             <ul>
               { this.renderTones() }
             </ul>
