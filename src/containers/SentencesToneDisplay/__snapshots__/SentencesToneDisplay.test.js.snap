@@ -34,8 +34,8 @@ ShallowWrapper {
               "tones": Array [
                 Object {
                   "score": 0.580387,
-                  "tone_id": "joy",
-                  "tone_name": "Joy",
+                  "tone_id": "positive",
+                  "tone_name": "Positive",
                 },
                 Object {
                   "score": 0.550576,
@@ -50,7 +50,7 @@ ShallowWrapper {
         Object {
             "primary": Array [
               "Analytical",
-              "Joy",
+              "Positive",
             ],
             "secondary": Array [
               "Tentative",
@@ -89,7 +89,7 @@ ShallowWrapper {
                                         I hope that we can reach an amicable understanding and a solution to this problem.
                               </span>
                               <span
-                                        className="joy"
+                                        className="positive"
                               >
                                          
                                         Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
@@ -115,9 +115,9 @@ ShallowWrapper {
                                         className="sentence-tone-item"
                               >
                                         <span
-                                                  className="Joy tone-category"
+                                                  className="Positive tone-category"
                                         >
-                                                  Joy
+                                                  Positive
                                                   : 
                                         </span>
                                         Quis autem vel eum iure reprehenderit qui in ea voluptate velit
@@ -158,7 +158,7 @@ ShallowWrapper {
                                           I hope that we can reach an amicable understanding and a solution to this problem.
                             </span>
                             <span
-                                          className="joy"
+                                          className="positive"
                             >
                                            
                                           Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
@@ -184,9 +184,9 @@ ShallowWrapper {
                                           className="sentence-tone-item"
                             >
                                           <span
-                                                        className="Joy tone-category"
+                                                        className="Positive tone-category"
                                           >
-                                                        Joy
+                                                        Positive
                                                         : 
                                           </span>
                                           Quis autem vel eum iure reprehenderit qui in ea voluptate velit
@@ -211,7 +211,7 @@ ShallowWrapper {
                                 I hope that we can reach an amicable understanding and a solution to this problem.
                 </span>
                 <span
-                                className="joy"
+                                className="positive"
                 >
                                  
                                 Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
@@ -233,7 +233,7 @@ ShallowWrapper {
                     I hope that we can reach an amicable understanding and a solution to this problem.
 </span>,
                   <span
-                    className="joy"
+                    className="positive"
 >
                      
                     Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
@@ -269,7 +269,7 @@ ShallowWrapper {
                       " ",
                       "Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.",
                     ],
-                    "className": "joy",
+                    "className": "positive",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -304,9 +304,9 @@ ShallowWrapper {
                                 className="sentence-tone-item"
                 >
                                 <span
-                                                className="Joy tone-category"
+                                                className="Positive tone-category"
                                 >
-                                                Joy
+                                                Positive
                                                 : 
                                 </span>
                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
@@ -336,9 +336,9 @@ ShallowWrapper {
                     className="sentence-tone-item"
 >
                     <span
-                                        className="Joy tone-category"
+                                        className="Positive tone-category"
                     >
-                                        Joy
+                                        Positive
                                         : 
                     </span>
                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit
@@ -389,14 +389,14 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "Joy",
+                  "key": "Positive",
                   "nodeType": "host",
                   "props": Object {
                     "children": Array [
                       <span
-                        className="Joy tone-category"
+                        className="Positive tone-category"
 >
-                        Joy
+                        Positive
                         : 
 </span>,
                       "Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
@@ -411,14 +411,14 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": Array [
-                          "Joy",
+                          "Positive",
                           ": ",
                         ],
-                        "className": "Joy tone-category",
+                        "className": "Positive tone-category",
                       },
                       "ref": null,
                       "rendered": Array [
-                        "Joy",
+                        "Positive",
                         ": ",
                       ],
                       "type": "span",
@@ -462,7 +462,7 @@ ShallowWrapper {
                                                 I hope that we can reach an amicable understanding and a solution to this problem.
                                     </span>
                                     <span
-                                                className="joy"
+                                                className="positive"
                                     >
                                                  
                                                 Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
@@ -488,9 +488,9 @@ ShallowWrapper {
                                                 className="sentence-tone-item"
                                     >
                                                 <span
-                                                            className="Joy tone-category"
+                                                            className="Positive tone-category"
                                                 >
-                                                            Joy
+                                                            Positive
                                                             : 
                                                 </span>
                                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
@@ -531,7 +531,7 @@ ShallowWrapper {
                                                 I hope that we can reach an amicable understanding and a solution to this problem.
                                 </span>
                                 <span
-                                                className="joy"
+                                                className="positive"
                                 >
                                                  
                                                 Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
@@ -557,9 +557,9 @@ ShallowWrapper {
                                                 className="sentence-tone-item"
                                 >
                                                 <span
-                                                                className="Joy tone-category"
+                                                                className="Positive tone-category"
                                                 >
-                                                                Joy
+                                                                Positive
                                                                 : 
                                                 </span>
                                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
@@ -584,7 +584,7 @@ ShallowWrapper {
                                     I hope that we can reach an amicable understanding and a solution to this problem.
                   </span>
                   <span
-                                    className="joy"
+                                    className="positive"
                   >
                                      
                                     Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
@@ -606,7 +606,7 @@ ShallowWrapper {
                       I hope that we can reach an amicable understanding and a solution to this problem.
 </span>,
                     <span
-                      className="joy"
+                      className="positive"
 >
                        
                       Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.
@@ -642,7 +642,7 @@ ShallowWrapper {
                         " ",
                         "Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.",
                       ],
-                      "className": "joy",
+                      "className": "positive",
                     },
                     "ref": null,
                     "rendered": Array [
@@ -677,9 +677,9 @@ ShallowWrapper {
                                     className="sentence-tone-item"
                   >
                                     <span
-                                                      className="Joy tone-category"
+                                                      className="Positive tone-category"
                                     >
-                                                      Joy
+                                                      Positive
                                                       : 
                                     </span>
                                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit
@@ -709,9 +709,9 @@ ShallowWrapper {
                       className="sentence-tone-item"
 >
                       <span
-                                            className="Joy tone-category"
+                                            className="Positive tone-category"
                       >
-                                            Joy
+                                            Positive
                                             : 
                       </span>
                       Quis autem vel eum iure reprehenderit qui in ea voluptate velit
@@ -762,14 +762,14 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "Joy",
+                    "key": "Positive",
                     "nodeType": "host",
                     "props": Object {
                       "children": Array [
                         <span
-                          className="Joy tone-category"
+                          className="Positive tone-category"
 >
-                          Joy
+                          Positive
                           : 
 </span>,
                         "Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
@@ -784,14 +784,14 @@ ShallowWrapper {
                         "nodeType": "host",
                         "props": Object {
                           "children": Array [
-                            "Joy",
+                            "Positive",
                             ": ",
                           ],
-                          "className": "Joy tone-category",
+                          "className": "Positive tone-category",
                         },
                         "ref": null,
                         "rendered": Array [
-                          "Joy",
+                          "Positive",
                           ": ",
                         ],
                         "type": "span",
@@ -835,8 +835,8 @@ ShallowWrapper {
               "tones": Array [
                 Object {
                   "score": 0.353962,
-                  "tone_id": "joy",
-                  "tone_name": "Joy",
+                  "tone_id": "positive",
+                  "tone_name": "Positive",
                 },
                 Object {
                   "score": 0.294703,
@@ -851,8 +851,8 @@ ShallowWrapper {
               "tones": Array [
                 Object {
                   "score": 0.571513,
-                  "tone_id": "joy",
-                  "tone_name": "Joy",
+                  "tone_id": "positive",
+                  "tone_name": "Positive",
                 },
                 Object {
                   "score": 0.482451,
@@ -872,8 +872,8 @@ ShallowWrapper {
                 },
                 Object {
                   "score": 0.227267,
-                  "tone_id": "joy",
-                  "tone_name": "Joy",
+                  "tone_id": "positive",
+                  "tone_name": "Positive",
                 },
               ],
             },
@@ -888,8 +888,8 @@ ShallowWrapper {
                 },
                 Object {
                   "score": 0.359409,
-                  "tone_id": "joy",
-                  "tone_name": "Joy",
+                  "tone_id": "positive",
+                  "tone_name": "Positive",
                 },
               ],
             },
@@ -899,7 +899,7 @@ ShallowWrapper {
         Object {
             "primary": Array [
               "Analytical",
-              "Joy",
+              "Positive",
             ],
             "secondary": Array [
               "Tentative",
@@ -932,13 +932,13 @@ ShallowWrapper {
           >
                     <p>
                               <span
-                                        className="joy"
+                                        className="positive"
                               >
                                          
                                         My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
                               </span>
                               <span
-                                        className="joy"
+                                        className="positive"
                               >
                                          
                                         My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
@@ -976,9 +976,9 @@ ShallowWrapper {
                                         className="sentence-tone-item"
                               >
                                         <span
-                                                  className="Joy tone-category"
+                                                  className="Positive tone-category"
                                         >
-                                                  Joy
+                                                  Positive
                                                   : 
                                         </span>
                                         Quis autem vel eum iure reprehenderit qui in ea voluptate velit
@@ -1013,13 +1013,13 @@ ShallowWrapper {
 >
               <p>
                             <span
-                                          className="joy"
+                                          className="positive"
                             >
                                            
                                           My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
                             </span>
                             <span
-                                          className="joy"
+                                          className="positive"
                             >
                                            
                                           My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
@@ -1057,9 +1057,9 @@ ShallowWrapper {
                                           className="sentence-tone-item"
                             >
                                           <span
-                                                        className="Joy tone-category"
+                                                        className="Positive tone-category"
                                           >
-                                                        Joy
+                                                        Positive
                                                         : 
                                           </span>
                                           Quis autem vel eum iure reprehenderit qui in ea voluptate velit
@@ -1078,13 +1078,13 @@ ShallowWrapper {
             "props": Object {
               "children": <p>
                 <span
-                                className="joy"
+                                className="positive"
                 >
                                  
                                 My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
                 </span>
                 <span
-                                className="joy"
+                                className="positive"
                 >
                                  
                                 My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
@@ -1112,13 +1112,13 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <span
-                    className="joy"
+                    className="positive"
 >
                      
                     My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
 </span>,
                   <span
-                    className="joy"
+                    className="positive"
 >
                      
                     My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
@@ -1148,7 +1148,7 @@ ShallowWrapper {
                       " ",
                       "My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.",
                     ],
-                    "className": "joy",
+                    "className": "positive",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -1166,7 +1166,7 @@ ShallowWrapper {
                       " ",
                       "My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.",
                     ],
-                    "className": "joy",
+                    "className": "positive",
                   },
                   "ref": null,
                   "rendered": Array [
@@ -1237,9 +1237,9 @@ ShallowWrapper {
                                 className="sentence-tone-item"
                 >
                                 <span
-                                                className="Joy tone-category"
+                                                className="Positive tone-category"
                                 >
-                                                Joy
+                                                Positive
                                                 : 
                                 </span>
                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
@@ -1269,9 +1269,9 @@ ShallowWrapper {
                     className="sentence-tone-item"
 >
                     <span
-                                        className="Joy tone-category"
+                                        className="Positive tone-category"
                     >
-                                        Joy
+                                        Positive
                                         : 
                     </span>
                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit
@@ -1322,14 +1322,14 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": "Joy",
+                  "key": "Positive",
                   "nodeType": "host",
                   "props": Object {
                     "children": Array [
                       <span
-                        className="Joy tone-category"
+                        className="Positive tone-category"
 >
-                        Joy
+                        Positive
                         : 
 </span>,
                       "Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
@@ -1344,14 +1344,14 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": Array [
-                          "Joy",
+                          "Positive",
                           ": ",
                         ],
-                        "className": "Joy tone-category",
+                        "className": "Positive tone-category",
                       },
                       "ref": null,
                       "rendered": Array [
-                        "Joy",
+                        "Positive",
                         ": ",
                       ],
                       "type": "span",
@@ -1389,13 +1389,13 @@ ShallowWrapper {
             >
                         <p>
                                     <span
-                                                className="joy"
+                                                className="positive"
                                     >
                                                  
                                                 My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
                                     </span>
                                     <span
-                                                className="joy"
+                                                className="positive"
                                     >
                                                  
                                                 My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
@@ -1433,9 +1433,9 @@ ShallowWrapper {
                                                 className="sentence-tone-item"
                                     >
                                                 <span
-                                                            className="Joy tone-category"
+                                                            className="Positive tone-category"
                                                 >
-                                                            Joy
+                                                            Positive
                                                             : 
                                                 </span>
                                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
@@ -1470,13 +1470,13 @@ ShallowWrapper {
 >
                 <p>
                                 <span
-                                                className="joy"
+                                                className="positive"
                                 >
                                                  
                                                 My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
                                 </span>
                                 <span
-                                                className="joy"
+                                                className="positive"
                                 >
                                                  
                                                 My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
@@ -1514,9 +1514,9 @@ ShallowWrapper {
                                                 className="sentence-tone-item"
                                 >
                                                 <span
-                                                                className="Joy tone-category"
+                                                                className="Positive tone-category"
                                                 >
-                                                                Joy
+                                                                Positive
                                                                 : 
                                                 </span>
                                                 Quis autem vel eum iure reprehenderit qui in ea voluptate velit
@@ -1535,13 +1535,13 @@ ShallowWrapper {
               "props": Object {
                 "children": <p>
                   <span
-                                    className="joy"
+                                    className="positive"
                   >
                                      
                                     My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
                   </span>
                   <span
-                                    className="joy"
+                                    className="positive"
                   >
                                      
                                     My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
@@ -1569,13 +1569,13 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     <span
-                      className="joy"
+                      className="positive"
 >
                        
                       My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.
 </span>,
                     <span
-                      className="joy"
+                      className="positive"
 >
                        
                       My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.
@@ -1605,7 +1605,7 @@ ShallowWrapper {
                         " ",
                         "My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.",
                       ],
-                      "className": "joy",
+                      "className": "positive",
                     },
                     "ref": null,
                     "rendered": Array [
@@ -1623,7 +1623,7 @@ ShallowWrapper {
                         " ",
                         "My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.",
                       ],
-                      "className": "joy",
+                      "className": "positive",
                     },
                     "ref": null,
                     "rendered": Array [
@@ -1694,9 +1694,9 @@ ShallowWrapper {
                                     className="sentence-tone-item"
                   >
                                     <span
-                                                      className="Joy tone-category"
+                                                      className="Positive tone-category"
                                     >
-                                                      Joy
+                                                      Positive
                                                       : 
                                     </span>
                                     Quis autem vel eum iure reprehenderit qui in ea voluptate velit
@@ -1726,9 +1726,9 @@ ShallowWrapper {
                       className="sentence-tone-item"
 >
                       <span
-                                            className="Joy tone-category"
+                                            className="Positive tone-category"
                       >
-                                            Joy
+                                            Positive
                                             : 
                       </span>
                       Quis autem vel eum iure reprehenderit qui in ea voluptate velit
@@ -1779,14 +1779,14 @@ ShallowWrapper {
                   },
                   Object {
                     "instance": null,
-                    "key": "Joy",
+                    "key": "Positive",
                     "nodeType": "host",
                     "props": Object {
                       "children": Array [
                         <span
-                          className="Joy tone-category"
+                          className="Positive tone-category"
 >
-                          Joy
+                          Positive
                           : 
 </span>,
                         "Quis autem vel eum iure reprehenderit qui in ea voluptate velit",
@@ -1801,14 +1801,14 @@ ShallowWrapper {
                         "nodeType": "host",
                         "props": Object {
                           "children": Array [
-                            "Joy",
+                            "Positive",
                             ": ",
                           ],
-                          "className": "Joy tone-category",
+                          "className": "Positive tone-category",
                         },
                         "ref": null,
                         "rendered": Array [
-                          "Joy",
+                          "Positive",
                           ": ",
                         ],
                         "type": "span",

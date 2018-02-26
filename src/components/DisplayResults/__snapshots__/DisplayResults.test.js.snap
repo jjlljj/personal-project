@@ -34,8 +34,8 @@ ShallowWrapper {
               "tones": Array [
                 Object {
                   "score": 0.580387,
-                  "tone_id": "joy",
-                  "tone_name": "Joy",
+                  "tone_id": "positive",
+                  "tone_name": "Positive",
                 },
                 Object {
                   "score": 0.550576,

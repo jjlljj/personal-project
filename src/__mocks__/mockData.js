@@ -86,8 +86,8 @@ export const mockCleaned = {
     },
     {
       score: 0.519797,
-      tone_id: 'joy',
-      tone_name: 'Joy'
+      tone_id: 'positive',
+      tone_name: 'Positive'
     }
   ],
   sentences: [
@@ -118,8 +118,8 @@ export const mockCleaned = {
       tones: [
         {
           score: 0.580387,
-          tone_id: 'joy',
-          tone_name: 'Joy'
+          tone_id: 'positive',
+          tone_name: 'Positive'
         },
         {
           score: 0.550576,
@@ -130,7 +130,7 @@ export const mockCleaned = {
     }
   ],
   sentencesTone: {
-    "primary": [ "Analytical", "Joy" ], 
+    "primary": [ "Analytical", "Positive" ], 
     "secondary": [ "Tentative", "Analytical" ]
   }
 }
@@ -143,8 +143,8 @@ export const mockCleaned2 = {
       tones: [
         {
           score: 0.353962,
-          tone_id: 'joy',
-          tone_name: 'Joy'
+          tone_id: 'positive',
+          tone_name: 'Positive'
         },
         {
           score: 0.294703,
@@ -159,8 +159,8 @@ export const mockCleaned2 = {
       tones: [
         {
           score: 0.571513,
-          tone_id: 'joy',
-          tone_name: 'Joy'
+          tone_id: 'positive',
+          tone_name: 'Positive'
         },
         {
           score: 0.482451,
@@ -180,8 +180,8 @@ export const mockCleaned2 = {
         },
         {
           score: 0.227267,
-          tone_id: 'joy',
-          tone_name: 'Joy'
+          tone_id: 'positive',
+          tone_name: 'Positive'
         }
       ]
     },
@@ -196,8 +196,8 @@ export const mockCleaned2 = {
         },
         {
           score: 0.359409,
-          tone_id: 'joy',
-          tone_name: 'Joy'
+          tone_id: 'positive',
+          tone_name: 'Positive'
         }
       ]
     }
@@ -205,8 +205,8 @@ export const mockCleaned2 = {
   documentTone: [
     {
       score: 0.619992,
-      tone_id: 'joy',
-      tone_name: 'Joy'
+      tone_id: 'positive',
+      tone_name: 'Positive'
     },
     {
       score: 0.448741,
@@ -220,7 +220,7 @@ export const mockCleaned2 = {
     }
   ],
   "sentencesTone": {
-    "primary": [ "Analytical", "Joy" ], 
+    "primary": [ "Analytical", "Positive" ], 
     "secondary": [ "Tentative", "Analytical" ]
   }
 }
@@ -247,8 +247,8 @@ export const mockUncleaned = {
           },
           {
             score: 0.519797,
-            tone_id: 'joy',
-            tone_name: 'Joy'
+            tone_id: 'positive',
+            tone_name: 'Positive'
           },
           {
             score: 0.236706,
@@ -339,8 +339,8 @@ export const mockUncleaned = {
             },
             {
               score: 0.099391,
-              tone_id: 'joy',
-              tone_name: 'Joy'
+              tone_id: 'positive',
+              tone_name: 'Positive'
             },
             {
               score: 0.44646,
@@ -430,8 +430,8 @@ export const mockUncleaned = {
             },
             {
               score: 0.580387,
-              tone_id: 'joy',
-              tone_name: 'Joy'
+              tone_id: 'positive',
+              tone_name: 'Positive'
             },
             {
               score: 0.155833,
@@ -503,7 +503,7 @@ export const mockMergedTonesArray = [
   {"score": 0.0308, "tone_id": "anger", "tone_name": "Anger"}, 
   {"score": 0.016122, "tone_id": "disgust", "tone_name": "Disgust"}, 
   {"score": 0.107343, "tone_id": "fear", "tone_name": "Fear"}, 
-  {"score": 0.099391, "tone_id": "joy", "tone_name": "Joy"}, 
+  {"score": 0.099391, "tone_id": "positive", "tone_name": "Positive"}, 
   {"score": 0.44646, "tone_id": "sadness", "tone_name": "Sadness"}, 
   {"score": 0.897416, "tone_id": "analytical", "tone_name": "Analytical"}, 
   {"score": 0, "tone_id": "confident", "tone_name": "Confident"}, 
