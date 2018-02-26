@@ -15,7 +15,7 @@ describe('DisplayResults', () => {
     expect(renderedComponent).toMatchSnapshot()
   })
 
-  it.skip('shuold match snapshot when passed different results', () => {
+  it('shuold match snapshot when passed different results', () => {
     renderedComponent = shallow(<DisplayResults sentences={ mockCleaned2 } />)
 
     expect(renderedComponent).toMatchSnapshot()

@@ -24,8 +24,7 @@ export class SentencesToneDisplay extends Component {
         sentence.tones[toneIndex].tone_id || ""
 
       return (
-        <span className={ classList } key={sentence.sentence_id}> 
-          {sentence.text}
+        <span className={ classList } key={sentence.sentence_id}> {sentence.text}
         </span>
       )
     })
