@@ -26,4 +26,23 @@ describe('SentencesToneDisplay', () => {
 
     expect(renderedComponent).toMatchSnapshot()
   })
+
+  it('handleToggle should set state with the expected params', () => {
+    const mockEvent = { target: { name: "secondary" }, preventDefault: jest.fn() }
+    const expected1 = {
+      sentencesView: "primary",
+      primary: 'active',
+      secondary: '',
+      toneIndex: 0
+    }
+    const expected2 = {
+      sentencesView: "secondary",
+      primary: '',
+      secondary: 'active',
+      toneIndex: 1
+    }
+    expect(renderedComponent.state()).toEqual(expected1)
+    renderedComponent.instance().handleToggle(mockEvent)
+    expect(renderedComponent.state()).toEqual(expected2)
+  })
 })

@@ -31,25 +31,14 @@
   align-items: center;
 }
 
-.get-example {
-  box-sizing: border-box;
-  background-color: #f2f2f2;
-  box-sizing: border-box;
-  display: inline-block;
-  font-size: 12px;
-  height: 40px;
-  width: 48%;
-  border: none;
-}
-
+.get-example,
 .submit {
-  box-sizing: border-box;
-  background: #f2f2f2;
+  background-color: #f2f2f2;
   border: none;
+  box-sizing: border-box;
   display: inline-block;
   font-size: 12px;
   height: 40px;
-  padding: 10px;
   width: 48%;
 }
 

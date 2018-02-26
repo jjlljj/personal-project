@@ -61,7 +61,7 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <withRouter(Connect(Component)) />,
-        <withRouter(Connect(Component)) />,
+        <withRouter(Connect(SentencesToneDisplay)) />,
       ],
     },
     "ref": null,
@@ -95,7 +95,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <withRouter(Connect(Component)) />,
-          <withRouter(Connect(Component)) />,
+          <withRouter(Connect(SentencesToneDisplay)) />,
         ],
       },
       "ref": null,
