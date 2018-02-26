@@ -137,31 +137,101 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Unknown
-    results={
+    sentences={
         Object {
-            "sentences_tone": Array [
+            "documentTone": Array [
+              Object {
+                "score": 0.619992,
+                "tone_id": "positive",
+                "tone_name": "Positive",
+              },
+              Object {
+                "score": 0.448741,
+                "tone_id": "tentative",
+                "tone_name": "Tentative",
+              },
+              Object {
+                "score": 0.440216,
+                "tone_id": "analytical",
+                "tone_name": "Analytical",
+              },
+            ],
+            "sentences": Array [
               Object {
                 "sentence_id": 0,
-                "text": "In the muddy peaceful center of this town.",
-                "tones": Array [],
+                "text": "My client feels that it would be mutually beneficial for both parties to come to an agreement for the price of each 4’ x 6’ double paned glass window.",
+                "tones": Array [
+                  Object {
+                    "score": 0.353962,
+                    "tone_id": "positive",
+                    "tone_name": "Positive",
+                  },
+                  Object {
+                    "score": 0.294703,
+                    "tone_id": "sadness",
+                    "tone_name": "Sadness",
+                  },
+                ],
               },
               Object {
                 "sentence_id": 1,
-                "text": "Tell me off in the hotel lobby right in front of all the bellboys, and the over friendly concierge",
+                "text": "My client has stayed in business a long time by offering reasonable prices and developing customer loyalty.",
                 "tones": Array [
                   Object {
-                    "score": 0.638987,
-                    "tone_id": "confident",
-                    "tone_name": "Confident",
+                    "score": 0.571513,
+                    "tone_id": "positive",
+                    "tone_name": "Positive",
+                  },
+                  Object {
+                    "score": 0.482451,
+                    "tone_id": "analytical",
+                    "tone_name": "Analytical",
                   },
                 ],
               },
               Object {
                 "sentence_id": 2,
-                "text": "A shady lane, Everybody wants one.",
-                "tones": Array [],
+                "text": "He would like to maintain a business-relationship with Mr. Farley.",
+                "tones": Array [
+                  Object {
+                    "score": 0.497569,
+                    "tone_id": "tentative",
+                    "tone_name": "Tentative",
+                  },
+                  Object {
+                    "score": 0.227267,
+                    "tone_id": "positive",
+                    "tone_name": "Positive",
+                  },
+                ],
+              },
+              Object {
+                "sentence_id": 3,
+                "text": "Please review this email and let me know whether your client is also willing to negotiate a fair price for each window.",
+                "tones": Array [
+                  Object {
+                    "score": 0.579367,
+                    "tone_id": "analytical",
+                    "tone_name": "Analytical",
+                  },
+                  Object {
+                    "score": 0.359409,
+                    "tone_id": "positive",
+                    "tone_name": "Positive",
+                  },
+                ],
               },
             ],
+            "sentencesTone": Object {
+              "primary": Array [
+                "Analytical",
+                "Positive",
+              ],
+              "secondary": Array [
+                "Tentative",
+                "Analytical",
+              ],
+            },
           }
     }
 />,
@@ -178,10 +248,8 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h3>
-          Analyzed: 
-</h3>,
-        <p />,
+        <withRouter(Connect(Component)) />,
+        <withRouter(Connect(SentencesToneDisplay)) />,
       ],
     },
     "ref": null,
@@ -189,24 +257,20 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Analyzed: ",
-        },
+        "nodeType": "function",
+        "props": Object {},
         "ref": null,
-        "rendered": "Analyzed: ",
-        "type": "h3",
+        "rendered": null,
+        "type": [Function],
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": undefined,
-        },
+        "nodeType": "function",
+        "props": Object {},
         "ref": null,
         "rendered": null,
-        "type": "p",
+        "type": [Function],
       },
     ],
     "type": "div",
@@ -218,10 +282,8 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h3>
-            Analyzed: 
-</h3>,
-          <p />,
+          <withRouter(Connect(Component)) />,
+          <withRouter(Connect(SentencesToneDisplay)) />,
         ],
       },
       "ref": null,
@@ -229,24 +291,20 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Analyzed: ",
-          },
+          "nodeType": "function",
+          "props": Object {},
           "ref": null,
-          "rendered": "Analyzed: ",
-          "type": "h3",
+          "rendered": null,
+          "type": [Function],
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": undefined,
-          },
+          "nodeType": "function",
+          "props": Object {},
           "ref": null,
           "rendered": null,
-          "type": "p",
+          "type": [Function],
         },
       ],
       "type": "div",

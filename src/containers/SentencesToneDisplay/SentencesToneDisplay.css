@@ -47,3 +47,15 @@
 .tones-list .active {
   background: blue;
 }
+
+@media screen and (max-width: 750px ) {
+  .sentences-wrap{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .sentences, .tones-list {
+    width: 100%;
+    min-width: 300px;
+  }
+}

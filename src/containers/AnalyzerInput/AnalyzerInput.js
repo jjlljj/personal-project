@@ -7,6 +7,9 @@ import { toneFetch, toneExampleFetch,
   cleanTones } from '../../dataHelper/dataHelper'
 import { addResult, addDocumentTone, 
   addSentencesTone, addSentences } from '../../actions/index'
+import Alert from '../../components/Alert/Alert'
+import { actions as alertActions } from 'react-redux-alerts'
+import { bindActionCreators } from 'redux';
 
 export class AnalyzerInput extends Component {
   constructor(props) {
@@ -28,6 +31,9 @@ export class AnalyzerInput extends Component {
       const results = await toneFetch(this.state.text)
       
       this.handleResults(results)  
+    } else {
+      console.log(this.props)
+      this.props.alerts.createAlert('Alert', 'Text too short for analysis')
     }
   }
 
@@ -68,6 +74,7 @@ export class AnalyzerInput extends Component {
               onClick={this.handleRandom}
             >Example</button>
           </div>
+          <Alert />
           <textarea 
             name="text"
             onChange={this.handleChange}
@@ -91,7 +98,8 @@ const mapDispatchToProps = (dispatch) => ({
   addResult: result => dispatch(addResult(result)),
   addDocumentTone: documentTone => dispatch(addDocumentTone(documentTone)),
   addSentencesTone: sentencesTone => dispatch(addSentencesTone(sentencesTone)),
-  addSentences: sentences => dispatch(addSentences(sentences))
+  addSentences: sentences => dispatch(addSentences(sentences)),
+  alerts: bindActionCreators(alertActions, dispatch)
 })
 
 
