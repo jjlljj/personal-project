@@ -85,7 +85,18 @@ export const cleanToneCategories = categories => {
 export const filterAndSort = (tones, thresh = 0) => {
   return tones
     .filter(tone => tone.score >= thresh)
-    .sort((a, b) => b.score - a.score) 
+    .sort((a, b) => b.score - a.score)
+    .map(tone => {
+      if (tone.tone_id === 'joy') {
+        return {...joyMap, score: tone.score }
+      }
+      return tone
+    }) 
+}
+
+const joyMap = {
+   tone_id: "positive", 
+   tone_name: "Positive"
 }
 
 export const cleanWebChartData = ( data ) => { 
@@ -107,6 +118,6 @@ export const cleanSentencesTone = sentences => {
 }
 
 export const withoutDupes = (array, idx) => {
-  const tones = array.map(sentence => sentence.tones[idx].tone_name || null )
+  const tones = array.map(sentence => sentence.tones[idx] && sentence.tones[idx].tone_name || "Neutral" )
   return Array.from(new Set(tones))
 }

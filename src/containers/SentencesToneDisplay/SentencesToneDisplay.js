@@ -8,7 +8,7 @@ export const SentencesToneDisplay = (props) => {
   const { sentences, sentencesTone } = props
   
   const renderText = sentences.map(sentence => {
-    const classList = sentence.tones[0].tone_id || ""
+    const classList = sentence.tones[0] && sentence.tones[0].tone_id || ""
 
     return (
       <span 

@@ -24,6 +24,7 @@ export class AnalyzerInput extends Component {
     
     if ( this.state.text.length > 50 ) {
       const results = await toneFetch(this.state.text)
+      
       this.handleResults(results)  
     }
   }
