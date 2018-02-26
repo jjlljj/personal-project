@@ -28,11 +28,15 @@ export class AnalyzerInput extends Component {
     event.preventDefault()
     
     if ( this.state.text.length > 50 ) {
-      const results = await toneFetch(this.state.text)
-      
-      this.handleResults(results)  
+      try {
+        const results = await toneFetch(this.state.text)
+        
+        this.handleResults(results)     
+      } catch (error) {
+        this.props.alerts.createAlert('Alert', 'Unable to analyze text')
+      }
     } else {
-      console.log(this.props)
+      
       this.props.alerts.createAlert('Alert', 'Text too short for analysis')
     }
   }
@@ -40,8 +44,12 @@ export class AnalyzerInput extends Component {
   handleRandom = async event => {
     event.preventDefault()
 
-    const results = await toneExampleFetch(this.state.text)    
-    this.handleResults(results) 
+    try {
+      const results = await toneExampleFetch(this.state.text)    
+      this.handleResults(results)     
+    } catch (error) {
+      this.props.alerts.createAlert('Alert', 'Unable to get an analyzed example')
+    }
   }
 
   handleResults = results => {
