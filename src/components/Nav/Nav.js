@@ -1,14 +1,14 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import './Nav.css'
 
 const Nav = () => {
   return (
     <header className="nav-header">
       <h1>
-        <NavLink to="/">
+        <Link to="/">
           toneDetector
-        </NavLink>
+        </Link>
       </h1>
       <nav>
         <div>

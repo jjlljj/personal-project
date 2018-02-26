@@ -11,7 +11,7 @@
 }
 
 .tentative, .Tentative {
-  color: orange;
+  color: #4CCEE8;
 }
 
 .confident, .Confident {
@@ -23,7 +23,7 @@
 }
 
 .fear, .Fear {
-  color: #4CCEE8;
+  color: orange;
 }
 
 .positive, .Positive {

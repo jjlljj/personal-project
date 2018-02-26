@@ -17,3 +17,7 @@
 .nav-header nav div {
   margin: 20px;
 }
+
+.nav-header .active {
+  color: blue;
+}
