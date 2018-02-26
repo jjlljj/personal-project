@@ -20,7 +20,8 @@ export class SentencesToneDisplay extends Component {
     const { toneIndex } = this.state
 
     return sentences.map(sentence => {
-    let classList = sentence.tones[toneIndex] && sentence.tones[toneIndex].tone_id || ""
+      let classList = sentence.tones[toneIndex] && 
+        sentence.tones[toneIndex].tone_id || ""
 
       return (
         <span className={ classList } key={sentence.sentence_id}> 
@@ -54,8 +55,13 @@ export class SentencesToneDisplay extends Component {
     const { name } = event.target
     const toneIndex = name === "primary" ? 0 : 1
     
-    this.setState({ sentencesView: event.target.name, primary: "", secondary: "", toneIndex }, () => {
-      this.setState({[name]: 'active'})
+    this.setState({ 
+      sentencesView: event.target.name, 
+      primary: "", 
+      secondary: "", 
+      toneIndex 
+    }, () => { 
+      this.setState({[name]: 'active' })
     })
   }
 
