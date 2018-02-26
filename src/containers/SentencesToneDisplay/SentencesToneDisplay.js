@@ -10,15 +10,17 @@ export class SentencesToneDisplay extends Component {
     this.state = {
       sentencesView: "primary",
       primary: 'active',
-      secondary: ''
+      secondary: '',
+      toneIndex: 0
     }
   }
   
   renderText = () => {
     const { sentences } = this.props
+    const { toneIndex } = this.state
 
     return sentences.map(sentence => {
-    const classList = sentence.tones[0] && sentence.tones[0].tone_id || ""
+    let classList = sentence.tones[toneIndex] && sentence.tones[toneIndex].tone_id || ""
 
       return (
         <span className={ classList } key={sentence.sentence_id}> 
@@ -31,7 +33,7 @@ export class SentencesToneDisplay extends Component {
   renderTones = () => {
     const { sentencesTone } = this.props
     const { sentencesView } = this.state
-
+    console.log('renderTones')
     return sentencesTone[sentencesView] &&
     sentencesTone[sentencesView].map(tone => {
       const classList = (tone + " tone-category")
@@ -50,8 +52,9 @@ export class SentencesToneDisplay extends Component {
   handleClick = (event) => {
     event.preventDefault()
     const { name } = event.target
+    const toneIndex = name === "primary" ? 0 : 1
     
-    this.setState({ sentencesView: event.target.name, primary: "", secondary: "" }, () => {
+    this.setState({ sentencesView: event.target.name, primary: "", secondary: "", toneIndex }, () => {
       this.setState({[name]: 'active'})
     })
   }
@@ -76,8 +79,7 @@ export class SentencesToneDisplay extends Component {
               className={this.state.secondary}
               onClick={this.handleClick} >Secondary</button>
             <ul>
-              { this.renderTones() 
-              }
+              { this.renderTones() }
             </ul>
           </div>
         </div>
