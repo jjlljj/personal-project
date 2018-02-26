@@ -12,7 +12,7 @@ describe('ToneWeb', () => {
   beforeEach(() => {
     mockChartData = [cleanWebChartData(mockCleaned.documentTone)]
 
-    renderedComponent = shallow(<ToneWeb data={ mockChartData }
+    renderedComponent = shallow(<ToneWeb chartData={ mockChartData }
        />)
   })
 
@@ -23,7 +23,7 @@ describe('ToneWeb', () => {
   it('should match snapshot when passed different results', () => {
     mockChartData = [cleanWebChartData(mockCleaned2.documentTone)]
 
-    renderedComponent = shallow(<ToneWeb data={ mockChartData } />)
+    renderedComponent = shallow(<ToneWeb chartData={ mockChartData } />)
 
     expect(renderedComponent).toMatchSnapshot()
   })
