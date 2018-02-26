@@ -16,12 +16,19 @@ const middleware = applyMiddleware(logger)
 
 const store = createStore(rootReducer, devTools, middleware)
 
+const options = {
+  position: 'bottom center',
+  timeout: 5000,
+  offset: '30px',
+  transition: 'scale'
+}
+
 ReactDOM.render(
   <Provider store = { store } >
     <BrowserRouter>
       <App /> 
     </BrowserRouter>
-  </Provider>, 
+  </Provider>,
   document.getElementById('root'))
 
 registerServiceWorker()
