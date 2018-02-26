@@ -19,15 +19,13 @@ export const toneFetch = async (text) => {
   }  
 }
 
-export const toneExampleFetch = async (text) => {
+export const toneExampleFetch = async () => {
   try {
-    console.log(text)
     const url = '/mockAnalyze'
 
     const response = await fetch( url, {
       method: 'POST',
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({text: text})
+      headers: { "Content-Type": "application/json" }
     })
     
     if (response.status <= 200){  

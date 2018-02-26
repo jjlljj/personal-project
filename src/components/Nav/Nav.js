@@ -7,7 +7,7 @@ const Nav = () => {
     <header className="nav-header">
       <h1>
         <NavLink to="/">
-          SITE HEADER
+          toneDetector
         </NavLink>
       </h1>
       <nav>

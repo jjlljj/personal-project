@@ -53,9 +53,9 @@ describe('dataHelper', () => {
       
       expect(window.fetch).not.toHaveBeenCalled()
 
-      toneExampleFetch(mockText)
+      toneExampleFetch()
 
-      expect(window.fetch).toHaveBeenCalledWith(expectedUrl, mockExpected)
+      expect(window.fetch).toHaveBeenCalled()
     })
 
     it('should return a response object', () => {

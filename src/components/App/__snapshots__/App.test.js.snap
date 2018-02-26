@@ -29,8 +29,18 @@ ShallowWrapper {
 />,
         <Route
           component={[Function]}
+          exact={true}
+          path="/results"
+/>,
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/analyze"
+/>,
+        <Route
+          component={[Function]}
           expact={true}
-          path="/analyzed"
+          path="/about"
 />,
       ],
       "className": "App",
@@ -68,8 +78,34 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "component": [Function],
+          "exact": true,
+          "path": "/results",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "component": [Function],
+          "exact": true,
+          "path": "/analyze",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "component": [Function],
           "expact": true,
-          "path": "/analyzed",
+          "path": "/about",
         },
         "ref": null,
         "rendered": null,
@@ -96,8 +132,18 @@ ShallowWrapper {
 />,
           <Route
             component={[Function]}
+            exact={true}
+            path="/results"
+/>,
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/analyze"
+/>,
+          <Route
+            component={[Function]}
             expact={true}
-            path="/analyzed"
+            path="/about"
 />,
         ],
         "className": "App",
@@ -135,8 +181,34 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "component": [Function],
+            "exact": true,
+            "path": "/results",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+            "exact": true,
+            "path": "/analyze",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
             "expact": true,
-            "path": "/analyzed",
+            "path": "/about",
           },
           "ref": null,
           "rendered": null,
