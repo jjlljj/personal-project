@@ -1,6 +1,7 @@
 /* eslint-disable max-len */
 import React from 'react'
 import './About.css'
+import { Link } from 'react-router-dom'
 
 export const About = () => {
 
@@ -18,9 +19,13 @@ export const About = () => {
         </p>
       </div>
 
-      <h2></h2>
-      <div className="text-wrap"> 
-        
+      <div className="btn-wrap"> 
+        <Link to="/analyze">
+          <button>Use the Tool</button>
+        </Link>
+        <Link to="/example">
+          <button>See Example</button>
+        </Link>
       </div>
     </div>
   )

@@ -9,7 +9,6 @@ export const Main = () => {
   return (
     <div className="main">
       <About />
-      <AnalyzerInput />
     </div>
   )
 }
