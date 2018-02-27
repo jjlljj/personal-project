@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
 import { arrayOf, shape, number, string } from 'prop-types'
 import './SentencesToneDisplay.css'
+import { sentencesTonesRef } from '../../data/tonesData'
 
 export class SentencesToneDisplay extends Component {
   constructor(props) {
@@ -43,7 +44,7 @@ export class SentencesToneDisplay extends Component {
           key={tone}>
           <span className={classList}>
             {tone}: </span> 
-          Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+          { sentencesTonesRef[tone].description }
         </li>
       ) || ""
     })
