@@ -39,8 +39,18 @@ ShallowWrapper {
 />,
         <Route
           component={[Function]}
-          expact={true}
-          path="/about"
+          exact={true}
+          path="/example/results"
+/>,
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/example"
+/>,
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/tones"
 />,
       ],
       "className": "App",
@@ -104,8 +114,34 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "component": [Function],
-          "expact": true,
-          "path": "/about",
+          "exact": true,
+          "path": "/example/results",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "component": [Function],
+          "exact": true,
+          "path": "/example",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "component": [Function],
+          "exact": true,
+          "path": "/tones",
         },
         "ref": null,
         "rendered": null,
@@ -142,8 +178,18 @@ ShallowWrapper {
 />,
           <Route
             component={[Function]}
-            expact={true}
-            path="/about"
+            exact={true}
+            path="/example/results"
+/>,
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/example"
+/>,
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/tones"
 />,
         ],
         "className": "App",
@@ -207,8 +253,34 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "component": [Function],
-            "expact": true,
-            "path": "/about",
+            "exact": true,
+            "path": "/example/results",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+            "exact": true,
+            "path": "/example",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+            "exact": true,
+            "path": "/tones",
           },
           "ref": null,
           "rendered": null,

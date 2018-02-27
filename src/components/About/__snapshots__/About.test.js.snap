@@ -34,10 +34,26 @@ ShallowWrapper {
                     Use this tool to check your language before sending a message, to get a better read on a received message or an exchange with others, so that you can check before acting on potentially incorrect assumptions and get things back on track.
           </p>
 </div>,
-        <h2 />,
         <div
-          className="text-wrap"
-/>,
+          className="btn-wrap"
+>
+          <Link
+                    replace={false}
+                    to="/analyze"
+          >
+                    <button>
+                              Use the Tool
+                    </button>
+          </Link>
+          <Link
+                    replace={false}
+                    to="/example"
+          >
+                    <button>
+                              See Example
+                    </button>
+          </Link>
+</div>,
       ],
       "className": "about",
     },
@@ -114,20 +130,80 @@ ShallowWrapper {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
-        "props": Object {},
-        "ref": null,
-        "rendered": null,
-        "type": "h2",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
         "props": Object {
-          "className": "text-wrap",
+          "children": Array [
+            <Link
+              replace={false}
+              to="/analyze"
+>
+              <button>
+                            Use the Tool
+              </button>
+</Link>,
+            <Link
+              replace={false}
+              to="/example"
+>
+              <button>
+                            See Example
+              </button>
+</Link>,
+          ],
+          "className": "btn-wrap",
         },
         "ref": null,
-        "rendered": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <button>
+                Use the Tool
+</button>,
+              "replace": false,
+              "to": "/analyze",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Use the Tool",
+              },
+              "ref": null,
+              "rendered": "Use the Tool",
+              "type": "button",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <button>
+                See Example
+</button>,
+              "replace": false,
+              "to": "/example",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "See Example",
+              },
+              "ref": null,
+              "rendered": "See Example",
+              "type": "button",
+            },
+            "type": [Function],
+          },
+        ],
         "type": "div",
       },
     ],
@@ -156,10 +232,26 @@ ShallowWrapper {
                         Use this tool to check your language before sending a message, to get a better read on a received message or an exchange with others, so that you can check before acting on potentially incorrect assumptions and get things back on track.
             </p>
 </div>,
-          <h2 />,
           <div
-            className="text-wrap"
-/>,
+            className="btn-wrap"
+>
+            <Link
+                        replace={false}
+                        to="/analyze"
+            >
+                        <button>
+                                    Use the Tool
+                        </button>
+            </Link>
+            <Link
+                        replace={false}
+                        to="/example"
+            >
+                        <button>
+                                    See Example
+                        </button>
+            </Link>
+</div>,
         ],
         "className": "about",
       },
@@ -236,20 +328,80 @@ ShallowWrapper {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": "h2",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
           "props": Object {
-            "className": "text-wrap",
+            "children": Array [
+              <Link
+                replace={false}
+                to="/analyze"
+>
+                <button>
+                                Use the Tool
+                </button>
+</Link>,
+              <Link
+                replace={false}
+                to="/example"
+>
+                <button>
+                                See Example
+                </button>
+</Link>,
+            ],
+            "className": "btn-wrap",
           },
           "ref": null,
-          "rendered": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <button>
+                  Use the Tool
+</button>,
+                "replace": false,
+                "to": "/analyze",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Use the Tool",
+                },
+                "ref": null,
+                "rendered": "Use the Tool",
+                "type": "button",
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <button>
+                  See Example
+</button>,
+                "replace": false,
+                "to": "/example",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "See Example",
+                },
+                "ref": null,
+                "rendered": "See Example",
+                "type": "button",
+              },
+              "type": [Function],
+            },
+          ],
           "type": "div",
         },
       ],

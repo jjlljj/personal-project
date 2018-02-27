@@ -1,13 +1,13 @@
 /* eslint-disable */
 import React from 'react'
 import { shallow } from 'enzyme'
-import { Main } from './Main'
+import { ToneCard } from './ToneCard'
 
-describe('Main', () => {
+describe('ToneCard', () => {
   let renderedComponent
 
   beforeEach(() => {
-    renderedComponent = shallow(<Main />)
+    renderedComponent = shallow(<ToneCard />)
   })
 
   it('should match snapshot', () => {

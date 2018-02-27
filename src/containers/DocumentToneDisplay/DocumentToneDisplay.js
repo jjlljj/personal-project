@@ -6,20 +6,21 @@ import { arrayOf, shape, number, string } from 'prop-types'
 import { cleanWebChartData } from '../../dataHelper/dataHelper'
 import './DocumentToneDisplay.css'
 import ToneWeb from '../ToneWeb/ToneWeb'
+import { documentTonesRef } from '../../data/tonesData'
 
 export const DocumentToneDisplay = (props) => {
   const { documentTone } = props
   const chartData = cleanWebChartData(documentTone)
 
   const renderToneList = () => {
-    return documentTone.length >= 3 && (
+    return documentTone.length >= 2 && (
       <div className="tone-list">
         <h3>Primary:  {documentTone[0].tone_name}</h3>
-        <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium </p> 
+        <p>{ documentTonesRef[documentTone[0].tone_id].description }</p> 
         <h3>Secondary:  {documentTone[1].tone_name}</h3>
-        <p> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora</p>
+        <p>{ documentTonesRef[documentTone[1].tone_id].description }</p>
         <h3>Tertiary:  {documentTone[2].tone_name}</h3>
-        <p> Quis autem vel eum iure reprehenderit qui in ea voluptate ihil molestiae consequatur. </p>
+        <p>{ documentTonesRef[documentTone[2].tone_id].description }</p>
       </div>
     ) || (<p>Unable to perform document level analysis</p>)
   }

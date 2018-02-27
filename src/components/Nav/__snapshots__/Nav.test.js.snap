@@ -40,9 +40,18 @@ ShallowWrapper {
                     <NavLink
                               activeClassName="active"
                               ariaCurrent="true"
-                              to="/about"
+                              to="/example"
                     >
-                              About
+                              Example
+                    </NavLink>
+          </div>
+          <div>
+                    <NavLink
+                              activeClassName="active"
+                              ariaCurrent="true"
+                              to="/tones"
+                    >
+                              Tones
                     </NavLink>
           </div>
 </nav>,
@@ -98,9 +107,18 @@ ShallowWrapper {
               <NavLink
                             activeClassName="active"
                             ariaCurrent="true"
-                            to="/about"
+                            to="/example"
               >
-                            About
+                            Example
+              </NavLink>
+</div>,
+            <div>
+              <NavLink
+                            activeClassName="active"
+                            ariaCurrent="true"
+                            to="/tones"
+              >
+                            Tones
               </NavLink>
 </div>,
           ],
@@ -145,9 +163,9 @@ ShallowWrapper {
               "children": <NavLink
                 activeClassName="active"
                 ariaCurrent="true"
-                to="/about"
+                to="/example"
 >
-                About
+                Example
 </NavLink>,
             },
             "ref": null,
@@ -158,11 +176,41 @@ ShallowWrapper {
               "props": Object {
                 "activeClassName": "active",
                 "ariaCurrent": "true",
-                "children": "About",
-                "to": "/about",
+                "children": "Example",
+                "to": "/example",
               },
               "ref": null,
-              "rendered": "About",
+              "rendered": "Example",
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="active"
+                ariaCurrent="true"
+                to="/tones"
+>
+                Tones
+</NavLink>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "ariaCurrent": "true",
+                "children": "Tones",
+                "to": "/tones",
+              },
+              "ref": null,
+              "rendered": "Tones",
               "type": [Function],
             },
             "type": "div",
@@ -202,9 +250,18 @@ ShallowWrapper {
                         <NavLink
                                     activeClassName="active"
                                     ariaCurrent="true"
-                                    to="/about"
+                                    to="/example"
                         >
-                                    About
+                                    Example
+                        </NavLink>
+            </div>
+            <div>
+                        <NavLink
+                                    activeClassName="active"
+                                    ariaCurrent="true"
+                                    to="/tones"
+                        >
+                                    Tones
                         </NavLink>
             </div>
 </nav>,
@@ -260,9 +317,18 @@ ShallowWrapper {
                 <NavLink
                                 activeClassName="active"
                                 ariaCurrent="true"
-                                to="/about"
+                                to="/example"
                 >
-                                About
+                                Example
+                </NavLink>
+</div>,
+              <div>
+                <NavLink
+                                activeClassName="active"
+                                ariaCurrent="true"
+                                to="/tones"
+                >
+                                Tones
                 </NavLink>
 </div>,
             ],
@@ -307,9 +373,9 @@ ShallowWrapper {
                 "children": <NavLink
                   activeClassName="active"
                   ariaCurrent="true"
-                  to="/about"
+                  to="/example"
 >
-                  About
+                  Example
 </NavLink>,
               },
               "ref": null,
@@ -320,11 +386,41 @@ ShallowWrapper {
                 "props": Object {
                   "activeClassName": "active",
                   "ariaCurrent": "true",
-                  "children": "About",
-                  "to": "/about",
+                  "children": "Example",
+                  "to": "/example",
                 },
                 "ref": null,
-                "rendered": "About",
+                "rendered": "Example",
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="active"
+                  ariaCurrent="true"
+                  to="/tones"
+>
+                  Tones
+</NavLink>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "ariaCurrent": "true",
+                  "children": "Tones",
+                  "to": "/tones",
+                },
+                "ref": null,
+                "rendered": "Tones",
                 "type": [Function],
               },
               "type": "div",

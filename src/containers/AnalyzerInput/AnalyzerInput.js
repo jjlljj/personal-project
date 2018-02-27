@@ -35,21 +35,16 @@ export class AnalyzerInput extends Component {
       } catch (error) {
         this.props.alerts.createAlert('Alert', 'Unable to analyze text')
       }
-    } else {
-      
+    } else {  
       this.props.alerts.createAlert('Alert', 'Text too short for analysis')
     }
   }
 
   handleRandom = async event => {
     event.preventDefault()
-
-    try {
-      const results = await toneExampleFetch(this.state.text)    
-      this.handleResults(results)     
-    } catch (error) {
-      this.props.alerts.createAlert('Alert', 'Unable to get an analyzed example')
-    }
+    const { history } = this.props
+    
+    history.push('/example')
   }
 
   handleResults = results => {
