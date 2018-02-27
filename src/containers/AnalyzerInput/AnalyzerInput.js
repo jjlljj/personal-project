@@ -45,7 +45,7 @@ export class AnalyzerInput extends Component {
     event.preventDefault()
 
     try {
-      const results = await toneExampleFetch(this.state.text)    
+      const results = await toneExampleFetch()    
       this.handleResults(results)     
     } catch (error) {
       this.props.alerts.createAlert('Alert', 'Unable to get an analyzed example')
