@@ -14,8 +14,12 @@
   margin: 20px; 
 }
 
-.nav-header h1 a {
-  /*color: blue;*/
+.nav-header h1 a span {
+  color: #003780f0;
+}
+
+.nav-header h1 a  {
+  color: #0000ffcf;
 }
 
 .nav-header nav div {

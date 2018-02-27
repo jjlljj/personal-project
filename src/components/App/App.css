@@ -8,6 +8,14 @@
   min-width:  300px;
 }
 
+.go-back {
+  width: 60px;
+  box-sizing: border-box;
+  background: #f2f2f2;
+  border: none;
+  height: 26px;
+}
+
 h1, h2, h3, h4, h5, h6, p, li, a, button, input, textarea, div {
   font-family: 'Open Sans', sans-serif;
 }

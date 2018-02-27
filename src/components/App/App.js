@@ -7,7 +7,7 @@ import Nav from '../Nav/Nav'
 import About from '../About/About'
 import Example from '../../containers/Example/Example'
 import Tones from '../Tones/Tones'
-import SentenceView from '../SentenceView/SentenceView'
+import SentenceView from '../../containers/SentenceView/SentenceView'
 
 export const App = () => {
 

@@ -1,10 +1,11 @@
 import React from 'react'
 import './SentenceView.css'
 import { connect } from 'react-redux'
-import ToneCard from '../ToneCard/ToneCard'
+import { withRouter } from 'react-router-dom'
+import ToneCard from '../../components/ToneCard/ToneCard'
 import { sentencesTonesRef } from '../../data/tonesData'
 
-export const SentenceView = ({ sentences, sentence_id }) => {
+export const SentenceView = ({ sentences, sentence_id, history }) => {
 
   const prevSentence = sentences[sentence_id-1] && (<span>{sentences[sentence_id - 1].text}</span>) || ''
   const selectedSentence = (<span className="highlight">{sentences[sentence_id].text}</span>)
@@ -22,6 +23,11 @@ export const SentenceView = ({ sentences, sentence_id }) => {
   })
   return (
     <div className="sentence-view">
+      <button 
+        className="go-back"
+        type="button"
+        onClick={()=> history.goBack()}
+        >{"< BACK"}</button>
       <div className="sentence-wrap">
         { 
           renderedSentences
@@ -40,4 +46,4 @@ const mapStateToProps = ({ sentences }) => ({
   sentences
 })
 
-export default connect(mapStateToProps)(SentenceView)
+export default withRouter(connect(mapStateToProps)(SentenceView))
