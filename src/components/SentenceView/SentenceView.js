@@ -2,7 +2,7 @@ import React from 'react'
 import './SentenceView.css'
 import { connect } from 'react-redux'
 import ToneCard from '../ToneCard/ToneCard'
-
+import { sentencesTonesRef } from '../../data/tonesData'
 
 export const SentenceView = ({ sentences, sentence_id }) => {
 
@@ -11,7 +11,7 @@ export const SentenceView = ({ sentences, sentence_id }) => {
 
   const renderCards = sentences[sentence_id].tones && sentences[sentence_id].tones.map(tone => {
     return  (
-       <ToneCard {...tone} key={tone.tone_name+'card'}/>
+       <ToneCard {...tone} description={sentencesTonesRef[tone.tone_name].description} key={tone.tone_name+'card'}/>
     )
   })
   return (
