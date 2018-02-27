@@ -25,8 +25,11 @@ export class SentencesToneDisplay extends Component {
         sentence.tones[toneIndex].tone_id || ""
 
       return (
-        <Link to={`/sentence/${sentence.sentence_id}`}><span className={ classList } key={sentence.sentence_id}> {sentence.text}
-        </span></Link>
+        <Link 
+          key={sentence.sentence_id}
+          to={`/sentence/${sentence.sentence_id}`}>
+          <span className={ classList } > {sentence.text}</span>
+        </Link>
       )
     })
   }

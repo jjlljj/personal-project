@@ -51,9 +51,9 @@ ShallowWrapper {
                 tone_name="Sadness"
         />
         <Unknown
-                description="angry is a tone which is  in negotionatinos an dbblah blah"
-                tone_id="angry"
-                tone_name="Angry"
+                description="anger is a tone which is  in negotionatinos an dbblah blah"
+                tone_id="anger"
+                tone_name="Anger"
         />
         <Unknown
                 description="A neutral tone has no strong tones associated with it"
@@ -101,9 +101,9 @@ ShallowWrapper {
             tone_name="Sadness"
 />,
           <Unknown
-            description="angry is a tone which is  in negotionatinos an dbblah blah"
-            tone_id="angry"
-            tone_name="Angry"
+            description="anger is a tone which is  in negotionatinos an dbblah blah"
+            tone_id="anger"
+            tone_name="Anger"
 />,
           <Unknown
             description="A neutral tone has no strong tones associated with it"
@@ -117,7 +117,7 @@ ShallowWrapper {
       "rendered": Array [
         Object {
           "instance": null,
-          "key": "[object Object]card",
+          "key": "Analyticalcard",
           "nodeType": "function",
           "props": Object {
             "description": "analytical is a tone which is productive in  an dbblah blah",
@@ -130,7 +130,7 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": "[object Object]card",
+          "key": "Positivecard",
           "nodeType": "function",
           "props": Object {
             "description": "positive is a tone which is  in negotionatinos an dbblah blah",
@@ -143,7 +143,7 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": "[object Object]card",
+          "key": "Confidentcard",
           "nodeType": "function",
           "props": Object {
             "description": "confident is a tone which is  in  an dbblah blah",
@@ -156,7 +156,7 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": "[object Object]card",
+          "key": "Tentativecard",
           "nodeType": "function",
           "props": Object {
             "description": "tentative is a tone which is in negotionatinos an dbblah blah",
@@ -169,7 +169,7 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": "[object Object]card",
+          "key": "Fearcard",
           "nodeType": "function",
           "props": Object {
             "description": "fear is a tone which is  i an dbblah blah",
@@ -182,7 +182,7 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": "[object Object]card",
+          "key": "Sadnesscard",
           "nodeType": "function",
           "props": Object {
             "description": "sadness is a tone which is in an dbblah blah",
@@ -195,12 +195,12 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": "[object Object]card",
+          "key": "Angercard",
           "nodeType": "function",
           "props": Object {
-            "description": "angry is a tone which is  in negotionatinos an dbblah blah",
-            "tone_id": "angry",
-            "tone_name": "Angry",
+            "description": "anger is a tone which is  in negotionatinos an dbblah blah",
+            "tone_id": "anger",
+            "tone_name": "Anger",
           },
           "ref": null,
           "rendered": null,
@@ -208,7 +208,7 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": "[object Object]card",
+          "key": "Neutralcard",
           "nodeType": "function",
           "props": Object {
             "description": "A neutral tone has no strong tones associated with it",
@@ -264,9 +264,9 @@ ShallowWrapper {
                     tone_name="Sadness"
           />
           <Unknown
-                    description="angry is a tone which is  in negotionatinos an dbblah blah"
-                    tone_id="angry"
-                    tone_name="Angry"
+                    description="anger is a tone which is  in negotionatinos an dbblah blah"
+                    tone_id="anger"
+                    tone_name="Anger"
           />
           <Unknown
                     description="A neutral tone has no strong tones associated with it"
@@ -314,9 +314,9 @@ ShallowWrapper {
               tone_name="Sadness"
 />,
             <Unknown
-              description="angry is a tone which is  in negotionatinos an dbblah blah"
-              tone_id="angry"
-              tone_name="Angry"
+              description="anger is a tone which is  in negotionatinos an dbblah blah"
+              tone_id="anger"
+              tone_name="Anger"
 />,
             <Unknown
               description="A neutral tone has no strong tones associated with it"
@@ -330,7 +330,7 @@ ShallowWrapper {
         "rendered": Array [
           Object {
             "instance": null,
-            "key": "[object Object]card",
+            "key": "Analyticalcard",
             "nodeType": "function",
             "props": Object {
               "description": "analytical is a tone which is productive in  an dbblah blah",
@@ -343,7 +343,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "[object Object]card",
+            "key": "Positivecard",
             "nodeType": "function",
             "props": Object {
               "description": "positive is a tone which is  in negotionatinos an dbblah blah",
@@ -356,7 +356,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "[object Object]card",
+            "key": "Confidentcard",
             "nodeType": "function",
             "props": Object {
               "description": "confident is a tone which is  in  an dbblah blah",
@@ -369,7 +369,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "[object Object]card",
+            "key": "Tentativecard",
             "nodeType": "function",
             "props": Object {
               "description": "tentative is a tone which is in negotionatinos an dbblah blah",
@@ -382,7 +382,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "[object Object]card",
+            "key": "Fearcard",
             "nodeType": "function",
             "props": Object {
               "description": "fear is a tone which is  i an dbblah blah",
@@ -395,7 +395,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "[object Object]card",
+            "key": "Sadnesscard",
             "nodeType": "function",
             "props": Object {
               "description": "sadness is a tone which is in an dbblah blah",
@@ -408,12 +408,12 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "[object Object]card",
+            "key": "Angercard",
             "nodeType": "function",
             "props": Object {
-              "description": "angry is a tone which is  in negotionatinos an dbblah blah",
-              "tone_id": "angry",
-              "tone_name": "Angry",
+              "description": "anger is a tone which is  in negotionatinos an dbblah blah",
+              "tone_id": "anger",
+              "tone_name": "Anger",
             },
             "ref": null,
             "rendered": null,
@@ -421,7 +421,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": "[object Object]card",
+            "key": "Neutralcard",
             "nodeType": "function",
             "props": Object {
               "description": "A neutral tone has no strong tones associated with it",
