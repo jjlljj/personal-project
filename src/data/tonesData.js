@@ -114,6 +114,11 @@ export const sentencesTonesRef = {
     tone_name: 'Anger',
     tone_id: 'anger',
     description: 'anger is a tone which is  in negotionatinos an dbblah blah'
+  },
+  Neutral: {
+    tone_name: 'Neutral',
+    tone_id: 'neutral',
+    description: 'neutral is a tone which is  in negotionatinos an dbblah blah'
   }
 }
 
