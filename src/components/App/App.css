@@ -4,6 +4,10 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+.App {
+  min-width:  300px;
+}
+
 h1, h2, h3, h4, h5, h6, p, li, a, button, input, textarea, div {
   font-family: 'Open Sans', sans-serif;
 }

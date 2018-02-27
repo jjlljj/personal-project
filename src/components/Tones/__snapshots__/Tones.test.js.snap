@@ -17,10 +17,211 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": "I am Tones",
+      "children": <div
+        className="tones-wrapper"
+>
+        <Unknown
+                description="analytical is a tone which is productive in  an dbblah blah"
+                tone_id="analytical"
+                tone_name="Analytical"
+        />
+        <Unknown
+                description="positive is a tone which is  in negotionatinos an dbblah blah"
+                tone_id="positive"
+                tone_name="Positive"
+        />
+        <Unknown
+                description="confident is a tone which is  in  an dbblah blah"
+                tone_id="confident"
+                tone_name="Confident"
+        />
+        <Unknown
+                description="tentative is a tone which is in negotionatinos an dbblah blah"
+                tone_id="tentative"
+                tone_name="Tentative"
+        />
+        <Unknown
+                description="fear is a tone which is  i an dbblah blah"
+                tone_id="fear"
+                tone_name="Fear"
+        />
+        <Unknown
+                description="sadness is a tone which is in an dbblah blah"
+                tone_id="sadness"
+                tone_name="Sadness"
+        />
+        <Unknown
+                description="angry is a tone which is  in negotionatinos an dbblah blah"
+                tone_id="angry"
+                tone_name="Angry"
+        />
+        <Unknown
+                description="A neutral tone has no strong tones associated with it"
+                tone_id="neutral"
+                tone_name="Neutral"
+        />
+</div>,
+      "className": "tones-section",
     },
     "ref": null,
-    "rendered": "I am Tones",
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Unknown
+            description="analytical is a tone which is productive in  an dbblah blah"
+            tone_id="analytical"
+            tone_name="Analytical"
+/>,
+          <Unknown
+            description="positive is a tone which is  in negotionatinos an dbblah blah"
+            tone_id="positive"
+            tone_name="Positive"
+/>,
+          <Unknown
+            description="confident is a tone which is  in  an dbblah blah"
+            tone_id="confident"
+            tone_name="Confident"
+/>,
+          <Unknown
+            description="tentative is a tone which is in negotionatinos an dbblah blah"
+            tone_id="tentative"
+            tone_name="Tentative"
+/>,
+          <Unknown
+            description="fear is a tone which is  i an dbblah blah"
+            tone_id="fear"
+            tone_name="Fear"
+/>,
+          <Unknown
+            description="sadness is a tone which is in an dbblah blah"
+            tone_id="sadness"
+            tone_name="Sadness"
+/>,
+          <Unknown
+            description="angry is a tone which is  in negotionatinos an dbblah blah"
+            tone_id="angry"
+            tone_name="Angry"
+/>,
+          <Unknown
+            description="A neutral tone has no strong tones associated with it"
+            tone_id="neutral"
+            tone_name="Neutral"
+/>,
+        ],
+        "className": "tones-wrapper",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "[object Object]card",
+          "nodeType": "function",
+          "props": Object {
+            "description": "analytical is a tone which is productive in  an dbblah blah",
+            "tone_id": "analytical",
+            "tone_name": "Analytical",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "[object Object]card",
+          "nodeType": "function",
+          "props": Object {
+            "description": "positive is a tone which is  in negotionatinos an dbblah blah",
+            "tone_id": "positive",
+            "tone_name": "Positive",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "[object Object]card",
+          "nodeType": "function",
+          "props": Object {
+            "description": "confident is a tone which is  in  an dbblah blah",
+            "tone_id": "confident",
+            "tone_name": "Confident",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "[object Object]card",
+          "nodeType": "function",
+          "props": Object {
+            "description": "tentative is a tone which is in negotionatinos an dbblah blah",
+            "tone_id": "tentative",
+            "tone_name": "Tentative",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "[object Object]card",
+          "nodeType": "function",
+          "props": Object {
+            "description": "fear is a tone which is  i an dbblah blah",
+            "tone_id": "fear",
+            "tone_name": "Fear",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "[object Object]card",
+          "nodeType": "function",
+          "props": Object {
+            "description": "sadness is a tone which is in an dbblah blah",
+            "tone_id": "sadness",
+            "tone_name": "Sadness",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "[object Object]card",
+          "nodeType": "function",
+          "props": Object {
+            "description": "angry is a tone which is  in negotionatinos an dbblah blah",
+            "tone_id": "angry",
+            "tone_name": "Angry",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "[object Object]card",
+          "nodeType": "function",
+          "props": Object {
+            "description": "A neutral tone has no strong tones associated with it",
+            "tone_id": "neutral",
+            "tone_name": "Neutral",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -29,10 +230,211 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "I am Tones",
+        "children": <div
+          className="tones-wrapper"
+>
+          <Unknown
+                    description="analytical is a tone which is productive in  an dbblah blah"
+                    tone_id="analytical"
+                    tone_name="Analytical"
+          />
+          <Unknown
+                    description="positive is a tone which is  in negotionatinos an dbblah blah"
+                    tone_id="positive"
+                    tone_name="Positive"
+          />
+          <Unknown
+                    description="confident is a tone which is  in  an dbblah blah"
+                    tone_id="confident"
+                    tone_name="Confident"
+          />
+          <Unknown
+                    description="tentative is a tone which is in negotionatinos an dbblah blah"
+                    tone_id="tentative"
+                    tone_name="Tentative"
+          />
+          <Unknown
+                    description="fear is a tone which is  i an dbblah blah"
+                    tone_id="fear"
+                    tone_name="Fear"
+          />
+          <Unknown
+                    description="sadness is a tone which is in an dbblah blah"
+                    tone_id="sadness"
+                    tone_name="Sadness"
+          />
+          <Unknown
+                    description="angry is a tone which is  in negotionatinos an dbblah blah"
+                    tone_id="angry"
+                    tone_name="Angry"
+          />
+          <Unknown
+                    description="A neutral tone has no strong tones associated with it"
+                    tone_id="neutral"
+                    tone_name="Neutral"
+          />
+</div>,
+        "className": "tones-section",
       },
       "ref": null,
-      "rendered": "I am Tones",
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Unknown
+              description="analytical is a tone which is productive in  an dbblah blah"
+              tone_id="analytical"
+              tone_name="Analytical"
+/>,
+            <Unknown
+              description="positive is a tone which is  in negotionatinos an dbblah blah"
+              tone_id="positive"
+              tone_name="Positive"
+/>,
+            <Unknown
+              description="confident is a tone which is  in  an dbblah blah"
+              tone_id="confident"
+              tone_name="Confident"
+/>,
+            <Unknown
+              description="tentative is a tone which is in negotionatinos an dbblah blah"
+              tone_id="tentative"
+              tone_name="Tentative"
+/>,
+            <Unknown
+              description="fear is a tone which is  i an dbblah blah"
+              tone_id="fear"
+              tone_name="Fear"
+/>,
+            <Unknown
+              description="sadness is a tone which is in an dbblah blah"
+              tone_id="sadness"
+              tone_name="Sadness"
+/>,
+            <Unknown
+              description="angry is a tone which is  in negotionatinos an dbblah blah"
+              tone_id="angry"
+              tone_name="Angry"
+/>,
+            <Unknown
+              description="A neutral tone has no strong tones associated with it"
+              tone_id="neutral"
+              tone_name="Neutral"
+/>,
+          ],
+          "className": "tones-wrapper",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "[object Object]card",
+            "nodeType": "function",
+            "props": Object {
+              "description": "analytical is a tone which is productive in  an dbblah blah",
+              "tone_id": "analytical",
+              "tone_name": "Analytical",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "[object Object]card",
+            "nodeType": "function",
+            "props": Object {
+              "description": "positive is a tone which is  in negotionatinos an dbblah blah",
+              "tone_id": "positive",
+              "tone_name": "Positive",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "[object Object]card",
+            "nodeType": "function",
+            "props": Object {
+              "description": "confident is a tone which is  in  an dbblah blah",
+              "tone_id": "confident",
+              "tone_name": "Confident",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "[object Object]card",
+            "nodeType": "function",
+            "props": Object {
+              "description": "tentative is a tone which is in negotionatinos an dbblah blah",
+              "tone_id": "tentative",
+              "tone_name": "Tentative",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "[object Object]card",
+            "nodeType": "function",
+            "props": Object {
+              "description": "fear is a tone which is  i an dbblah blah",
+              "tone_id": "fear",
+              "tone_name": "Fear",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "[object Object]card",
+            "nodeType": "function",
+            "props": Object {
+              "description": "sadness is a tone which is in an dbblah blah",
+              "tone_id": "sadness",
+              "tone_name": "Sadness",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "[object Object]card",
+            "nodeType": "function",
+            "props": Object {
+              "description": "angry is a tone which is  in negotionatinos an dbblah blah",
+              "tone_id": "angry",
+              "tone_name": "Angry",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "[object Object]card",
+            "nodeType": "function",
+            "props": Object {
+              "description": "A neutral tone has no strong tones associated with it",
+              "tone_id": "neutral",
+              "tone_name": "Neutral",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
       "type": "div",
     },
   ],

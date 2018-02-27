@@ -1,0 +1,84 @@
+.tone-card {
+  width: 260px;
+  min-height: 200px;
+  margin: 20px;
+  border: 1px solid #f2f2f2;
+}
+
+.tone-title-wrap {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tone-title-wrap .overlay {
+  background: white;
+  height: 50px;
+  left: 0;
+  opacity: .2;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.tone-score-wrap {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  position: relative;
+}
+
+.tone-score-wrap h3 {
+  position: absolute;
+  top: 3px;
+  left: 0px;
+}
+
+.tone-score-wrap h4 {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.tone-card p {
+  margin: 20px;
+}
+
+.tone-title-wrap h3 {
+  z-index: 1;
+}
+
+.background-Sadness {
+  background-color: purple;
+}
+
+.background-Analytical {
+  background-color: green;
+}
+
+.background-Tentative {
+  background-color: #4CCEE8;
+}
+
+.background-Confident {
+  background-color: magenta;
+}
+
+.background-Angry {
+  background-color: red;
+}
+.background-Fear {
+  background-color: orange;
+}
+
+.background-Positive {
+  background-color: blue;
+}
+
+.background-Neutral {
+  background-color: #6d6c6c;
+}

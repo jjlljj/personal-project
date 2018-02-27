@@ -30,9 +30,14 @@ export const tonesList = [
     description: 'sadness is a tone which is in an dbblah blah'
   },
   {
-    tone_name: 'Anger',
-    tone_id: 'anger',
-    description: 'anger is a tone which is  in negotionatinos an dbblah blah'
+    tone_name: 'Angry',
+    tone_id: 'angry',
+    description: 'angry is a tone which is  in negotionatinos an dbblah blah'
+  },
+  {
+    tone_name: 'Neutral',
+    tone_id: 'neutral',
+    description: 'A neutral tone has no strong tones associated with it'
   },
 ]
 
@@ -72,10 +77,10 @@ export const documentTonesRef = {
     tone_id: 'sadness',
     description: 'sadness is a tone which is in an dbblah blah'
   },
-  anger: {
-    tone_name: 'Anger',
-    tone_id: 'anger',
-    description: 'anger is a tone which is  in negotionatinos an dbblah blah'
+  angry: {
+    tone_name: 'Angry',
+    tone_id: 'angry',
+    description: 'angry is a tone which is  in negotionatinos an dbblah blah'
   }
 }
 
@@ -110,10 +115,10 @@ export const sentencesTonesRef = {
     tone_id: 'sadness',
     description: 'sadness is a tone which is in an dbblah blah'
   },
-  Anger: {
-    tone_name: 'Anger',
-    tone_id: 'anger',
-    description: 'anger is a tone which is  in negotionatinos an dbblah blah'
+  Angry: {
+    tone_name: 'Angry',
+    tone_id: 'angry',
+    description: 'angry is a tone which is  in negotionatinos an dbblah blah'
   },
   Neutral: {
     tone_name: 'Neutral',
@@ -128,6 +133,6 @@ export const sentencesTonesRef = {
 // tentative
 // fear
 // sadness
-// anger
+// angry
 
 // neutral
