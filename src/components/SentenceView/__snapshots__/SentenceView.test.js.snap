@@ -61,6 +61,13 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
+        <button
+          className="go-back"
+          onClick={[Function]}
+          type="button"
+>
+          &lt; BACK
+</button>,
         <div
           className="sentence-wrap"
 >
@@ -99,6 +106,20 @@ ShallowWrapper {
     },
     "ref": null,
     "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "< BACK",
+          "className": "go-back",
+          "onClick": [Function],
+          "type": "button",
+        },
+        "ref": null,
+        "rendered": "< BACK",
+        "type": "button",
+      },
       Object {
         "instance": null,
         "key": undefined,
@@ -236,6 +257,13 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
+          <button
+            className="go-back"
+            onClick={[Function]}
+            type="button"
+>
+            &lt; BACK
+</button>,
           <div
             className="sentence-wrap"
 >
@@ -274,6 +302,20 @@ ShallowWrapper {
       },
       "ref": null,
       "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "< BACK",
+            "className": "go-back",
+            "onClick": [Function],
+            "type": "button",
+          },
+          "ref": null,
+          "rendered": "< BACK",
+          "type": "button",
+        },
         Object {
           "instance": null,
           "key": undefined,

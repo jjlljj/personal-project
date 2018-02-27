@@ -2,6 +2,10 @@
   width: 100%;
 }
 
+.sentence-view .go-back {
+  margin: 10px 0 0  10px;
+}
+
 .sentence-view .cards-wrap {
   display: flex;
   flex-wrap: wrap;
@@ -13,7 +17,7 @@
   min-width: 300px;
   max-width: 700px;
   text-align: center;
-  margin: 40px auto 30px;
+  margin: 10px auto 30px;
 }
 
 .sentence-view .sentence-wrap p {
