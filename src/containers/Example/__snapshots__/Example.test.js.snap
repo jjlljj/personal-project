@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Example should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Example
+    addDocumentTone={[Function]}
+    addResult={[Function]}
+    addSentences={[Function]}
+    addSentencesTone={[Function]}
+    documentTone={
+        Array [
+            Object {
+              "score": 0.883842,
+              "tone_id": "analytical",
+              "tone_name": "Analytical",
+            },
+            Object {
+              "score": 0.60858,
+              "tone_id": "tentative",
+              "tone_name": "Tentative",
+            },
+            Object {
+              "score": 0.519797,
+              "tone_id": "positive",
+              "tone_name": "Positive",
+            },
+          ]
+    }
+    history={
+        Object {
+            "push": [Function],
+          }
+    }
+    sentences={
+        Array [
+            Object {
+              "sentence_id": 0,
+              "text": "I hope that we can reach an amicable understanding and a solution to this problem.",
+              "tones": Array [
+                Object {
+                  "score": 0.897416,
+                  "tone_id": "analytical",
+                  "tone_name": "Analytical",
+                },
+                Object {
+                  "score": 0.647986,
+                  "tone_id": "tentative",
+                  "tone_name": "Tentative",
+                },
+                Object {
+                  "score": 0.44646,
+                  "tone_id": "sadness",
+                  "tone_name": "Sadness",
+                },
+              ],
+            },
+            Object {
+              "sentence_id": 1,
+              "text": "Our clients have done business together previously, and my client is interested in maintaining a profitable business- partner relationship with Mr. Compresi, assuming that your client can fulfill Mr. Farley’s order at the price promised in his letter.",
+              "tones": Array [
+                Object {
+                  "score": 0.580387,
+                  "tone_id": "positive",
+                  "tone_name": "Positive",
+                },
+                Object {
+                  "score": 0.550576,
+                  "tone_id": "analytical",
+                  "tone_name": "Analytical",
+                },
+              ],
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Connect(AlertContainer) />,
+        <withRouter(Connect(Component)) />,
+        <withRouter(Connect(SentencesToneDisplay)) />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Connect(AlertContainer) />,
+          <withRouter(Connect(Component)) />,
+          <withRouter(Connect(SentencesToneDisplay)) />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;

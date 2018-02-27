@@ -14,7 +14,11 @@ import SentencesToneDisplay from '../SentencesToneDisplay/SentencesToneDisplay' 
 
 export class Example extends Component {
 
-  componentDidMount = async() => {
+  componentDidMount = () => {
+    this.handleExample()
+  }
+
+  handleExample = async() => {
     try {
       const results = await toneExampleFetch()    
       this.handleResults(results)     
