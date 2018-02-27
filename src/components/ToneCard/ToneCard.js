@@ -4,7 +4,10 @@ import './ToneCard.css'
 export const ToneCard = ({ tone_name, description, score = "" }) => {
 
   const renderedScore = score && (
-      <h4>{score}</h4>
+    <div className="tone-score-wrap">
+      <h3>Score: </h3>
+      <h4>{score} </h4>
+    </div>
     ) || ""
 
   return (

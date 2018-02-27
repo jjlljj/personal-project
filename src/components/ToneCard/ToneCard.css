@@ -1,10 +1,9 @@
 .tone-card {
   width: 260px;
-  height: 300px;
+  min-height: 200px;
   margin: 20px;
   border: 1px solid #f2f2f2;
 }
-
 
 .tone-title-wrap {
   width: 100%;
@@ -25,12 +24,13 @@
   opacity: .25;
 }
 
-.tone-title-wrap h3 {
-  z-index: 1;
-
+.tone-card p {
+  margin: 20px;
 }
 
-
+.tone-title-wrap h3 {
+  z-index: 1;
+}
 
 .background-Sadness {
   background-color: purple;
