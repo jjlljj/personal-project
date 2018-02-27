@@ -21,7 +21,7 @@ export class Example extends Component {
   handleExample = async() => {
     try {
       const results = await toneExampleFetch()    
-      this.handleResults(results)     
+      this.handleResults(results)   
     } catch (error) {
       this.props.alerts.createAlert('Alert', 'Unable to get an analyzed example')
     }
@@ -36,6 +36,8 @@ export class Example extends Component {
     addSentences(sentences)
     addDocumentTone(documentTone)
     addSentencesTone(sentencesTone)
+
+    this.props.history.push('/example/results')
   }
 
   render() {
