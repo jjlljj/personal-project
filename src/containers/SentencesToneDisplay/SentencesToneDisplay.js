@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { withRouter } from 'react-router-dom'
+import { Link, withRouter } from 'react-router-dom'
 import { arrayOf, shape, number, string } from 'prop-types'
 import './SentencesToneDisplay.css'
 import { sentencesTonesRef } from '../../data/tonesData'
@@ -25,8 +25,8 @@ export class SentencesToneDisplay extends Component {
         sentence.tones[toneIndex].tone_id || ""
 
       return (
-        <span className={ classList } key={sentence.sentence_id}> {sentence.text}
-        </span>
+        <Link to={`/sentence/${sentence.sentence_id}`}><span className={ classList } key={sentence.sentence_id}> {sentence.text}
+        </span></Link>
       )
     })
   }

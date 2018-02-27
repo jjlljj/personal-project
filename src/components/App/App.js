@@ -7,9 +7,10 @@ import Nav from '../Nav/Nav'
 import About from '../About/About'
 import Example from '../../containers/Example/Example'
 import Tones from '../Tones/Tones'
-
+import SentenceView from '../SentenceView/SentenceView'
 
 export const App = () => {
+
   return (
     <div className="App">
       <Route path="/" component={Nav} />
@@ -19,10 +20,13 @@ export const App = () => {
       <Route exact path="/example/results" component={DisplayResults} />
       <Route exact path="/example" component={Example} />
       <Route exact path="/tones" component={Tones} />
+      <Route exact path="/sentence/:id" render={({ match })=> {
+        const id = parseInt( match.params.id )
+        
+        return <SentenceView sentence_id={id} />
+      }}/>
     </div>
   )
 }
-
-
 
 export default App
