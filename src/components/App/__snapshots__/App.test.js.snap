@@ -52,6 +52,11 @@ ShallowWrapper {
           exact={true}
           path="/tones"
 />,
+        <Route
+          exact={true}
+          path="/sentence/:id"
+          render={[Function]}
+/>,
       ],
       "className": "App",
     },
@@ -147,6 +152,19 @@ ShallowWrapper {
         "rendered": null,
         "type": [Function],
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "exact": true,
+          "path": "/sentence/:id",
+          "render": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
     ],
     "type": "div",
   },
@@ -190,6 +208,11 @@ ShallowWrapper {
             component={[Function]}
             exact={true}
             path="/tones"
+/>,
+          <Route
+            exact={true}
+            path="/sentence/:id"
+            render={[Function]}
 />,
         ],
         "className": "App",
@@ -281,6 +304,19 @@ ShallowWrapper {
             "component": [Function],
             "exact": true,
             "path": "/tones",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "exact": true,
+            "path": "/sentence/:id",
+            "render": [Function],
           },
           "ref": null,
           "rendered": null,

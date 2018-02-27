@@ -1,0 +1,30 @@
+.sentence-view {
+  width: 100%;
+}
+
+.sentence-view .cards-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.sentence-view .sentence-wrap {
+  min-width: 300px;
+  max-width: 700px;
+  text-align: center;
+  margin: 40px auto 30px;
+}
+
+.sentence-view .sentence-wrap p {
+  text-align: center;
+  color: #4D4D4D;
+  line-height: 28px;
+  margin: 0 20px;
+}
+
+.sentence-view .sentence-wrap p .highlight {
+  color: black;
+  text-decoration: underline;
+  font-size: 18px;
+}

@@ -6,7 +6,7 @@ import ToneCard from  '../ToneCard/ToneCard'
 export const Tones = () => {
   const renderedCards = tonesList.map(tone => {
     return (
-      <ToneCard {...tone} key={tone+'card'}/>
+      <ToneCard {...tone} key={tone.tone_name+'card'}/>
     )
   })
   
