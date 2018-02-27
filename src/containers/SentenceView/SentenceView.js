@@ -2,7 +2,7 @@ import React from 'react'
 import './SentenceView.css'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
-import ToneCard from '../ToneCard/ToneCard'
+import ToneCard from '../../components/ToneCard/ToneCard'
 import { sentencesTonesRef } from '../../data/tonesData'
 
 export const SentenceView = ({ sentences, sentence_id, history }) => {
