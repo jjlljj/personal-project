@@ -6,10 +6,16 @@ import { sentencesTonesRef } from '../../data/tonesData'
 
 export const SentenceView = ({ sentences, sentence_id }) => {
 
-  const renderSentences = ""
-  console.log(sentences)
+  const prevSentence = sentences[sentence_id-1] && (<span>{sentences[sentence_id - 1].text}</span>) || ''
+  const selectedSentence = (<span className="highlight">{sentences[sentence_id].text}</span>)
+  const followingSentence = sentences[sentence_id + 1] && (<span>{sentences[sentence_id+1].text}</span>) || ''
 
-  const renderCards = sentences[sentence_id].tones && sentences[sentence_id].tones.map(tone => {
+  const renderedSentences = (
+    <p>{prevSentence} {selectedSentence} {followingSentence}</p>
+  )
+
+
+  const renderedCards = sentences[sentence_id].tones && sentences[sentence_id].tones.map(tone => {
     return  (
        <ToneCard {...tone} description={sentencesTonesRef[tone.tone_name].description} key={tone.tone_name+'card'}/>
     )
@@ -17,12 +23,13 @@ export const SentenceView = ({ sentences, sentence_id }) => {
   return (
     <div className="sentence-view">
       <div className="sentence-wrap">
-        { //renderSentences
+        { 
+          renderedSentences
          }
       </div>
       <div className="cards-wrap">
         {
-          renderCards
+          renderedCards
         }
       </div>
     </div>
