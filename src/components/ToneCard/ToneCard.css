@@ -24,6 +24,18 @@
   opacity: .2;
 }
 
+.tone-score-wrap {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.tone-score-wrap h4 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-left: 48px
+}
+
 .tone-card p {
   margin: 20px;
 }
