@@ -15,25 +15,33 @@
 }
 
 .tone-title-wrap .overlay {
+  background: white;
+  height: 50px;
+  left: 0;
+  opacity: .2;
   position: absolute;
   top: 0;
-  left: 0;
-  height: 50px;
   width: 100%;
-  background: white;
-  opacity: .2;
 }
 
 .tone-score-wrap {
-  display: flex;
   align-items: center;
+  display: flex;
+  justify-content: center;
   margin: 20px;
+  position: relative;
+}
+
+.tone-score-wrap h3 {
+  position: absolute;
+  top: 3px;
+  left: 0px;
 }
 
 .tone-score-wrap h4 {
   font-size: 36px;
   font-weight: 700;
-  margin-left: 48px
+  text-align: center;
 }
 
 .tone-card p {

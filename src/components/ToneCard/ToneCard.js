@@ -6,9 +6,9 @@ export const ToneCard = ({ tone_name, description, score = "" }) => {
   const renderedScore = score && (
     <div className="tone-score-wrap">
       <h3>Score: </h3>
-      <h4>{score} </h4>
+      <h4>{score.toFixed(2)}</h4>
     </div>
-    ) || ""
+  ) || ""
 
   return (
     <div className="tone-card">
