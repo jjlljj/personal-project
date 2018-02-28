@@ -60,6 +60,11 @@ ShallowWrapper {
                 tone_id="neutral"
                 tone_name="Neutral"
         />
+        <Unknown
+                description="A disgusted tone has no tones associated with it"
+                tone_id="disgust"
+                tone_name="Disgust"
+        />
 </div>,
       "className": "tones-section",
     },
@@ -109,6 +114,11 @@ ShallowWrapper {
             description="A neutral tone has no strong tones associated with it"
             tone_id="neutral"
             tone_name="Neutral"
+/>,
+          <Unknown
+            description="A disgusted tone has no tones associated with it"
+            tone_id="disgust"
+            tone_name="Disgust"
 />,
         ],
         "className": "tones-wrapper",
@@ -219,6 +229,19 @@ ShallowWrapper {
           "rendered": null,
           "type": [Function],
         },
+        Object {
+          "instance": null,
+          "key": "Disgustcard",
+          "nodeType": "function",
+          "props": Object {
+            "description": "A disgusted tone has no tones associated with it",
+            "tone_id": "disgust",
+            "tone_name": "Disgust",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
       ],
       "type": "div",
     },
@@ -273,6 +296,11 @@ ShallowWrapper {
                     tone_id="neutral"
                     tone_name="Neutral"
           />
+          <Unknown
+                    description="A disgusted tone has no tones associated with it"
+                    tone_id="disgust"
+                    tone_name="Disgust"
+          />
 </div>,
         "className": "tones-section",
       },
@@ -322,6 +350,11 @@ ShallowWrapper {
               description="A neutral tone has no strong tones associated with it"
               tone_id="neutral"
               tone_name="Neutral"
+/>,
+            <Unknown
+              description="A disgusted tone has no tones associated with it"
+              tone_id="disgust"
+              tone_name="Disgust"
 />,
           ],
           "className": "tones-wrapper",
@@ -427,6 +460,19 @@ ShallowWrapper {
               "description": "A neutral tone has no strong tones associated with it",
               "tone_id": "neutral",
               "tone_name": "Neutral",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Disgustcard",
+            "nodeType": "function",
+            "props": Object {
+              "description": "A disgusted tone has no tones associated with it",
+              "tone_id": "disgust",
+              "tone_name": "Disgust",
             },
             "ref": null,
             "rendered": null,
