@@ -42,6 +42,7 @@ export class SentencesToneDisplay extends Component {
     sentencesTone[sentencesView].map(tone => {
       const classList = (tone + " tone-category")
 
+      
       return (
         <li className="sentence-tone-item"
           key={tone}>
