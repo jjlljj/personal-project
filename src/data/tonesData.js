@@ -39,6 +39,11 @@ export const tonesList = [
     tone_id: 'neutral',
     description: 'A neutral tone has no strong tones associated with it'
   },
+  {
+    tone_name: 'Disgust',
+    tone_id: 'disgust',
+    description: 'A disgusted tone has no tones associated with it'
+  },
 ]
 
 
@@ -81,7 +86,12 @@ export const documentTonesRef = {
     tone_name: 'Anger',
     tone_id: 'anger',
     description: 'anger is a tone which is  in negotionatinos an dbblah blah'
-  }
+  },
+  disgust: {
+    tone_name: 'Disgust',
+    tone_id: 'disgust',
+    description: 'A disgusted tone has no tones associated with it'
+  },
 }
 
 export const sentencesTonesRef = {
@@ -124,7 +134,12 @@ export const sentencesTonesRef = {
     tone_name: 'Neutral',
     tone_id: 'neutral',
     description: 'neutral is a tone which is  in negotionatinos an dbblah blah'
-  }
+  },
+  Disgust: {
+    tone_name: 'Disgust',
+    tone_id: 'disgust',
+    description: 'A disgusted tone has no tones associated with it'
+  },
 }
 
 // analytical

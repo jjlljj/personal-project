@@ -32,3 +32,6 @@ const Nav = () => {
 }
 
 export default Nav
+
+
+//<div display="none">&#x2630;</div>

@@ -13,7 +13,7 @@ export const DocumentToneDisplay = (props) => {
   const chartData = cleanWebChartData(documentTone)
 
   const renderToneList = () => {
-    return documentTone.length >= 2 && (
+    return documentTone.length > 2 && (
       <div className="tone-list">
         <h3>Primary:  {documentTone[0].tone_name}</h3>
         <p>{ documentTonesRef[documentTone[0].tone_id].description }</p> 
