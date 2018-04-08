@@ -2,7 +2,7 @@ export const tonesList = [
   {
     tone_name: 'Analytical',
     tone_id: 'analytical',
-    description: 'analytical is a tone which is productive in  an dbblah blah'
+    description: 'Pertaining to or proceeding by analysis, characterized by a relatively frequent use of function words, auxiliary verbs, and changes in word order to express syntactic relations, rather than of inflected forms.'
   },
   {
     tone_name: 'Positive',
@@ -17,7 +17,7 @@ export const tonesList = [
   {
     tone_name: 'Tentative',
     tone_id: 'tentative',
-    description: 'tentative is a tone which is in negotionatinos an dbblah blah'
+    description: 'Unsure or uncertain, percieved as not positive or definite, hesitant.'
   },
   {
     tone_name: 'Fear',
@@ -55,7 +55,7 @@ export const documentTonesRef = {
   analytical: {
     tone_name: 'Analytical',
     tone_id: 'analytical',
-    description: 'analytical is a tone which is productive in  an dbblah blah'
+    description: 'Pertaining to or proceeding by analysis, characterized by a relatively frequent use of function words, auxiliary verbs, and changes in word order to express syntactic relations, rather than of inflected forms.'
   },
   positive: {
     tone_name: 'Positive',
@@ -98,7 +98,7 @@ export const sentencesTonesRef = {
   Analytical: {
     tone_name: 'Analytical',
     tone_id: 'analytical',
-    description: 'analytical is a tone which is productive in  an dbblah blah'
+    description: 'Pertaining to or proceeding by analysis, characterized by a relatively frequent use of function words, auxiliary verbs, and changes in word order to express syntactic relations, rather than of inflected forms.'
   },
   Positive: {
     tone_name: 'Positive',
