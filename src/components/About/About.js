@@ -8,6 +8,16 @@ export const About = () => {
   return (
     <div className="about">
       <h2>{"Interpret, Don't Misinterpret"}</h2>
+
+      <div className="btn-wrap"> 
+        <Link to="/analyze">
+          <button>Use the Tool</button>
+        </Link>
+        <Link to="/example">
+          <button>See Example</button>
+        </Link>
+      </div>
+
       <div className="text-wrap"> 
         <p>We negotiate every day. Whether by email, chat, instant message, we are constantly navigating new spaces in which the meaning of our words matter. These can be quick and off the cuff, or they can allow time for reflection and careful choice of language.
         </p>
@@ -19,14 +29,6 @@ export const About = () => {
         </p>
       </div>
 
-      <div className="btn-wrap"> 
-        <Link to="/analyze">
-          <button>Use the Tool</button>
-        </Link>
-        <Link to="/example">
-          <button>See Example</button>
-        </Link>
-      </div>
     </div>
   )
 }
