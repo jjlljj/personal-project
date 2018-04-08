@@ -37,7 +37,7 @@ export const tonesList = [
   {
     tone_name: 'Neutral',
     tone_id: 'neutral',
-    description: 'A neutral tone has no strong tones associated with it.'
+    description: 'This passage has no strong tones associated with it.'
   },
   {
     tone_name: 'Disgust',
@@ -133,7 +133,7 @@ export const sentencesTonesRef = {
   Neutral: {
     tone_name: 'Neutral',
     tone_id: 'neutral',
-    description: 'neutral is a tone which is  in negotionatinos an dbblah blah'
+    description: 'This passage has no strong tones associated with it.'
   },
   Disgust: {
     tone_name: 'Disgust',

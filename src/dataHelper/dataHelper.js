@@ -1,6 +1,6 @@
 export const toneFetch = async (text) => {
   try {
-    const url = '/analyze'
+    const url = 'https://jl-td-be.herokuapp.com/analyze'
 
     const response = await fetch( url, {
       method: 'POST',
@@ -21,7 +21,7 @@ export const toneFetch = async (text) => {
 
 export const toneExampleFetch = async () => {
   try {
-    const url = '/mockAnalyze'
+    const url = 'https://jl-td-be.herokuapp.com/mockAnalyze'
 
     const response = await fetch( url, {
       method: 'POST',
