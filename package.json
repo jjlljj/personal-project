@@ -1,8 +1,8 @@
 {
-  "name": "personal-project",
+  "name": "Tone-Detector",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3000/",
+  "proxy": "https://jl-td-be.herokuapp.com/",
   "dependencies": {
     "classnames": "^2.2.5",
     "d3": "^4.13.0",
