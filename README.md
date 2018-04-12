@@ -2,7 +2,8 @@
 
 Provides tone analysis service for negotiators and mediators. Users enter text examples from negotiations and are given feedback as to the relevant tone analysis datapoints. Watson API, Node/Express backend (https://github.com/jjlljj/tone-detector-backend), and React/Redux/Router frontend with D3 visualizations.
 
-tonedetector.surge.sh
+To see a live version visit:
+https://tonedetector.surge.sh
 
 
 ### Tone Analysis with D3 Charts
